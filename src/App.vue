@@ -1,12 +1,24 @@
 <template>
+  <div class="table-container">
+  <nav class="header">
+    <router-link to="/">Home</router-link>
+    <router-link to="FootballTable">Tabela</router-link>
+    <router-link to="ResultsTable">Jogos</router-link>
+    <router-link to="TopsTable">Artilheiros</router-link>
+    <div class="login">
+      <router-link to="/">Login</router-link>
+    </div>
+  </nav>
+  <h1> Futstats </h1>
   <div logo>
-    <img alt="Vue logo" src="./assets/TrofeuLogo.png" style="width: 950px">
+    <img alt="Vue logo" src="./assets/TrofeuLogo.png" style="width: 350px">
   </div>
   <h1>Campeonato Brasileiro de Futebol</h1>
-  <FootballTable msg =" TABELA "></FootballTable>
-  <ResultsTable msg =" JOGOS "></ResultsTable>
-  <TopsTable msg =" ARTILHEIROS "></TopsTable>
-  <NewsTable msg =" NOTÍCIAS "></NewsTable>
+  <FootballTable msg=" TABELA "></FootballTable>
+  <ResultsTable msg=" JOGOS "></ResultsTable>
+  <TopsTable msg=" ARTILHEIROS "></TopsTable>
+  <NewsTable msg=" NOTÍCIAS "></NewsTable>
+  </div>
 </template>
 
 <script>
@@ -33,6 +45,33 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-bottom: 20px;
 }
+
+.login{
+  text-align: end;
+  margin-top: -20px;
+}
+
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  margin: 0 20px;
+}
+
 </style>

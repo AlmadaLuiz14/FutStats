@@ -1,6 +1,6 @@
 <template>
   <div class="tops-table">
-    <h1>{{ msg }}</h1>
+    <h2>Artilheiros</h2>
     <table>
       <thead>
         <tr>
@@ -12,7 +12,7 @@
       </thead>
       <tbody>
         <tr v-for="(player, index) in topScorers" :key="index">
-          <td>{{ index + 1 }}</td>
+          <td>{{ index+1 }}</td>
           <td>{{ player.name }}</td>
           <td>{{ player.position }}</td>
           <td>{{ player.goals }}</td>
@@ -31,17 +31,32 @@ export default {
   data() {
     return {
       topScorers: [
-        { name: 'Neymar', position: 'Atacante', goals: 20 },
-        { name: 'Gabigol', position: 'Atacante', goals: 18 },
-        { name: 'Bruno Henrique', position: 'Atacante', goals: 17 },
+        { name: 'Neymar', position: 'Atacante', goals: 13 },
+        { name: 'Gabigol', position: 'Atacante', goals: 11 },
+        { name: 'Bruno Henrique', position: 'Atacante', goals: 7 },
+        { name: 'Everton', position: 'Atacante', goals: 7 },
+        { name: 'Pedro', position: 'Atacante', goals: 6 },
+        { name: 'Lucas Paquetá', position: 'Meia', goals: 6 },
+        { name: 'Marinho', position: 'Atacante', goals: 6 },
+        { name: 'Thiago Galhardo', position: 'Meia', goals: 5 },
+        { name: 'Luciano', position: 'Atacante', goals: 5 },
+        { name: 'Hulk', position: 'Atacante', goals: 5 },
+        { name: 'Vina', position: 'Meia', goals: 4 },
+        { name: 'Rony', position: 'Atacante', goals: 4 },
+        { name: 'Giorgian De Arrascaeta', position: 'Meia', goals: 4 },
+        { name: 'Thiago Neves', position: 'Meia', goals: 4 },
+        { name: 'Kaio Jorge', position: 'Atacante', goals: 4 },
         // Adicione mais jogadores aqui
       ]
     };
-  }
+  },
 };
 </script>
 
+
 <style scoped>
+
+
 /* Estilos para centralizar a tabela na tela */
 .tops-table {
   display: flex;
@@ -55,7 +70,7 @@ export default {
 table {
   width: 80%; /* Largura da tabela */
   border-collapse: collapse;
-  margin: 20px; /* Espaço ao redor da tabela */
+  margin: 0px; /* Espaço ao redor da tabela */
 }
 
 /* Estilos para as células da tabela */
