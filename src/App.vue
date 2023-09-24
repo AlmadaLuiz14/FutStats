@@ -1,5 +1,5 @@
 <template>
-  <div class="table-container" v-if="notIsPageLogin && notIsPageCadastro">
+  <div class="table-container">
     <nav class="header">
       <router-link to="/">Home</router-link>
       <router-link to= "/TabelaCampeonato" @click="scrollToSection('tabela-section')">Tabela</router-link>
@@ -18,10 +18,10 @@
       <img alt="Vue logo" src="./assets/TrofeuLogo.png" style="width: 350px">
     </div>
     <h1>Campeonato Brasileiro de Futebol</h1>
-    <FootballTable msg=" TABELA "></FootballTable>
-    <ResultsTable msg=" JOGOS "></ResultsTable>
-    <TopsTable msg=" ARTILHEIROS "></TopsTable>
-    <NewsTable msg=" NOTÍCIAS "></NewsTable>
+    <FootballTable id="tabela-section" msg=" TABELA "></FootballTable>
+    <ResultsTable id="jogos-section" msg=" JOGOS "></ResultsTable>
+    <TopsTable id="artilheiros-section" msg=" ARTILHEIROS "></TopsTable>
+    <NewsTable id="noticias-section" msg=" NOTÍCIAS "></NewsTable>
     <LoginTe></LoginTe>
   </div>
 </template>
