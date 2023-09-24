@@ -17,6 +17,7 @@
       <img alt="Vue logo" src="./assets/TrofeuLogo.png" style="width: 350px">
     </div>
     <h1>Campeonato Brasileiro de Futebol</h1>
+    <h1><br></h1>
     <FootballTable msg=" TABELA "></FootballTable>
     <ResultsTable msg=" JOGOS "></ResultsTable>
     <TopsTable msg=" ARTILHEIROS "></TopsTable>
