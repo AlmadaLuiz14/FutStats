@@ -7,7 +7,7 @@
       <router-link to="/Artilheiros" @click="scrollToSection('artilheiros-section')">Artilheiros</router-link>
       <router-link to="/Noticias" @click="scrollToSection('noticias-section')">Noticias</router-link>
       <div class="login">
-        <router-link to="/Login" @click="toggleDivVisibility" >Login</router-link>
+        <router-link to="/Login">Login</router-link>
       </div>
       <div class="cadastro">
         <router-link to="/Cadastro">Cadastro</router-link>
@@ -18,16 +18,11 @@
       <img alt="Vue logo" src="./assets/TrofeuLogo.png" style="width: 350px">
     </div>
     <h1>Campeonato Brasileiro de Futebol</h1>
-    <FootballTable id="tabela-section" msg=" TABELA "></FootballTable>
-    <ResultsTable id="jogos-section" msg=" JOGOS "></ResultsTable>
-    <TopsTable id="artilheiros-section" msg=" ARTILHEIROS "></TopsTable>
-    <NewsTable id="noticias-section" msg=" NOTÍCIAS "></NewsTable>
-  </div>
-  <div class="table-container" v-if="notIsPagePrincipal">
-    <nav class="header">
-      <router-link to="/">Home</router-link>
-    </nav>
-    <LoginTe msg="Login"></LoginTe>
+    <FootballTable msg=" TABELA "></FootballTable>
+    <ResultsTable msg=" JOGOS "></ResultsTable>
+    <TopsTable msg=" ARTILHEIROS "></TopsTable>
+    <NewsTable msg=" NOTÍCIAS "></NewsTable>
+    <LoginTe></LoginTe>
   </div>
 </template>
 
@@ -48,11 +43,6 @@ export default {
     NewsTable,
     LoginTe
   },
-  data() {
-    return {
-      isVisible: false // Defina como true para que a div seja inicialmente visível
-    };
-  },
   methods: {
     scrollToSection(sectionId) {
       const section = document.getElementById(sectionId);
@@ -62,20 +52,6 @@ export default {
           behavior: 'smooth'
         });
       }
-    },
-    toggleDivVisibility() {
-      this.isVisible = !this.isVisible; // Alternar a visibilidade quando o botão for clicado
-    }
-  },
-  computed: {
-    notIsPagePrincipal(){
-      return this.$route.name =="";
-    },
-    notIsPageLogin() {
-      return this.$route.name !=="Login";
-    },
-    notIsPageCadastro() {
-      return this.$route.name !=="Cadastro";
     }
   }
 };
