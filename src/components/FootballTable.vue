@@ -1,5 +1,7 @@
 <template>
   <div class="team-table">
+    <p></p>
+    <p></p>
     <h2>Tabela de Classificação</h2>
     <table>
       <thead>

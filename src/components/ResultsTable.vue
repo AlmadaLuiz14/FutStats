@@ -1,5 +1,7 @@
 <template>
   <div class="round-table">
+    <p></p>
+    <p></p>
     <h2>{{ currentRound }}ª Rodada</h2>
     <table>
       <thead>
