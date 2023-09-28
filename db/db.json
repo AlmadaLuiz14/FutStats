@@ -1,14 +1,14 @@
 {
-    "usuarios": [
-    {
-      "nome": "abc",
-      "email": "cba",
-      "senha": "kkl",
-      "id": 1
-    },
+  "usuarios": [
     {
       "nome": "Lucas",
       "email": "lucas@gmail.com",
+      "senha": "abc",
+      "id": 1
+    },
+    {
+      "nome": "Carlos",
+      "email": "carlos@gmail.com",
       "senha": "abc",
       "id": 2
     }
