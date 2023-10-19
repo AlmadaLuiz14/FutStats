@@ -17,7 +17,7 @@
 
                 <input type="submit" class="submit-btn" value="Entrar">
                 <p class="txt-center ls-login-signup">Não possui um usuário no FutStats?
-                    <!--<a href="#">Cadastre-se agora</a>-->
+                    <router-link to="/Cadastro">Cadastre-se agora</router-link>
                 </p>
             </form>
         </div>
@@ -39,12 +39,6 @@
             async login(e){
                 e.preventDefault()
 
-                /*fetch("http://localhost:3000/usuarios")
-                    .then(res => res.json())
-                    .then(data => this.contas = data)
-                    .catch(err => console.log(err.message))*/
-                
-                
                 const data = await fetch("http://localhost:3000/usuarios", {
                     method: "GET",
                     headers: {"Content-Type": "application/json"}
@@ -55,9 +49,15 @@
                 for(let i = 0; i < contas.length; i++){
                     if(contas[i]["email"] === this.email && contas[i]["senha"] === this.senha){
                         alert("Seja bem-vindo!")
-                        break
+
+                        this.$router.replace("/")
+                        return
                     }
                 }
+
+                this.email = ""
+                this.senha = ""
+                alert("O email ou a senha informados estão incorretos. Por favor tente novamente")
 
 
             }

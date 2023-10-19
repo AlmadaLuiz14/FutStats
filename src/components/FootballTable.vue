@@ -20,18 +20,18 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(team, index) in teamData" :key="index">
-          <td>{{ index + 1 }}</td>
-          <td>{{ team.name }}</td>
-          <td>{{ team.points }}</td>
-          <td>{{ team.goalsScored }}</td>
-          <td>{{ team.goalsConceded }}</td>
-          <td>{{ calculateGoals(team) }}</td>
-          <td>{{ team.gamesPlayed }}</td>
-          <td>{{ team.wins }}</td>
-          <td>{{ team.draws }}</td>
-          <td>{{ team.losses }}</td>
-          <td>{{ calculateWinPercentage(team) }}%</td>
+        <tr v-for="(team, index) in tabela" :key="index">
+          <td>{{ team.Classificação }}</td>
+          <td>{{ team.Nome }}</td>
+          <td>{{ team.Pontos }}</td>
+          <td>{{ team['Gols Prós'] }}</td>
+          <td>{{ team['Gols Contra'] }}</td>
+          <td>{{ team['Saldo de Gols'] }}</td>
+          <td>{{ team.Jogos }}</td>
+          <td>{{ team.Vitórias }}</td>
+          <td>{{ team.Empates }}</td>
+          <td>{{ team.Derrotas }}</td>
+          <td>{{ team['Porcentagem de Vitórias'] }}%</td>
         </tr>
       </tbody>
     </table>
@@ -39,230 +39,30 @@
 </template>
 
 <script>
+import tabela from '../../classificacao_brasileirao_2023.json';
+
 export default {
   name: 'TeamTable',
   data() {
+    // Use slice para remover os primeiros elementos (cabeçalho) do array
+    const dadosSemCabecalho = tabela.tabela.slice(1);
     return {
-      teamData: [
-        {
-          name: 'Flamengo',
-          points: 30,
-          goalsScored: 35,
-          goalsConceded: 15,
-          gamesPlayed: 15,
-          wins: 10,
-          draws: 0,
-          losses: 5
-        },
-        {
-          name: 'Palmeiras',
-          points: 28,
-          goalsScored: 30,
-          goalsConceded: 18,
-          gamesPlayed: 15,
-          wins: 9,
-          draws: 1,
-          losses: 5
-        },
-        {
-          name: 'Atlético-MG',
-          points: 27,
-          goalsScored: 28,
-          goalsConceded: 20,
-          gamesPlayed: 15,
-          wins: 8,
-          draws: 3,
-          losses: 4
-        },
-        {
-          name: 'Fortaleza',
-          points: 25,
-          goalsScored: 22,
-          goalsConceded: 18,
-          gamesPlayed: 15,
-          wins: 7,
-          draws: 4,
-          losses: 4
-        },
-        {
-          name: 'Athletico-PR',
-          points: 24,
-          goalsScored: 20,
-          goalsConceded: 17,
-          gamesPlayed: 15,
-          wins: 6,
-          draws: 6,
-          losses: 3
-        },
-        {
-          name: 'São Paulo',
-          points: 23,
-          goalsScored: 24,
-          goalsConceded: 20,
-          gamesPlayed: 15,
-          wins: 6,
-          draws: 5,
-          losses: 4
-        },
-        {
-          name: 'Corinthians',
-          points: 22,
-          goalsScored: 20,
-          goalsConceded: 19,
-          gamesPlayed: 15,
-          wins: 6,
-          draws: 4,
-          losses: 5
-        },
-        {
-          name: 'Ceará',
-          points: 21,
-          goalsScored: 22,
-          goalsConceded: 21,
-          gamesPlayed: 15,
-          wins: 6,
-          draws: 3,
-          losses: 6
-        },
-        {
-          name: 'Internacional',
-          points: 20,
-          goalsScored: 18,
-          goalsConceded: 19,
-          gamesPlayed: 15,
-          wins: 5,
-          draws: 5,
-          losses: 5
-        },
-        {
-          name: 'Cuiabá',
-          points: 19,
-          goalsScored: 15,
-          goalsConceded: 15,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 7,
-          losses: 4
-        },
-        {
-          name: 'Juventude',
-          points: 18,
-          goalsScored: 17,
-          goalsConceded: 18,
-          gamesPlayed: 15,
-          wins: 5,
-          draws: 3,
-          losses: 7
-        },
-        {
-          name: 'Fluminense',
-          points: 18,
-          goalsScored: 16,
-          goalsConceded: 18,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 6,
-          losses: 5
-        },
-        {
-          name: 'Santos',
-          points: 17,
-          goalsScored: 15,
-          goalsConceded: 20,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 5,
-          losses: 6
-        },
-        {
-          name: 'Bahia',
-          points: 16,
-          goalsScored: 18,
-          goalsConceded: 22,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 4,
-          losses: 7
-        },
-        {
-          name: 'Grêmio',
-          points: 15,
-          goalsScored: 12,
-          goalsConceded: 20,
-          gamesPlayed: 15,
-          wins: 3,
-          draws: 6,
-          losses: 6
-        },
-        {
-          name: 'América-MG',
-          points: 15,
-          goalsScored: 13,
-          goalsConceded: 16,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 3,
-          losses: 8
-        },
-        {
-          name: 'Sport',
-          points: 14,
-          goalsScored: 14,
-          goalsConceded: 19,
-          gamesPlayed: 15,
-          wins: 3,
-          draws: 5,
-          losses: 7
-        },
-        {
-          name: 'Atlético-GO',
-          points: 14,
-          goalsScored: 13,
-          goalsConceded: 21,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 2,
-          losses: 9
-        },
-        {
-          name: 'Cruzeiro',
-          points: 13,
-          goalsScored: 14,
-          goalsConceded: 30,
-          gamesPlayed: 15,
-          wins: 4,
-          draws: 1,
-          losses: 10
-        },
-        {
-          name: 'Chapecoense',
-          points: 12,
-          goalsScored: 11,
-          goalsConceded: 27,
-          gamesPlayed: 15,
-          wins: 3,
-          draws: 3,
-          losses: 9
-        }
-  // Adicione mais times aqui
-      ]
+      tabela: dadosSemCabecalho,
     };
   },
   methods: {
+    // Os métodos calculateWinPercentage e calculateGoals permanecem os mesmos
     calculateWinPercentage(team) {
-      if (team.gamesPlayed === 0) {
-        return 0;
+      if (team.Jogos === '0') {
+        return '0.00%';
       }
-      return ((team.wins / team.gamesPlayed) * 100).toFixed(2);
+      return ((team.Vitórias / team.Jogos) * 100).toFixed(2) + '%';
     },
 
     calculateGoals(team) {
-      if (team.gamesPlayed === 0) {
-        return 0;
-      }
-      return (team.goalsScored - team.goalsConceded);
-    }
-  }
+      return team['Gols Prós'] - team['Gols Contra'];
+    },
+  },
 };
 </script>
 

@@ -5,9 +5,9 @@
         <router-link to= "/" @click="scrollToSection('tabela-section')">Tabela</router-link>
         <router-link to="/" @click="scrollToSection('jogos-section')">Jogos</router-link>
         <router-link to="/" @click="scrollToSection('artilheiros-section')">Artilheiros</router-link>
-        <router-link to="/" @click="scrollToSection('noticias-section')">Noticias</router-link> 
+        <router-link to="/" @click="scrollToSection('noticias-section')">Noticias</router-link>
         <div class="login">
-          <router-link to="/Login">Login</router-link>
+        <router-link to="/Login">Login</router-link>
         </div>
         <div class="cadastro">
           <router-link to="/Cadastro">Cadastro</router-link>
@@ -17,34 +17,6 @@
   
   <router-view/>
   </div>
-  <!--
-  <div class="table-container">
-    <nav class="header">
-      <router-link to="/">Home</router-link>
-      <router-link to= "/TabelaCampeonato" @click="scrollToSection('tabela-section')">Tabela</router-link>
-      <router-link to="/Resultados" @click="scrollToSection('jogos-section')">Jogos</router-link>
-      <router-link to="/Artilheiros" @click="scrollToSection('artilheiros-section')">Artilheiros</router-link>
-      <router-link to="/Noticias" @click="scrollToSection('noticias-section')">Noticias</router-link>
-      <div class="login">
-        <router-link to="/Login">Login</router-link>
-      </div>
-      <div class="cadastro">
-        <router-link to="/Cadastro">Cadastro</router-link>
-      </div>
-    </nav>
-    
-    <h1> Futstats </h1>
-    <div logo>
-      <img alt="Vue logo" src="./assets/TrofeuLogo.png" style="width: 350px">
-    </div>
-    <h1>Campeonato Brasileiro de Futebol</h1>
-    <FootballTable id="tabela-section" msg=" TABELA "></FootballTable>
-    <ResultsTable id="jogos-section" msg=" JOGOS "></ResultsTable>
-    <TopsTable id="artilheiros-section" msg=" ARTILHEIROS "></TopsTable>
-    <NewsTable id="noticias-section" msg=" NOTÍCIAS "></NewsTable>
-    <LoginTe></LoginTe>
-  </div>
-  -->
 </template>
 
 

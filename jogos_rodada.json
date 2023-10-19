@@ -1,0 +1,2740 @@
+{
+    "jogosinfo": {
+        "Rodada1": [
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 16:00\r\n                            -  Jogo: 10",
+                "Time1": "AME",
+                "Time2": "FLU",
+                "Placar": "0 x 3",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 16:00\r\n                            -  Jogo: 3",
+                "Time1": "PAL",
+                "Time2": "CUI",
+                "Placar": "2 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 18:30\r\n                            -  Jogo: 9",
+                "Time1": "FOR",
+                "Time2": "INT",
+                "Placar": "1 x 1",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 18:30\r\n                            -  Jogo: 8",
+                "Time1": "ATH",
+                "Time2": "GOI",
+                "Placar": "2 x 0",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 18:30\r\n                            -  Jogo: 5",
+                "Time1": "RED",
+                "Time2": "BAH",
+                "Placar": "2 x 1",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 18:30\r\n                            -  Jogo: 2",
+                "Time1": "BOT",
+                "Time2": "SAO",
+                "Placar": "2 x 1",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 15/04/2023 21:00\r\n                            -  Jogo: 6",
+                "Time1": "ATL",
+                "Time2": "VAS",
+                "Placar": "1 x 2",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/04/2023 16:00\r\n                            -  Jogo: 1",
+                "Time1": "FLA",
+                "Time2": "COR",
+                "Placar": "3 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/04/2023 16:00\r\n                            -  Jogo: 4",
+                "Time1": "COR",
+                "Time2": "CRU",
+                "Placar": "2 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/04/2023 18:30\r\n                            -  Jogo: 7 \r\n                              \r\n                  1 alteração",
+                "Time1": "GRE",
+                "Time2": "SAN",
+                "Placar": "1 x 0",
+                "Local": "-"
+            }
+        ],
+        "Rodada2": [
+            {
+                "Info_Jogo": "Sáb, 22/04/2023 16:00\r\n                            -  Jogo: 11",
+                "Time1": "FLU",
+                "Time2": "ATH",
+                "Placar": "2 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/04/2023 18:30\r\n                            -  Jogo: 13",
+                "Time1": "SAO",
+                "Time2": "AME",
+                "Placar": "3 x 0",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/04/2023 18:30\r\n                            -  Jogo: 20",
+                "Time1": "CUI",
+                "Time2": "RED",
+                "Placar": "1 x 1",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/04/2023 21:00\r\n                            -  Jogo: 16",
+                "Time1": "CRU",
+                "Time2": "GRE",
+                "Placar": "1 x 0",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 23/04/2023 11:00\r\n                            -  Jogo: 17",
+                "Time1": "INT",
+                "Time2": "FLA",
+                "Placar": "2 x 1",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 23/04/2023 16:00\r\n                            -  Jogo: 12 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "PAL",
+                "Placar": "2 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 23/04/2023 16:00\r\n                            -  Jogo: 14",
+                "Time1": "SAN",
+                "Time2": "ATL",
+                "Placar": "0 x 0",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 23/04/2023 18:30\r\n                            -  Jogo: 18 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "FOR",
+                "Placar": "0 x 3",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 23/04/2023 19:00\r\n                            -  Jogo: 15",
+                "Time1": "GOI",
+                "Time2": "COR",
+                "Placar": "3 x 1",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Seg, 24/04/2023 20:00\r\n                            -  Jogo: 19",
+                "Time1": "BAH",
+                "Time2": "BOT",
+                "Placar": "1 x 2",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            }
+        ],
+        "Rodada3": [
+            {
+                "Info_Jogo": "Sáb, 29/04/2023 16:30\r\n                            -  Jogo: 28",
+                "Time1": "COR",
+                "Time2": "SAO",
+                "Placar": "1 x 1",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/04/2023 16:30\r\n                            -  Jogo: 29",
+                "Time1": "FOR",
+                "Time2": "FLU",
+                "Placar": "4 x 2",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/04/2023 18:30\r\n                            -  Jogo: 23",
+                "Time1": "PAL",
+                "Time2": "COR",
+                "Placar": "2 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/04/2023 18:30\r\n                            -  Jogo: 25",
+                "Time1": "RED",
+                "Time2": "CRU",
+                "Placar": "0 x 3",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/04/2023 18:30\r\n                            -  Jogo: 24",
+                "Time1": "SAN",
+                "Time2": "AME",
+                "Placar": "3 x 2",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/04/2023 21:00\r\n                            -  Jogo: 26 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "ATH",
+                "Placar": "2 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 30/04/2023 16:00\r\n                            -  Jogo: 21",
+                "Time1": "FLA",
+                "Time2": "BOT",
+                "Placar": "2 x 3",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 30/04/2023 18:30\r\n                            -  Jogo: 27",
+                "Time1": "INT",
+                "Time2": "GOI",
+                "Placar": "1 x 0",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 30/04/2023 18:30\r\n                            -  Jogo: 30",
+                "Time1": "CUI",
+                "Time2": "GRE",
+                "Placar": "1 x 2",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Seg, 01/05/2023 20:00\r\n                            -  Jogo: 22",
+                "Time1": "VAS",
+                "Time2": "BAH",
+                "Placar": "0 x 1",
+                "Local": "São Januário - Rio de Janeiro - RJ\n"
+            }
+        ],
+        "Rodada4": [
+            {
+                "Info_Jogo": "Sáb, 06/05/2023 16:00\r\n                            -  Jogo: 36",
+                "Time1": "CRU",
+                "Time2": "SAN",
+                "Placar": "2 x 1",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 06/05/2023 21:00\r\n                            -  Jogo: 31",
+                "Time1": "FLU",
+                "Time2": "VAS",
+                "Placar": "1 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 11:00\r\n                            -  Jogo: 40",
+                "Time1": "AME",
+                "Time2": "CUI",
+                "Placar": "1 x 2",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 16:00\r\n                            -  Jogo: 33",
+                "Time1": "SAO",
+                "Time2": "INT",
+                "Placar": "2 x 0",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 16:00\r\n                            -  Jogo: 38",
+                "Time1": "ATH",
+                "Time2": "FLA",
+                "Placar": "2 x 1",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 16:00\r\n                            -  Jogo: 39",
+                "Time1": "BAH",
+                "Time2": "COR",
+                "Placar": "3 x 1",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 18:30\r\n                            -  Jogo: 37",
+                "Time1": "GRE",
+                "Time2": "RED",
+                "Placar": "3 x 3",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 18:30\r\n                            -  Jogo: 35",
+                "Time1": "GOI",
+                "Time2": "PAL",
+                "Placar": "0 x 5",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Dom, 07/05/2023 18:30\r\n                            -  Jogo: 32",
+                "Time1": "BOT",
+                "Time2": "ATL",
+                "Placar": "2 x 0",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Seg, 08/05/2023 20:00\r\n                            -  Jogo: 34",
+                "Time1": "COR",
+                "Time2": "FOR",
+                "Placar": "1 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            }
+        ],
+        "Rodada5": [
+            {
+                "Info_Jogo": "Qua, 10/05/2023 19:00\r\n                            -  Jogo: 45",
+                "Time1": "RED",
+                "Time2": "AME",
+                "Placar": "2 x 2",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Qua, 10/05/2023 19:00\r\n                            -  Jogo: 47",
+                "Time1": "INT",
+                "Time2": "ATH",
+                "Placar": "0 x 2",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Qua, 10/05/2023 19:00\r\n                            -  Jogo: 44",
+                "Time1": "SAN",
+                "Time2": "BAH",
+                "Placar": "3 x 0",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Qua, 10/05/2023 20:00\r\n                            -  Jogo: 41",
+                "Time1": "FLA",
+                "Time2": "GOI",
+                "Placar": "2 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Qua, 10/05/2023 20:00\r\n                            -  Jogo: 50",
+                "Time1": "CUI",
+                "Time2": "ATL",
+                "Placar": "0 x 4",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Qua, 10/05/2023 21:30\r\n                            -  Jogo: 43",
+                "Time1": "PAL",
+                "Time2": "GRE",
+                "Placar": "4 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Qua, 10/05/2023 21:30\r\n                            -  Jogo: 46 \r\n                              \r\n                  1 alteração",
+                "Time1": "CRU",
+                "Time2": "FLU",
+                "Placar": "0 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 11/05/2023 19:00\r\n                            -  Jogo: 48",
+                "Time1": "COR",
+                "Time2": "VAS",
+                "Placar": "1 x 1",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Qui, 11/05/2023 19:30\r\n                            -  Jogo: 42 \r\n                              \r\n                  1 alteração",
+                "Time1": "BOT",
+                "Time2": "COR",
+                "Placar": "3 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 11/05/2023 20:00\r\n                            -  Jogo: 49",
+                "Time1": "FOR",
+                "Time2": "SAO",
+                "Placar": "0 x 0",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            }
+        ],
+        "Rodada6": [
+            {
+                "Info_Jogo": "Sáb, 13/05/2023 16:00\r\n                            -  Jogo: 59",
+                "Time1": "BAH",
+                "Time2": "FLA",
+                "Placar": "2 x 3",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 13/05/2023 18:30\r\n                            -  Jogo: 51",
+                "Time1": "FLU",
+                "Time2": "CUI",
+                "Placar": "2 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 13/05/2023 18:30\r\n                            -  Jogo: 53",
+                "Time1": "PAL",
+                "Time2": "RED",
+                "Placar": "1 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 13/05/2023 21:00\r\n                            -  Jogo: 56",
+                "Time1": "ATL",
+                "Time2": "INT",
+                "Placar": "2 x 0",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 14/05/2023 16:00\r\n                            -  Jogo: 52",
+                "Time1": "VAS",
+                "Time2": "SAN",
+                "Placar": "0 x 1",
+                "Local": "São Januário - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 14/05/2023 16:00\r\n                            -  Jogo: 54",
+                "Time1": "COR",
+                "Time2": "SAO",
+                "Placar": "1 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 14/05/2023 16:00\r\n                            -  Jogo: 57",
+                "Time1": "GRE",
+                "Time2": "FOR",
+                "Placar": "0 x 0",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 14/05/2023 18:30\r\n                            -  Jogo: 55",
+                "Time1": "GOI",
+                "Time2": "BOT",
+                "Placar": "2 x 1",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Dom, 14/05/2023 18:30\r\n                            -  Jogo: 58",
+                "Time1": "ATH",
+                "Time2": "COR",
+                "Placar": "3 x 2",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 14/05/2023 18:30\r\n                            -  Jogo: 60",
+                "Time1": "AME",
+                "Time2": "CRU",
+                "Placar": "0 x 4",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            }
+        ],
+        "Rodada7": [
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 16:00\r\n                            -  Jogo: 69",
+                "Time1": "BAH",
+                "Time2": "GOI",
+                "Placar": "1 x 1",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 18:30\r\n                            -  Jogo: 68",
+                "Time1": "COR",
+                "Time2": "ATL",
+                "Placar": "1 x 2",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 18:30\r\n                            -  Jogo: 65 \r\n                              \r\n                  1 alteração",
+                "Time1": "RED",
+                "Time2": "ATH",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 18:30\r\n                            -  Jogo: 63",
+                "Time1": "SAO",
+                "Time2": "VAS",
+                "Placar": "4 x 2",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 18:30\r\n                            -  Jogo: 62",
+                "Time1": "BOT",
+                "Time2": "FLU",
+                "Placar": "1 x 0",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 18:30\r\n                            -  Jogo: 70 \r\n                              \r\n                  1 alteração",
+                "Time1": "AME",
+                "Time2": "FOR",
+                "Placar": "2 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 20/05/2023 21:00\r\n                            -  Jogo: 64",
+                "Time1": "SAN",
+                "Time2": "PAL",
+                "Placar": "0 x 0",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 21/05/2023 16:00\r\n                            -  Jogo: 61",
+                "Time1": "FLA",
+                "Time2": "COR",
+                "Placar": "1 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 21/05/2023 18:30\r\n                            -  Jogo: 67",
+                "Time1": "GRE",
+                "Time2": "INT",
+                "Placar": "3 x 1",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Seg, 22/05/2023 20:00\r\n                            -  Jogo: 66 \r\n                              \r\n                  1 alteração",
+                "Time1": "CRU",
+                "Time2": "CUI",
+                "Placar": "0 x 1",
+                "Local": "-"
+            }
+        ],
+        "Rodada8": [
+            {
+                "Info_Jogo": "Sáb, 27/05/2023 16:00\r\n                            -  Jogo: 78 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATH",
+                "Time2": "GRE",
+                "Placar": "1 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 27/05/2023 16:00\r\n                            -  Jogo: 79",
+                "Time1": "FOR",
+                "Time2": "VAS",
+                "Placar": "2 x 0",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 27/05/2023 18:30\r\n                            -  Jogo: 80",
+                "Time1": "CUI",
+                "Time2": "COR",
+                "Placar": "1 x 1",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 27/05/2023 18:30\r\n                            -  Jogo: 71",
+                "Time1": "FLA",
+                "Time2": "CRU",
+                "Placar": "1 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 27/05/2023 21:00\r\n                            -  Jogo: 73",
+                "Time1": "SAO",
+                "Time2": "GOI",
+                "Placar": "2 x 1",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 28/05/2023 16:00\r\n                            -  Jogo: 74",
+                "Time1": "COR",
+                "Time2": "FLU",
+                "Placar": "2 x 0",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 28/05/2023 16:00\r\n                            -  Jogo: 77",
+                "Time1": "INT",
+                "Time2": "BAH",
+                "Placar": "2 x 0",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 28/05/2023 18:30\r\n                            -  Jogo: 75 \r\n                              \r\n                  1 alteração",
+                "Time1": "RED",
+                "Time2": "SAN",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 28/05/2023 18:30\r\n                            -  Jogo: 76",
+                "Time1": "ATL",
+                "Time2": "PAL",
+                "Placar": "1 x 1",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 28/05/2023 19:00\r\n                            -  Jogo: 72",
+                "Time1": "BOT",
+                "Time2": "AME",
+                "Placar": "2 x 0",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            }
+        ],
+        "Rodada9": [
+            {
+                "Info_Jogo": "Sáb, 03/06/2023 16:00\r\n                            -  Jogo: 89",
+                "Time1": "FOR",
+                "Time2": "BAH",
+                "Placar": "0 x 0",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 03/06/2023 18:30\r\n                            -  Jogo: 86 \r\n                              \r\n                  1 alteração",
+                "Time1": "CRU",
+                "Time2": "ATL",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 03/06/2023 18:30\r\n                            -  Jogo: 90",
+                "Time1": "AME",
+                "Time2": "COR",
+                "Placar": "2 x 0",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 03/06/2023 18:30\r\n                            -  Jogo: 88 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATH",
+                "Time2": "BOT",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 03/06/2023 21:00\r\n                            -  Jogo: 84",
+                "Time1": "SAN",
+                "Time2": "INT",
+                "Placar": "1 x 1",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 04/06/2023 16:00\r\n                            -  Jogo: 81",
+                "Time1": "FLU",
+                "Time2": "RED",
+                "Placar": "2 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 04/06/2023 16:00\r\n                            -  Jogo: 87",
+                "Time1": "GRE",
+                "Time2": "SAO",
+                "Placar": "2 x 1",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 04/06/2023 18:30\r\n                            -  Jogo: 83",
+                "Time1": "PAL",
+                "Time2": "COR",
+                "Placar": "3 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 04/06/2023 18:30\r\n                            -  Jogo: 85",
+                "Time1": "GOI",
+                "Time2": "CUI",
+                "Placar": "0 x 1",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Seg, 05/06/2023 20:00\r\n                            -  Jogo: 82 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "FLA",
+                "Placar": "1 x 4",
+                "Local": "-"
+            }
+        ],
+        "Rodada10": [
+            {
+                "Info_Jogo": "Sáb, 10/06/2023 16:00\r\n                            -  Jogo: 98",
+                "Time1": "COR",
+                "Time2": "SAN",
+                "Placar": "0 x 0",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 10/06/2023 18:30\r\n                            -  Jogo: 94 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "CUI",
+                "Placar": "1 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 10/06/2023 18:30\r\n                            -  Jogo: 99 \r\n                              \r\n                  1 alteração",
+                "Time1": "BAH",
+                "Time2": "CRU",
+                "Placar": "2 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 10/06/2023 18:30\r\n                            -  Jogo: 96",
+                "Time1": "ATL",
+                "Time2": "RED",
+                "Placar": "1 x 1",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 10/06/2023 21:00\r\n                            -  Jogo: 92 \r\n                              \r\n                  1 alteração",
+                "Time1": "BOT",
+                "Time2": "FOR",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 11/06/2023 11:00\r\n                            -  Jogo: 100 \r\n                              \r\n                  1 alteração",
+                "Time1": "AME",
+                "Time2": "ATH",
+                "Placar": "2 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 11/06/2023 16:00\r\n                            -  Jogo: 93 \r\n                              \r\n                  1 alteração",
+                "Time1": "SAO",
+                "Time2": "PAL",
+                "Placar": "0 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 11/06/2023 16:00\r\n                            -  Jogo: 97",
+                "Time1": "INT",
+                "Time2": "VAS",
+                "Placar": "2 x 1",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 11/06/2023 18:30\r\n                            -  Jogo: 91",
+                "Time1": "FLA",
+                "Time2": "GRE",
+                "Placar": "3 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 11/06/2023 18:30\r\n                            -  Jogo: 95",
+                "Time1": "GOI",
+                "Time2": "FLU",
+                "Placar": "2 x 2",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            }
+        ],
+        "Rodada11": [
+            {
+                "Info_Jogo": "Qua, 21/06/2023 19:00\r\n                            -  Jogo: 103",
+                "Time1": "SAO",
+                "Time2": "ATH",
+                "Placar": "2 x 1",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Qua, 21/06/2023 19:00\r\n                            -  Jogo: 106",
+                "Time1": "CRU",
+                "Time2": "FOR",
+                "Placar": "0 x 1",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Qua, 21/06/2023 20:00\r\n                            -  Jogo: 104",
+                "Time1": "SAN",
+                "Time2": "COR",
+                "Placar": "0 x 2",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Qua, 21/06/2023 21:30\r\n                            -  Jogo: 101 \r\n                              \r\n                  1 alteração",
+                "Time1": "FLU",
+                "Time2": "ATL",
+                "Placar": "1 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 21/06/2023 21:30\r\n                            -  Jogo: 109",
+                "Time1": "BAH",
+                "Time2": "PAL",
+                "Placar": "1 x 0",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Qui, 22/06/2023 19:00\r\n                            -  Jogo: 107",
+                "Time1": "GRE",
+                "Time2": "AME",
+                "Placar": "3 x 1",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Qui, 22/06/2023 20:00\r\n                            -  Jogo: 108",
+                "Time1": "COR",
+                "Time2": "INT",
+                "Placar": "0 x 1",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Qui, 22/06/2023 20:00\r\n                            -  Jogo: 110",
+                "Time1": "CUI",
+                "Time2": "BOT",
+                "Placar": "0 x 1",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Qui, 22/06/2023 20:00\r\n                            -  Jogo: 102",
+                "Time1": "VAS",
+                "Time2": "GOI",
+                "Placar": "0 x 1",
+                "Local": "São Januário - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Qui, 22/06/2023 21:30\r\n                            -  Jogo: 105",
+                "Time1": "RED",
+                "Time2": "FLA",
+                "Placar": "4 x 0",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            }
+        ],
+        "Rodada12": [
+            {
+                "Info_Jogo": "Sáb, 24/06/2023 16:00\r\n                            -  Jogo: 118",
+                "Time1": "ATH",
+                "Time2": "COR",
+                "Placar": "1 x 0",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 24/06/2023 18:30\r\n                            -  Jogo: 119",
+                "Time1": "FOR",
+                "Time2": "ATL",
+                "Placar": "2 x 1",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 24/06/2023 18:30\r\n                            -  Jogo: 111",
+                "Time1": "FLU",
+                "Time2": "BAH",
+                "Placar": "2 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 24/06/2023 21:00\r\n                            -  Jogo: 116 \r\n                              \r\n                  1 alteração",
+                "Time1": "CRU",
+                "Time2": "SAO",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 25/06/2023 16:00\r\n                            -  Jogo: 117",
+                "Time1": "GRE",
+                "Time2": "COR",
+                "Placar": "5 x 1",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 25/06/2023 16:00\r\n                            -  Jogo: 113",
+                "Time1": "PAL",
+                "Time2": "BOT",
+                "Placar": "0 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 25/06/2023 18:30\r\n                            -  Jogo: 114",
+                "Time1": "SAN",
+                "Time2": "FLA",
+                "Placar": "2 x 3",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 25/06/2023 18:30\r\n                            -  Jogo: 120",
+                "Time1": "AME",
+                "Time2": "INT",
+                "Placar": "1 x 2",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 25/06/2023 18:30\r\n                            -  Jogo: 115",
+                "Time1": "RED",
+                "Time2": "GOI",
+                "Placar": "2 x 0",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Seg, 26/06/2023 21:00\r\n                            -  Jogo: 112 \r\n                              \r\n                  2 alterações",
+                "Time1": "VAS",
+                "Time2": "CUI",
+                "Placar": "1 x 0",
+                "Local": "-"
+            }
+        ],
+        "Rodada13": [
+            {
+                "Info_Jogo": "Sáb, 01/07/2023 16:00\r\n                            -  Jogo: 123",
+                "Time1": "SAO",
+                "Time2": "FLU",
+                "Placar": "1 x 0",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 01/07/2023 18:30\r\n                            -  Jogo: 121",
+                "Time1": "FLA",
+                "Time2": "FOR",
+                "Placar": "2 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 01/07/2023 18:30\r\n                            -  Jogo: 129",
+                "Time1": "BAH",
+                "Time2": "GRE",
+                "Placar": "1 x 2",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 01/07/2023 21:00\r\n                            -  Jogo: 127",
+                "Time1": "INT",
+                "Time2": "CRU",
+                "Placar": "0 x 0",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 02/07/2023 11:00\r\n                            -  Jogo: 124",
+                "Time1": "COR",
+                "Time2": "RED",
+                "Placar": "0 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 02/07/2023 16:00\r\n                            -  Jogo: 128",
+                "Time1": "ATH",
+                "Time2": "PAL",
+                "Placar": "2 x 2",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 02/07/2023 16:00\r\n                            -  Jogo: 122",
+                "Time1": "BOT",
+                "Time2": "VAS",
+                "Placar": "2 x 0",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 02/07/2023 16:00\r\n                            -  Jogo: 126",
+                "Time1": "ATL",
+                "Time2": "AME",
+                "Placar": "2 x 2",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 02/07/2023 18:30\r\n                            -  Jogo: 130",
+                "Time1": "CUI",
+                "Time2": "SAN",
+                "Placar": "3 x 0",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Seg, 03/07/2023 20:00\r\n                            -  Jogo: 125 \r\n                              \r\n                  1 alteração",
+                "Time1": "GOI",
+                "Time2": "COR",
+                "Placar": "1 x 2",
+                "Local": "-"
+            }
+        ],
+        "Rodada14": [
+            {
+                "Info_Jogo": "Sáb, 08/07/2023 16:00\r\n                            -  Jogo: 132 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "CRU",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 08/07/2023 16:00\r\n                            -  Jogo: 140 \r\n                              \r\n                  2 alterações",
+                "Time1": "CUI",
+                "Time2": "BAH",
+                "Placar": "1 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 08/07/2023 18:30\r\n                            -  Jogo: 136 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "COR",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 08/07/2023 18:30\r\n                            -  Jogo: 138 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "AME",
+                "Placar": "3 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 08/07/2023 21:00\r\n                            -  Jogo: 133",
+                "Time1": "PAL",
+                "Time2": "FLA",
+                "Placar": "1 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 09/07/2023 11:00\r\n                            -  Jogo: 134 \r\n                              \r\n                  2 alterações",
+                "Time1": "SAN",
+                "Time2": "GOI",
+                "Placar": "4 x 3",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 09/07/2023 16:00\r\n                            -  Jogo: 131",
+                "Time1": "FLU",
+                "Time2": "INT",
+                "Placar": "2 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 09/07/2023 16:00\r\n                            -  Jogo: 135 \r\n                              \r\n                  1 alteração",
+                "Time1": "RED",
+                "Time2": "SAO",
+                "Placar": "0 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 09/07/2023 18:30\r\n                            -  Jogo: 137",
+                "Time1": "GRE",
+                "Time2": "BOT",
+                "Placar": "0 x 2",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 09/07/2023 18:30\r\n                            -  Jogo: 139",
+                "Time1": "FOR",
+                "Time2": "ATH",
+                "Placar": "1 x 0",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            }
+        ],
+        "Rodada15": [
+            {
+                "Info_Jogo": "Sáb, 15/07/2023 21:00\r\n                            -  Jogo: 142 \r\n                              \r\n                  1 alteração",
+                "Time1": "BOT",
+                "Time2": "RED",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 16/07/2023 11:00\r\n                            -  Jogo: 146 \r\n                              \r\n                  2 alterações",
+                "Time1": "CRU",
+                "Time2": "COR",
+                "Placar": "0 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 16/07/2023 16:00\r\n                            -  Jogo: 143",
+                "Time1": "SAO",
+                "Time2": "SAN",
+                "Placar": "4 x 1",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/07/2023 16:00\r\n                            -  Jogo: 141",
+                "Time1": "FLU",
+                "Time2": "FLA",
+                "Placar": "0 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/07/2023 16:00\r\n                            -  Jogo: 149",
+                "Time1": "FOR",
+                "Time2": "CUI",
+                "Placar": "0 x 1",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/07/2023 18:30\r\n                            -  Jogo: 148",
+                "Time1": "ATH",
+                "Time2": "BAH",
+                "Placar": "2 x 0",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 16/07/2023 18:30\r\n                            -  Jogo: 147 \r\n                              \r\n                  1 alteração",
+                "Time1": "INT",
+                "Time2": "PAL",
+                "Placar": "0 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Seg, 17/07/2023 20:00\r\n                            -  Jogo: 145 \r\n                              \r\n                  1 alteração",
+                "Time1": "GOI",
+                "Time2": "ATL",
+                "Placar": "0 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Seg, 18/09/2023 21:00\r\n                            -  Jogo: 144 \r\n                              \r\n                  2 alterações",
+                "Time1": "COR",
+                "Time2": "GRE",
+                "Placar": "4 x 4",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Seg, 25/09/2023 20:00\r\n                            -  Jogo: 150 \r\n                              \r\n                  3 alterações",
+                "Time1": "AME",
+                "Time2": "VAS",
+                "Placar": "0 x 1",
+                "Local": "-"
+            }
+        ],
+        "Rodada16": [
+            {
+                "Info_Jogo": "Sáb, 22/07/2023 16:00\r\n                            -  Jogo: 151",
+                "Time1": "FLA",
+                "Time2": "AME",
+                "Placar": "1 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/07/2023 16:00\r\n                            -  Jogo: 153",
+                "Time1": "PAL",
+                "Time2": "FOR",
+                "Placar": "3 x 1",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/07/2023 18:30\r\n                            -  Jogo: 160",
+                "Time1": "CUI",
+                "Time2": "SAO",
+                "Placar": "2 x 1",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/07/2023 18:30\r\n                            -  Jogo: 159",
+                "Time1": "BAH",
+                "Time2": "COR",
+                "Placar": "0 x 0",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 22/07/2023 21:00\r\n                            -  Jogo: 157",
+                "Time1": "GRE",
+                "Time2": "ATL",
+                "Placar": "1 x 0",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 23/07/2023 16:00\r\n                            -  Jogo: 156 \r\n                              \r\n                  1 alteração",
+                "Time1": "CRU",
+                "Time2": "GOI",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 23/07/2023 16:00\r\n                            -  Jogo: 155",
+                "Time1": "RED",
+                "Time2": "INT",
+                "Placar": "0 x 0",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 23/07/2023 16:00\r\n                            -  Jogo: 154",
+                "Time1": "SAN",
+                "Time2": "BOT",
+                "Placar": "2 x 2",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 23/07/2023 18:30\r\n                            -  Jogo: 152",
+                "Time1": "VAS",
+                "Time2": "ATH",
+                "Placar": "0 x 2",
+                "Local": "São Januário - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Seg, 24/07/2023 19:00\r\n                            -  Jogo: 158",
+                "Time1": "COR",
+                "Time2": "FLU",
+                "Placar": "2 x 0",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            }
+        ],
+        "Rodada17": [
+            {
+                "Info_Jogo": "Sáb, 29/07/2023 16:00\r\n                            -  Jogo: 161",
+                "Time1": "FLU",
+                "Time2": "SAN",
+                "Placar": "1 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/07/2023 16:00\r\n                            -  Jogo: 168 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATH",
+                "Time2": "CRU",
+                "Placar": "3 x 3",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/07/2023 16:00\r\n                            -  Jogo: 167",
+                "Time1": "INT",
+                "Time2": "CUI",
+                "Placar": "1 x 2",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/07/2023 18:30\r\n                            -  Jogo: 169",
+                "Time1": "FOR",
+                "Time2": "RED",
+                "Placar": "0 x 3",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/07/2023 18:30\r\n                            -  Jogo: 164",
+                "Time1": "COR",
+                "Time2": "VAS",
+                "Placar": "3 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 29/07/2023 21:00\r\n                            -  Jogo: 166 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "FLA",
+                "Placar": "1 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 30/07/2023 11:00\r\n                            -  Jogo: 163",
+                "Time1": "SAO",
+                "Time2": "BAH",
+                "Placar": "0 x 0",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 30/07/2023 16:00\r\n                            -  Jogo: 162",
+                "Time1": "BOT",
+                "Time2": "COR",
+                "Placar": "4 x 1",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 30/07/2023 16:00\r\n                            -  Jogo: 170",
+                "Time1": "AME",
+                "Time2": "PAL",
+                "Placar": "1 x 4",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 30/07/2023 18:30\r\n                            -  Jogo: 165 \r\n                              \r\n                  1 alteração",
+                "Time1": "GOI",
+                "Time2": "GRE",
+                "Placar": "1 x 1",
+                "Local": "-"
+            }
+        ],
+        "Rodada18": [
+            {
+                "Info_Jogo": "Sáb, 05/08/2023 16:00\r\n                            -  Jogo: 174",
+                "Time1": "SAN",
+                "Time2": "ATH",
+                "Placar": "1 x 1",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 05/08/2023 18:30\r\n                            -  Jogo: 175 \r\n                              \r\n                  1 alteração",
+                "Time1": "GOI",
+                "Time2": "FOR",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 05/08/2023 18:30\r\n                            -  Jogo: 177",
+                "Time1": "INT",
+                "Time2": "COR",
+                "Placar": "2 x 2",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 05/08/2023 21:00\r\n                            -  Jogo: 171",
+                "Time1": "FLU",
+                "Time2": "PAL",
+                "Placar": "2 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 06/08/2023 16:00\r\n                            -  Jogo: 172",
+                "Time1": "VAS",
+                "Time2": "GRE",
+                "Placar": "1 x 0",
+                "Local": "São Januário - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 06/08/2023 16:00\r\n                            -  Jogo: 173",
+                "Time1": "SAO",
+                "Time2": "ATL",
+                "Placar": "0 x 2",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 06/08/2023 18:30\r\n                            -  Jogo: 176",
+                "Time1": "CRU",
+                "Time2": "BOT",
+                "Placar": "0 x 0",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 06/08/2023 18:30\r\n                            -  Jogo: 178 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "RED",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 06/08/2023 18:30\r\n                            -  Jogo: 179 \r\n                              \r\n                  1 alteração",
+                "Time1": "BAH",
+                "Time2": "AME",
+                "Placar": "3 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 06/08/2023 20:00\r\n                            -  Jogo: 180",
+                "Time1": "CUI",
+                "Time2": "FLA",
+                "Placar": "3 x 0",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            }
+        ],
+        "Rodada19": [
+            {
+                "Info_Jogo": "Sáb, 12/08/2023 21:00\r\n                            -  Jogo: 182",
+                "Time1": "BOT",
+                "Time2": "INT",
+                "Placar": "3 x 1",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 13/08/2023 11:00\r\n                            -  Jogo: 186",
+                "Time1": "ATL",
+                "Time2": "BAH",
+                "Placar": "1 x 0",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 13/08/2023 16:00\r\n                            -  Jogo: 190 \r\n                              \r\n                  2 alterações",
+                "Time1": "AME",
+                "Time2": "GOI",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 13/08/2023 16:00\r\n                            -  Jogo: 184",
+                "Time1": "COR",
+                "Time2": "COR",
+                "Placar": "3 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 13/08/2023 16:00\r\n                            -  Jogo: 187",
+                "Time1": "GRE",
+                "Time2": "FLU",
+                "Placar": "2 x 1",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 13/08/2023 18:30\r\n                            -  Jogo: 181",
+                "Time1": "FLA",
+                "Time2": "SAO",
+                "Placar": "1 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 13/08/2023 18:30\r\n                            -  Jogo: 189",
+                "Time1": "FOR",
+                "Time2": "SAN",
+                "Placar": "4 x 0",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Seg, 14/08/2023 19:00\r\n                            -  Jogo: 183 \r\n                              \r\n                  1 alteração",
+                "Time1": "PAL",
+                "Time2": "CRU",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Seg, 14/08/2023 21:00\r\n                            -  Jogo: 185 \r\n                              \r\n                  1 alteração",
+                "Time1": "RED",
+                "Time2": "VAS",
+                "Placar": "1 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Ter, 15/08/2023 20:00\r\n                            -  Jogo: 188 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATH",
+                "Time2": "CUI",
+                "Placar": "2 x 0",
+                "Local": "-"
+            }
+        ],
+        "Rodada20": [
+            {
+                "Info_Jogo": "Sáb, 19/08/2023 16:00\r\n                            -  Jogo: 197 \r\n                              \r\n                  1 alteração",
+                "Time1": "INT",
+                "Time2": "FOR",
+                "Placar": "0 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 19/08/2023 16:00\r\n                            -  Jogo: 193",
+                "Time1": "SAO",
+                "Time2": "BOT",
+                "Placar": "0 x 0",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 19/08/2023 18:30\r\n                            -  Jogo: 191",
+                "Time1": "FLU",
+                "Time2": "AME",
+                "Placar": "3 x 1",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 19/08/2023 18:30\r\n                            -  Jogo: 200",
+                "Time1": "CUI",
+                "Time2": "PAL",
+                "Placar": "0 x 2",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 19/08/2023 21:00\r\n                            -  Jogo: 196",
+                "Time1": "CRU",
+                "Time2": "COR",
+                "Placar": "1 x 1",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 20/08/2023 11:00\r\n                            -  Jogo: 192 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "ATL",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 20/08/2023 16:00\r\n                            -  Jogo: 194",
+                "Time1": "SAN",
+                "Time2": "GRE",
+                "Placar": "2 x 1",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 20/08/2023 16:00\r\n                            -  Jogo: 198",
+                "Time1": "COR",
+                "Time2": "FLA",
+                "Placar": "2 x 3",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 20/08/2023 16:00\r\n                            -  Jogo: 199",
+                "Time1": "BAH",
+                "Time2": "RED",
+                "Placar": "4 x 0",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Seg, 21/08/2023 20:00\r\n                            -  Jogo: 195 \r\n                              \r\n                  1 alteração",
+                "Time1": "GOI",
+                "Time2": "ATH",
+                "Placar": "1 x 1",
+                "Local": "-"
+            }
+        ],
+        "Rodada21": [
+            {
+                "Info_Jogo": "Sáb, 26/08/2023 18:30\r\n                            -  Jogo: 201",
+                "Time1": "FLA",
+                "Time2": "INT",
+                "Placar": "0 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 26/08/2023 21:00\r\n                            -  Jogo: 204",
+                "Time1": "COR",
+                "Time2": "GOI",
+                "Placar": "1 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 11:00\r\n                            -  Jogo: 205",
+                "Time1": "RED",
+                "Time2": "CUI",
+                "Placar": "2 x 0",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 16:00\r\n                            -  Jogo: 206 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "SAN",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 16:00\r\n                            -  Jogo: 210",
+                "Time1": "AME",
+                "Time2": "SAO",
+                "Placar": "2 x 1",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 16:00\r\n                            -  Jogo: 202",
+                "Time1": "BOT",
+                "Time2": "BAH",
+                "Placar": "3 x 0",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 18:30\r\n                            -  Jogo: 203 \r\n                              \r\n                  1 alteração",
+                "Time1": "PAL",
+                "Time2": "VAS",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 18:30\r\n                            -  Jogo: 208 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATH",
+                "Time2": "FLU",
+                "Placar": "2 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 18:30\r\n                            -  Jogo: 209 \r\n                              \r\n                  1 alteração",
+                "Time1": "FOR",
+                "Time2": "COR",
+                "Placar": "3 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 27/08/2023 19:00\r\n                            -  Jogo: 207 \r\n                              \r\n                  1 alteração",
+                "Time1": "GRE",
+                "Time2": "CRU",
+                "Placar": "3 x 0",
+                "Local": "-"
+            }
+        ],
+        "Rodada22": [
+            {
+                "Info_Jogo": "Sáb, 02/09/2023 16:00\r\n                            -  Jogo: 218",
+                "Time1": "ATH",
+                "Time2": "ATL",
+                "Placar": "1 x 1",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 02/09/2023 16:00\r\n                            -  Jogo: 215",
+                "Time1": "GOI",
+                "Time2": "INT",
+                "Placar": "0 x 0",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 02/09/2023 21:00\r\n                            -  Jogo: 212",
+                "Time1": "BOT",
+                "Time2": "FLA",
+                "Placar": "1 x 2",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 03/09/2023 11:00\r\n                            -  Jogo: 217",
+                "Time1": "GRE",
+                "Time2": "CUI",
+                "Placar": "2 x 0",
+                "Local": "Arena do Grêmio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 03/09/2023 16:00\r\n                            -  Jogo: 214",
+                "Time1": "COR",
+                "Time2": "PAL",
+                "Placar": "0 x 0",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 03/09/2023 16:00\r\n                            -  Jogo: 211 \r\n                              \r\n                  1 alteração",
+                "Time1": "FLU",
+                "Time2": "FOR",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 03/09/2023 18:30\r\n                            -  Jogo: 216",
+                "Time1": "CRU",
+                "Time2": "RED",
+                "Placar": "0 x 0",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 03/09/2023 18:30\r\n                            -  Jogo: 219",
+                "Time1": "BAH",
+                "Time2": "VAS",
+                "Placar": "1 x 1",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Dom, 03/09/2023 18:30\r\n                            -  Jogo: 220 \r\n                              \r\n                  1 alteração",
+                "Time1": "AME",
+                "Time2": "SAN",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 27/09/2023 19:00\r\n                            -  Jogo: 213 \r\n                              \r\n                  2 alterações",
+                "Time1": "SAO",
+                "Time2": "COR",
+                "Placar": "2 x 1",
+                "Local": "-"
+            }
+        ],
+        "Rodada23": [
+            {
+                "Info_Jogo": "Qua, 13/09/2023 21:30\r\n                            -  Jogo: 221 \r\n                              \r\n                  1 alteração",
+                "Time1": "FLA",
+                "Time2": "ATH",
+                "Placar": "0 x 3",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 13/09/2023 21:30\r\n                            -  Jogo: 227 \r\n                              \r\n                  1 alteração",
+                "Time1": "INT",
+                "Time2": "SAO",
+                "Placar": "2 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 14/09/2023 19:00\r\n                            -  Jogo: 229 \r\n                              \r\n                  1 alteração",
+                "Time1": "FOR",
+                "Time2": "COR",
+                "Placar": "2 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 14/09/2023 19:00\r\n                            -  Jogo: 224 \r\n                              \r\n                  1 alteração",
+                "Time1": "SAN",
+                "Time2": "CRU",
+                "Placar": "0 x 3",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 14/09/2023 20:00\r\n                            -  Jogo: 228 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "BAH",
+                "Placar": "2 x 4",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 14/09/2023 21:30\r\n                            -  Jogo: 225 \r\n                              \r\n                  1 alteração",
+                "Time1": "RED",
+                "Time2": "GRE",
+                "Placar": "2 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sex, 15/09/2023 20:00\r\n                            -  Jogo: 230",
+                "Time1": "CUI",
+                "Time2": "AME",
+                "Placar": "2 x 2",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Sex, 15/09/2023 21:30\r\n                            -  Jogo: 223",
+                "Time1": "PAL",
+                "Time2": "GOI",
+                "Placar": "1 x 0",
+                "Local": "Allianz Parque - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 16/09/2023 16:00\r\n                            -  Jogo: 222 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "FLU",
+                "Placar": "4 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 16/09/2023 21:00\r\n                            -  Jogo: 226 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "BOT",
+                "Placar": "1 x 0",
+                "Local": "-"
+            }
+        ],
+        "Rodada24": [
+            {
+                "Info_Jogo": "Seg, 18/09/2023 20:00\r\n                            -  Jogo: 239",
+                "Time1": "BAH",
+                "Time2": "SAN",
+                "Placar": "1 x 2",
+                "Local": "Arena Fonte Nova - Salvador - BA\n"
+            },
+            {
+                "Info_Jogo": "Ter, 19/09/2023 21:30\r\n                            -  Jogo: 240",
+                "Time1": "AME",
+                "Time2": "RED",
+                "Placar": "0 x 2",
+                "Local": "Independência - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Qua, 20/09/2023 19:00\r\n                            -  Jogo: 235",
+                "Time1": "GOI",
+                "Time2": "FLA",
+                "Placar": "0 x 0",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Qua, 20/09/2023 21:30\r\n                            -  Jogo: 231 \r\n                              \r\n                  1 alteração",
+                "Time1": "FLU",
+                "Time2": "CRU",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 20/09/2023 21:30\r\n                            -  Jogo: 233 \r\n                              \r\n                  1 alteração",
+                "Time1": "SAO",
+                "Time2": "FOR",
+                "Placar": "1 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 21/09/2023 19:00\r\n                            -  Jogo: 232 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "COR",
+                "Placar": "5 x 1",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 21/09/2023 19:30\r\n                            -  Jogo: 238",
+                "Time1": "ATH",
+                "Time2": "INT",
+                "Placar": "2 x 1",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Qui, 21/09/2023 21:30\r\n                            -  Jogo: 237 \r\n                              \r\n                  1 alteração",
+                "Time1": "GRE",
+                "Time2": "PAL",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sex, 22/09/2023 20:00\r\n                            -  Jogo: 234 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "BOT",
+                "Placar": "1 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 23/09/2023 21:00\r\n                            -  Jogo: 236 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "CUI",
+                "Placar": "1 x 0",
+                "Local": "-"
+            }
+        ],
+        "Rodada25": [
+            {
+                "Info_Jogo": "Sáb, 30/09/2023 16:00\r\n                            -  Jogo: 241",
+                "Time1": "FLA",
+                "Time2": "BAH",
+                "Placar": "1 x 0",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 30/09/2023 16:00\r\n                            -  Jogo: 249",
+                "Time1": "FOR",
+                "Time2": "GRE",
+                "Placar": "1 x 1",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 30/09/2023 18:30\r\n                            -  Jogo: 243",
+                "Time1": "SAO",
+                "Time2": "COR",
+                "Placar": "2 x 1",
+                "Local": "Morumbi - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 30/09/2023 18:30\r\n                            -  Jogo: 250",
+                "Time1": "CUI",
+                "Time2": "FLU",
+                "Placar": "3 x 0",
+                "Local": "Arena Pantanal - Cuiaba - MT\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 30/09/2023 21:00\r\n                            -  Jogo: 247",
+                "Time1": "INT",
+                "Time2": "ATL",
+                "Placar": "0 x 2",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 01/10/2023 16:00\r\n                            -  Jogo: 244",
+                "Time1": "SAN",
+                "Time2": "VAS",
+                "Placar": "4 x 1",
+                "Local": "Vila Belmiro - Santos - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 01/10/2023 16:00\r\n                            -  Jogo: 246",
+                "Time1": "CRU",
+                "Time2": "AME",
+                "Placar": "1 x 1",
+                "Local": "Mineirão - Belo Horizonte - MG\n"
+            },
+            {
+                "Info_Jogo": "Dom, 01/10/2023 16:00\r\n                            -  Jogo: 248",
+                "Time1": "COR",
+                "Time2": "ATH",
+                "Placar": "2 x 0",
+                "Local": "Couto Pereira - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 01/10/2023 18:30\r\n                            -  Jogo: 245",
+                "Time1": "RED",
+                "Time2": "PAL",
+                "Placar": "2 x 1",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\n"
+            },
+            {
+                "Info_Jogo": "Seg, 02/10/2023 20:00\r\n                            -  Jogo: 242",
+                "Time1": "BOT",
+                "Time2": "GOI",
+                "Placar": "1 x 1",
+                "Local": "Nilton Santos - Rio de Janeiro - RJ\n"
+            }
+        ],
+        "Rodada26": [
+            {
+                "Info_Jogo": "Sáb, 07/10/2023 16:00\r\n                            -  Jogo: 255",
+                "Time1": "GOI",
+                "Time2": "BAH",
+                "Placar": "4 x 6",
+                "Local": "Hailé Pinheiro - Goiania - GO\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 07/10/2023 18:30\r\n                            -  Jogo: 252 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "SAO",
+                "Placar": "0 x 0",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 07/10/2023 21:00\r\n                            -  Jogo: 254",
+                "Time1": "COR",
+                "Time2": "FLA",
+                "Placar": "1 x 1",
+                "Local": "Neo Química Arena - Sao Paulo - SP\n"
+            },
+            {
+                "Info_Jogo": "Dom, 08/10/2023 16:00\r\n                            -  Jogo: 257",
+                "Time1": "INT",
+                "Time2": "GRE",
+                "Placar": "3 x 2",
+                "Local": "Beira-Rio - Porto Alegre - RS\n"
+            },
+            {
+                "Info_Jogo": "Dom, 08/10/2023 16:00\r\n                            -  Jogo: 253 \r\n                              \r\n                  1 alteração",
+                "Time1": "PAL",
+                "Time2": "SAN",
+                "Placar": "1 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 08/10/2023 16:00\r\n                            -  Jogo: 251",
+                "Time1": "FLU",
+                "Time2": "BOT",
+                "Placar": "0 x 2",
+                "Local": "Maracanã - Rio de Janeiro - RJ\n"
+            },
+            {
+                "Info_Jogo": "Dom, 08/10/2023 18:30\r\n                            -  Jogo: 256 \r\n                              \r\n                  1 alteração",
+                "Time1": "ATL",
+                "Time2": "COR",
+                "Placar": "1 x 2",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 08/10/2023 18:30\r\n                            -  Jogo: 258",
+                "Time1": "ATH",
+                "Time2": "RED",
+                "Placar": "1 x 1",
+                "Local": "Ligga Arena - Curitiba - PR\n"
+            },
+            {
+                "Info_Jogo": "Dom, 08/10/2023 18:30\r\n                            -  Jogo: 259",
+                "Time1": "FOR",
+                "Time2": "AME",
+                "Placar": "3 x 2",
+                "Local": "Arena Castelão - Fortaleza - CE\n"
+            },
+            {
+                "Info_Jogo": "Sáb, 14/10/2023 21:00\r\n                            -  Jogo: 260 \r\n                              \r\n                  2 alterações",
+                "Time1": "CUI",
+                "Time2": "CRU",
+                "Placar": "21:00",
+                "Local": "Arena Pantanal - Cuiaba - MT\nDetalhes do jogo"
+            }
+        ],
+        "Rodada27": [
+            {
+                "Info_Jogo": "Qua, 18/10/2023 19:00\r\n                            -  Jogo: 267",
+                "Time1": "GRE",
+                "Time2": "ATH",
+                "Placar": "19:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 18/10/2023 20:00\r\n                            -  Jogo: 270 \r\n                              \r\n                  1 alteração",
+                "Time1": "AME",
+                "Time2": "BOT",
+                "Placar": "20:00",
+                "Local": "Independência - Belo Horizonte - MG\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qua, 18/10/2023 20:00\r\n                            -  Jogo: 268",
+                "Time1": "COR",
+                "Time2": "CUI",
+                "Placar": "20:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 18/10/2023 21:30\r\n                            -  Jogo: 262 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "FOR",
+                "Placar": "21:30",
+                "Local": "São Januário - Rio de Janeiro - RJ\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qua, 18/10/2023 21:30\r\n                            -  Jogo: 269",
+                "Time1": "BAH",
+                "Time2": "INT",
+                "Placar": "21:30",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 18/10/2023 21:30\r\n                            -  Jogo: 265 \r\n                              \r\n                  1 alteração",
+                "Time1": "GOI",
+                "Time2": "SAO",
+                "Placar": "21:30",
+                "Local": "Hailé Pinheiro - Goiania - GO\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qui, 19/10/2023 19:00\r\n                            -  Jogo: 263",
+                "Time1": "PAL",
+                "Time2": "ATL",
+                "Placar": "19:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 19/10/2023 19:00\r\n                            -  Jogo: 266",
+                "Time1": "CRU",
+                "Time2": "FLA",
+                "Placar": "19:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 19/10/2023 20:00\r\n                            -  Jogo: 264",
+                "Time1": "SAN",
+                "Time2": "RED",
+                "Placar": "20:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qui, 19/10/2023 21:30\r\n                            -  Jogo: 261 \r\n                              \r\n                  1 alteração",
+                "Time1": "FLU",
+                "Time2": "COR",
+                "Placar": "21:30",
+                "Local": "Maracanã - Rio de Janeiro - RJ\nDetalhes do jogo"
+            }
+        ],
+        "Rodada28": [
+            {
+                "Info_Jogo": "Sáb, 21/10/2023 18:30\r\n                            -  Jogo: 280",
+                "Time1": "CUI",
+                "Time2": "GOI",
+                "Placar": "18:30",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 21/10/2023 18:30\r\n                            -  Jogo: 279",
+                "Time1": "BAH",
+                "Time2": "FOR",
+                "Placar": "18:30",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Sáb, 21/10/2023 18:30\r\n                            -  Jogo: 273 \r\n                              \r\n                  1 alteração",
+                "Time1": "SAO",
+                "Time2": "GRE",
+                "Placar": "18:30",
+                "Local": "Morumbi - Sao Paulo - SP\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Sáb, 21/10/2023 21:00\r\n                            -  Jogo: 272",
+                "Time1": "BOT",
+                "Time2": "ATH",
+                "Placar": "21:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 22/10/2023 16:00\r\n                            -  Jogo: 277",
+                "Time1": "INT",
+                "Time2": "SAN",
+                "Placar": "16:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 22/10/2023 16:00\r\n                            -  Jogo: 276",
+                "Time1": "ATL",
+                "Time2": "CRU",
+                "Placar": "16:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 22/10/2023 16:00\r\n                            -  Jogo: 271",
+                "Time1": "FLA",
+                "Time2": "VAS",
+                "Placar": "16:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 22/10/2023 18:30\r\n                            -  Jogo: 275",
+                "Time1": "RED",
+                "Time2": "FLU",
+                "Placar": "18:30",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Dom, 22/10/2023 18:30\r\n                            -  Jogo: 274 \r\n                              \r\n                  1 alteração",
+                "Time1": "COR",
+                "Time2": "AME",
+                "Placar": "18:30",
+                "Local": "Neo Química Arena - Sao Paulo - SP\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Dom, 22/10/2023 18:30\r\n                            -  Jogo: 278",
+                "Time1": "COR",
+                "Time2": "PAL",
+                "Placar": "18:30",
+                "Local": "-"
+            }
+        ],
+        "Rodada29": [
+            {
+                "Info_Jogo": "Ter, 24/10/2023 19:00\r\n                            -  Jogo: 289 \r\n                              \r\n                  1 alteração",
+                "Time1": "FOR",
+                "Time2": "BOT",
+                "Placar": "19:00",
+                "Local": "Arena Castelão - Fortaleza - CE\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 19:00\r\n                            -  Jogo: 281 \r\n                              \r\n                  1 alteração",
+                "Time1": "FLU",
+                "Time2": "GOI",
+                "Placar": "19:00",
+                "Local": "Raulino de Oliveira - Volta Redonda - RJ\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 19:00\r\n                            -  Jogo: 285 \r\n                              \r\n                  1 alteração",
+                "Time1": "RED",
+                "Time2": "ATL",
+                "Placar": "19:00",
+                "Local": "Nabi Abi Chedid - Braganca Paulista - SP\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 19:00\r\n                            -  Jogo: 288",
+                "Time1": "ATH",
+                "Time2": "AME",
+                "Placar": "19:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 20:00\r\n                            -  Jogo: 286",
+                "Time1": "CRU",
+                "Time2": "BAH",
+                "Placar": "20:00",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 20:00\r\n                            -  Jogo: 283 \r\n                              \r\n                  1 alteração",
+                "Time1": "PAL",
+                "Time2": "SAO",
+                "Placar": "20:00",
+                "Local": "Allianz Parque - Sao Paulo - SP\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 21:30\r\n                            -  Jogo: 287",
+                "Time1": "GRE",
+                "Time2": "FLA",
+                "Placar": "21:30",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "Qua, 25/10/2023 21:30\r\n                            -  Jogo: 290 \r\n                              \r\n                  1 alteração",
+                "Time1": "CUI",
+                "Time2": "COR",
+                "Placar": "21:30",
+                "Local": "Arena Pantanal - Cuiaba - MT\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qui, 26/10/2023 19:00\r\n                            -  Jogo: 282 \r\n                              \r\n                  1 alteração",
+                "Time1": "VAS",
+                "Time2": "INT",
+                "Placar": "19:00",
+                "Local": "São Januário - Rio de Janeiro - RJ\nDetalhes do jogo"
+            },
+            {
+                "Info_Jogo": "Qui, 26/10/2023 21:30\r\n                            -  Jogo: 284 \r\n                              \r\n                  1 alteração",
+                "Time1": "SAN",
+                "Time2": "COR",
+                "Placar": "21:30",
+                "Local": "Vila Belmiro - Santos - SP\nDetalhes do jogo"
+            }
+        ],
+        "Rodada30": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 292",
+                "Time1": "BOT",
+                "Time2": "CUI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 293",
+                "Time1": "PAL",
+                "Time2": "BAH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 294",
+                "Time1": "COR",
+                "Time2": "SAN",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 295",
+                "Time1": "GOI",
+                "Time2": "VAS",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 296",
+                "Time1": "ATL",
+                "Time2": "FLU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 297",
+                "Time1": "INT",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 298",
+                "Time1": "ATH",
+                "Time2": "SAO",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 299",
+                "Time1": "FOR",
+                "Time2": "CRU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 300",
+                "Time1": "AME",
+                "Time2": "GRE",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 291",
+                "Time1": "FLA",
+                "Time2": "RED",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada31": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 301",
+                "Time1": "FLA",
+                "Time2": "SAN",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 302",
+                "Time1": "BOT",
+                "Time2": "PAL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 303",
+                "Time1": "SAO",
+                "Time2": "CRU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 304",
+                "Time1": "COR",
+                "Time2": "ATH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 305",
+                "Time1": "GOI",
+                "Time2": "RED",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 306",
+                "Time1": "ATL",
+                "Time2": "FOR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 307",
+                "Time1": "INT",
+                "Time2": "AME",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 308",
+                "Time1": "COR",
+                "Time2": "GRE",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 309",
+                "Time1": "BAH",
+                "Time2": "FLU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 310",
+                "Time1": "CUI",
+                "Time2": "VAS",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada32": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 317",
+                "Time1": "GRE",
+                "Time2": "BAH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 318",
+                "Time1": "COR",
+                "Time2": "GOI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 319",
+                "Time1": "FOR",
+                "Time2": "FLA",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 320",
+                "Time1": "AME",
+                "Time2": "ATL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 315",
+                "Time1": "RED",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 316",
+                "Time1": "CRU",
+                "Time2": "INT",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 314",
+                "Time1": "SAN",
+                "Time2": "CUI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 313",
+                "Time1": "PAL",
+                "Time2": "ATH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 311",
+                "Time1": "FLU",
+                "Time2": "SAO",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 312",
+                "Time1": "VAS",
+                "Time2": "BOT",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada33": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 326",
+                "Time1": "CRU",
+                "Time2": "VAS",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 321",
+                "Time1": "FLA",
+                "Time2": "PAL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 322",
+                "Time1": "BOT",
+                "Time2": "GRE",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 323",
+                "Time1": "SAO",
+                "Time2": "RED",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 324",
+                "Time1": "COR",
+                "Time2": "ATL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 325",
+                "Time1": "GOI",
+                "Time2": "SAN",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 327",
+                "Time1": "INT",
+                "Time2": "FLU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 328",
+                "Time1": "ATH",
+                "Time2": "FOR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 329",
+                "Time1": "BAH",
+                "Time2": "CUI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 330",
+                "Time1": "AME",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada34": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 331",
+                "Time1": "FLA",
+                "Time2": "FLU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 332",
+                "Time1": "VAS",
+                "Time2": "AME",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 333",
+                "Time1": "PAL",
+                "Time2": "INT",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 334",
+                "Time1": "SAN",
+                "Time2": "SAO",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 335",
+                "Time1": "RED",
+                "Time2": "BOT",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 336",
+                "Time1": "ATL",
+                "Time2": "GOI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 338",
+                "Time1": "COR",
+                "Time2": "CRU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 337",
+                "Time1": "GRE",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 339",
+                "Time1": "BAH",
+                "Time2": "ATH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 340",
+                "Time1": "CUI",
+                "Time2": "FOR",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada35": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 349",
+                "Time1": "FOR",
+                "Time2": "PAL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 341",
+                "Time1": "FLU",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 342",
+                "Time1": "BOT",
+                "Time2": "SAN",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 343",
+                "Time1": "SAO",
+                "Time2": "CUI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 344",
+                "Time1": "COR",
+                "Time2": "BAH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 345",
+                "Time1": "GOI",
+                "Time2": "CRU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 346",
+                "Time1": "ATL",
+                "Time2": "GRE",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 348",
+                "Time1": "ATH",
+                "Time2": "VAS",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 347",
+                "Time1": "INT",
+                "Time2": "RED",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 350",
+                "Time1": "AME",
+                "Time2": "FLA",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada36": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 360",
+                "Time1": "CUI",
+                "Time2": "INT",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 359",
+                "Time1": "BAH",
+                "Time2": "SAO",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 351",
+                "Time1": "FLA",
+                "Time2": "ATL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 352",
+                "Time1": "VAS",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 353",
+                "Time1": "PAL",
+                "Time2": "AME",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 354",
+                "Time1": "SAN",
+                "Time2": "FLU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 355",
+                "Time1": "RED",
+                "Time2": "FOR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 356",
+                "Time1": "CRU",
+                "Time2": "ATH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 357",
+                "Time1": "GRE",
+                "Time2": "GOI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 358",
+                "Time1": "COR",
+                "Time2": "BOT",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada37": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 370",
+                "Time1": "AME",
+                "Time2": "BAH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 364",
+                "Time1": "COR",
+                "Time2": "INT",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 365",
+                "Time1": "RED",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 366",
+                "Time1": "ATL",
+                "Time2": "SAO",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 367",
+                "Time1": "GRE",
+                "Time2": "VAS",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 368",
+                "Time1": "ATH",
+                "Time2": "SAN",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 369",
+                "Time1": "FOR",
+                "Time2": "GOI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 361",
+                "Time1": "FLA",
+                "Time2": "CUI",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 362",
+                "Time1": "BOT",
+                "Time2": "CRU",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 363",
+                "Time1": "PAL",
+                "Time2": "FLU",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ],
+        "Rodada38": [
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 380",
+                "Time1": "CUI",
+                "Time2": "ATH",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 371",
+                "Time1": "FLU",
+                "Time2": "GRE",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 372",
+                "Time1": "VAS",
+                "Time2": "RED",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 373",
+                "Time1": "SAO",
+                "Time2": "FLA",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 374",
+                "Time1": "SAN",
+                "Time2": "FOR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 375",
+                "Time1": "GOI",
+                "Time2": "AME",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 376",
+                "Time1": "CRU",
+                "Time2": "PAL",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 377",
+                "Time1": "INT",
+                "Time2": "BOT",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 378",
+                "Time1": "COR",
+                "Time2": "COR",
+                "Placar": "x",
+                "Local": "-"
+            },
+            {
+                "Info_Jogo": "A definir                            -  Jogo: 379",
+                "Time1": "BAH",
+                "Time2": "ATL",
+                "Placar": "x",
+                "Local": "-"
+            }
+        ]
+    }
+}

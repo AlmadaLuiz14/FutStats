@@ -1,8 +1,10 @@
 <template>
   <div class="round-table">
-    <p></p>
-    <p></p>
     <h2>{{ currentRound }}ª Rodada</h2>
+    <div class="button-container">
+    <button @click="previousRound">Rodada Anterior</button>
+    <button @click="nextRound">Próxima Rodada</button>
+    </div>
     <table>
       <thead>
         <tr>
@@ -14,110 +16,42 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(match, index) in matches" :key="index">
-          <td>{{ match.stadium }}</td>
-          <td>{{ match.date }} {{ match.time }}</td>
-          <td>{{ match.homeTeam }}</td>
-          <td>{{ match.homeScore }} - {{ match.awayScore }}</td>
-          <td>{{ match.awayTeam }}</td>
+        <tr v-for="(match, index) in matches['Rodada' + currentRound]" :key="index">
+          <td>{{ match.Local }}</td>
+          <td>{{ match.Info_Jogo }}</td>
+          <td>{{ match.Time1 }}</td>
+          <td>{{ match.Placar }}</td>
+          <td>{{ match.Time2 }}</td>
         </tr>
       </tbody>
     </table>
   </div>
 </template>
 
-
 <script>
+import jogosinfo from '../../jogos_rodada.json';
+
 export default {
   name: 'RoundTable',
   data() {
     return {
-      currentRound: 23, // Rodada atual
-      matches: [
-        {
-          stadium: 'Kleber Andrade',
-          date: '13/09',
-          time: '21:30',
-          homeTeam: 'Flamengo',
-          homeScore: 0,
-          awayScore: 3,
-          awayTeam: 'Athletico-PR'
-        },
-        {
-          stadium: 'Beira-Rio',
-          date: '13/09',
-          time: '21:30',
-          homeTeam: 'Internacional',
-          homeScore: 2,
-          awayScore: 1,
-          awayTeam: 'São Paulo'
-        },
-        {
-          stadium: 'Vila Belmiro',
-          date: 'Hoje',
-          time: '19:00',
-          homeTeam: 'Santos',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Cruzeiro'
-        },
-        {
-          stadium: 'Maracanã',
-          date: '14/09',
-          time: '20:00',
-          homeTeam: 'Fluminense',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Grêmio'
-        },
-        {
-          stadium: 'Mineirão',
-          date: '14/09',
-          time: '20:30',
-          homeTeam: 'Atlético-MG',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Bahia'
-        },
-        {
-          stadium: 'Arena Fonte Nova',
-          date: '15/09',
-          time: '19:15',
-          homeTeam: 'Vitória',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Corinthians'
-        },
-        {
-          stadium: 'Arena Castelão',
-          date: '15/09',
-          time: '21:30',
-          homeTeam: 'Fortaleza',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Palmeiras'
-        },
-        {
-          stadium: 'Estádio Nilton Santos',
-          date: '16/09',
-          time: '20:00',
-          homeTeam: 'Botafogo',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Flamengo'
-        },
-        {
-          stadium: 'Arena da Baixada',
-          date: '16/09',
-          time: '21:00',
-          homeTeam: 'Athletico-PR',
-          homeScore: null,
-          awayScore: null,
-          awayTeam: 'Internacional'
-        }
-      ]
+      currentRound: 25, // Comece com a 27 rodada.
+      matches: jogosinfo.jogosinfo,
     };
-  }
+  },
+  methods: {
+    nextRound() {
+      const roundKeys = Object.keys(this.matches);
+      if (this.currentRound < roundKeys.length) {
+        this.currentRound++;
+      }
+    },
+    previousRound() {
+      if (this.currentRound > 1) {
+        this.currentRound--;
+      }
+    },
+  },
 };
 </script>
 
@@ -130,6 +64,26 @@ export default {
   justify-content: center;
   padding: 20px;
   height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 80%; /* Alinhe a container de botões com a largura da tabela */
+  margin-bottom: 10px; /* Adicione um espaço entre a container de botões e o título da rodada */
+}
+
+.button-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 /* Estilos para a tabela */

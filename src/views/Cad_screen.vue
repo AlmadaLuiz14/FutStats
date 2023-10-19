@@ -31,14 +31,13 @@
                 </div>
                 
                 <div class='justify-center'>
-                    <!--<button onclick='cadastrar()'>Cadastrar</button>-->
                     <input type="submit" class="submit-btn" value="Cadastrar">
                     <p v-if="senhasDiferentes" class="verifSenhas">As senhas não coincidem</p>
                 </div>
         
             </form>
         </div>
-        <div class="additional-card">
+        <div class="additional-card1">
             <h2>Por que ser um membro FutStats?</h2>
             <p>Ao se juntar ao nosso grupo,</p> 
             <p>você terá acesso a notícias</p>
@@ -75,6 +74,24 @@
                         senha: this.senha
                     }
 
+                    const dataContas = await fetch("http://localhost:3000/usuarios", {
+                      method: "GET",
+                      headers: {"Content-Type": "application/json"}
+                    })
+
+                    const contas = await dataContas.json()
+
+                    for(let i = 0; i < contas.length; i++){
+                      if(this.email === contas[i]["email"]){
+                        alert("Seu email já está registrado")
+                        this.nome = ""
+                        this.email = ""
+                        this.senha = ""
+                        this.confirmSenha = "" 
+                        return
+                      }
+                    } 
+
                     const dataJson = JSON.stringify(data)
 
                     const req = await fetch("http://localhost:3000/usuarios", {
@@ -93,6 +110,7 @@
                     this.confirmSenha = "" 
 
                     alert("Cadastro realizado com sucesso!")
+                    this.$router.replace("/")
                 }
             },
 
@@ -111,27 +129,36 @@
 
 <style scoped>
 .container {
-  width: 120vh;
+  width: 60vw;
   height: 100vh;
   opacity: 0.93;
   background: #C0C0C0;
   padding: 25px;
   align-items: center;
   display: flex;
-  align-items: center;
   justify-content: left;
+}
+
+.additional-card1 {
+  width: 40vw;
+  height: 100vh;
+  background: #D8D8D8;
+  position: absolute;
+  left: 55.71vw;
+  padding: 25px;
+  text-align: center;
 }
 .card{
   position: absolute;
-  top: 240px;
-  left: 350px;
+  top: 80px; /*240*/
+  left: 250px; /*350*/
   font-family: 'Inter';
   font-size: 36px;
 }
 .card1{
   position: absolute;
-  top: 280px;
-  left: 370px;
+  top: 120px;
+  left: 277px;
   font-family: 'Inter';
   font-size: 36px;
 }
@@ -139,8 +166,8 @@
 .label-float {
   width: 80vh;
   height: 30px;
-  top: 190px;
-  left: 184px;
+  top: 80px;
+  left: 100px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -171,8 +198,9 @@
   color: #fff;
   font-size: 16px;
   padding: 10px 250px;
-  margin-top: 250px;
-  margin-left: 185px;
+  margin-top: 195px;
+  margin-left: 106px;
+  margin-bottom: 100px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -202,7 +230,7 @@
 .additional-card {
   height: 103vh;
   width: 76vh;
-  top: 5vh;
+  top: 5.2vh;
   left: 126vh;
   padding: 15px;
   background: #D8D8D8;
@@ -210,19 +238,19 @@
   position: absolute;
 }
 
-.additional-card h2 {
+.additional-card1 h2 {
   font-size: 40px;
   margin-bottom: 30px;
   font-family: 'Inter';
 }
 
-.additional-card p {
+.additional-card1 p {
   font-size: 24px;
   margin-bottom: 10px;
   font-family: 'Inter';
 }
 
-.additional-card img {
+.additional-card1 img {
   margin-top: 50px;
   max-width: 50%;
   height: auto;

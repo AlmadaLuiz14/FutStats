@@ -11,6 +11,24 @@
       "email": "carlos@gmail.com",
       "senha": "abc",
       "id": 2
+    },
+    {
+      "nome": "Luiz",
+      "email": "luiz@gmail.com",
+      "senha": "abc",
+      "id": 3
+    },
+    {
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "senha": "ab",
+      "id": 4
+    },
+    {
+      "nome": "Cesar",
+      "email": "cesar@gmail.com",
+      "senha": "abc",
+      "id": 5
     }
   ]
 }

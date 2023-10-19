@@ -1,0 +1,1357 @@
+{
+    "artilharia": [
+        {
+            "Nome": "Francisco das Chagas Soares dos Santos",
+            "Time": "Botafogo - RJ",
+            "Gols": "15"
+        },
+        {
+            "Nome": "Marcos Leonardo Santos Almeida",
+            "Time": "Santos - SP",
+            "Gols": "12"
+        },
+        {
+            "Nome": "Vitor Hugo Roque Ferreira",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "11"
+        },
+        {
+            "Nome": "Paulo Henrique Sampaio Filho",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "10"
+        },
+        {
+            "Nome": "Deyverson Brum Silva",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "9"
+        },
+        {
+            "Nome": "Givanildo Vieira de Sousa",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "9"
+        },
+        {
+            "Nome": "Jonathan Calleri",
+            "Time": "São Paulo - SP",
+            "Gols": "9"
+        },
+        {
+            "Nome": "Luis Alberto Suarez Diaz",
+            "Time": "Grêmio - RS",
+            "Gols": "9"
+        },
+        {
+            "Nome": "Juan Martin Lucero",
+            "Time": "Fortaleza - CE",
+            "Gols": "7"
+        },
+        {
+            "Nome": "Pablo Ezequiel Vegetti",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "7"
+        },
+        {
+            "Nome": "German Ezequiel Cano",
+            "Time": "Fluminense - RJ",
+            "Gols": "7"
+        },
+        {
+            "Nome": "Eduardo Colcenti Antunes",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "7"
+        },
+        {
+            "Nome": "Raphael Cavalcante Veiga",
+            "Time": "Palmeiras - SP",
+            "Gols": "7"
+        },
+        {
+            "Nome": "Roger Krug Guedes",
+            "Time": "Corinthians - SP",
+            "Gols": "7"
+        },
+        {
+            "Nome": "Gabriel Fortes Chaves",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "6"
+        },
+        {
+            "Nome": "Pedro Guilherme Abreu dos Santos",
+            "Time": "Flamengo - RJ",
+            "Gols": "6"
+        },
+        {
+            "Nome": "Gonzalo Mathias Mastriani Borges",
+            "Time": "America Saf - MG",
+            "Gols": "6"
+        },
+        {
+            "Nome": "Thiago Nicolas Borbas Silva",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "6"
+        },
+        {
+            "Nome": "Franco Sebastian Cristaldo",
+            "Time": "Grêmio - RS",
+            "Gols": "6"
+        },
+        {
+            "Nome": "Everaldo Stum",
+            "Time": "Bahia - BA",
+            "Gols": "6"
+        },
+        {
+            "Nome": "Endrick Felipe Moreira de Sousa",
+            "Time": "Palmeiras - SP",
+            "Gols": "5"
+        },
+        {
+            "Nome": "John Steven Mendoza Valencia",
+            "Time": "Santos - SP",
+            "Gols": "5"
+        },
+        {
+            "Nome": "Guilherme Costa Marques",
+            "Time": "Goiás - GO",
+            "Gols": "5"
+        },
+        {
+            "Nome": "Gabriel Barbosa Almeida",
+            "Time": "Flamengo - RJ",
+            "Gols": "5"
+        },
+        {
+            "Nome": "Artur Victor Guimaraes",
+            "Time": "Palmeiras - SP",
+            "Gols": "5"
+        },
+        {
+            "Nome": "Yuri Alberto Monteiro da Silva",
+            "Time": "Corinthians - SP",
+            "Gols": "5"
+        },
+        {
+            "Nome": "Luciano da Rocha Neves",
+            "Time": "São Paulo - SP",
+            "Gols": "5"
+        },
+        {
+            "Nome": "Glaybson Yago Souza Lisbôa",
+            "Time": "Fortaleza - CE",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Vinicius Moreira de Lima",
+            "Time": "Fluminense - RJ",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Bruno Rafael Rodrigues do Nascimento",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Ronielson da Silva Barbosa",
+            "Time": "Palmeiras - SP",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Giorgian Daniel de Arrascaeta Benedetti",
+            "Time": "Flamengo - RJ",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Wesley Ribeiro Silva",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Pablo Felipe Teixeira",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Gerson Santos da Silva",
+            "Time": "Flamengo - RJ",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Carlos Eduardo de Oliveira Alves",
+            "Time": "Botafogo - RJ",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Thiago Galhardo do Nascimento Rocha",
+            "Time": "Fortaleza - CE",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Felipe Azevedo dos Santos",
+            "Time": "America Saf - MG",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Joao Paulo de Souza Mares",
+            "Time": "Grêmio - RS",
+            "Gols": "4"
+        },
+        {
+            "Nome": "John Kennedy Batista de Souza",
+            "Time": "Fluminense - RJ",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Christian Roberto Alves Cardoso",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Luis Henrique Tomaz de Lima",
+            "Time": "Botafogo - RJ",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Wanderson Maciel Sousa Campos",
+            "Time": "Internacional - RS",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Gabriel Teixeira Aragao",
+            "Time": "Bahia - BA",
+            "Gols": "4"
+        },
+        {
+            "Nome": "Thaciano Mickael da Silva",
+            "Time": "Bahia - BA",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Ademir da Silva Santos Junior",
+            "Time": "Bahia - BA",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Islam Slimani",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Cristian David Pavon",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Mathias Adalberto Villasanti Rolon",
+            "Time": "Grêmio - RS",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Jose Antonio dos Santos Junior",
+            "Time": "Botafogo - RJ",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Mauricio Magalhaes Prado",
+            "Time": "Internacional - RS",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Moises Vieira da Veiga",
+            "Time": "Fortaleza - CE",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Aloisio dos Santos Goncalves",
+            "Time": "America Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Fabio Santos Romeu",
+            "Time": "Corinthians - SP",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Danilo Fernando Avelar",
+            "Time": "America Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Paulo Henrique Chagas de Lima",
+            "Time": "Fluminense - RJ",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Gilberto Oliveira Souza Junior",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Eduardo Pereira Rodrigues",
+            "Time": "Palmeiras - SP",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Robson dos Santos Fernandes",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Leonardo Pereira",
+            "Time": "Flamengo - RJ",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Vitor Frezarin Bueno",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Joao Victor Santos Sa",
+            "Time": "Botafogo - RJ",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Joao Victo Magno de Souza Machado",
+            "Time": "Goiás - GO",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Ayrton Lucas Dantas de Medeiros",
+            "Time": "Flamengo - RJ",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Lucas Halter",
+            "Time": "Goiás - GO",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Everton Galdino Moreira",
+            "Time": "Grêmio - RS",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Erick Luis Conrado Carvalho",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Joao Pedro Maturano dos Santos",
+            "Time": "Grêmio - RS",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Clayson Henrique da Silva Vieira",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Jair Rodrigues Junior",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Adilson dos Anjos Oliveira",
+            "Time": "America Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Rafael Rogerio da Silva",
+            "Time": "Bahia - BA",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Alex Paulo Menezes Santana",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "3"
+        },
+        {
+            "Nome": "Marlon Rodrigues Xavier",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Matheus Barcelos da Silva",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Arthur Gomes Lourenco",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Vitor Hugo Naum dos Santos",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Breno Henrique Vasconcelos Lopes",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Murilo Cerqueira Paim",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Fernando Pereira do Nascimento",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Bruno Henrique Pinto",
+            "Time": "Flamengo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Luis Antonio da Rocha Junior",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Everton Sousa Soares",
+            "Time": "Flamengo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Marcilio Florencio Mota Filho",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Matheus Vieira Campos Peixoto",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Alesson dos Santos Batista",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Gabriel Vinicius Menino",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Pedro Raul Garay da Silva",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "David Correa da Fonseca",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Marcos Paulo Costa do Nascimento",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Eric dos Santos Rodrigues",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Helio Junio Nunes de Castro",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Carlos de Menezes Junior",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Leanderson da Silva Genesio",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Raniele Almeida Melo",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Joao Lucas de Souza Cardoso",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Magno Jose da Silva",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Bruno Ferreira Melo",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Victor Luis Chuab Zamblauskas",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Maycon de Andrade Barberan",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Gustavo Affonso Sauerbeck",
+            "Time": "Botafogo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Bruno de Jesus Pacheco",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Caio Alexandre Sousa E Silva",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Hyoran Kaue Dalmoro",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Carlos Gilberto do Nascimento Silva",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Diego da Silva Costa",
+            "Time": "Botafogo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Everton Augusto de Barros Ribeiro",
+            "Time": "Flamengo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Alexandre Rodrigues da Silva",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Luiz Adriano Souza da Silva",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Willian Gomes de Siqueira",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Bruno Gonçalves de Jesus",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Rodrigo Santos Varanda",
+            "Time": "America Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Carlos Alberto Gomes da Silva Filho",
+            "Time": "Botafogo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Angelo Gabriel Borges Damaceno",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Pablo Gonçalves Maia Fortunato",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Jhon Adolfo Arias Andrade",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Ruan de Oliveira Ferreira",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Deivid Washington de Souza Eugenio",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Fabricio Tomas Bustos Sein",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Silvio Ezequiel Romero",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Jose Manuel Alberto Lopez",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Erick Antonio Pulgar Farfan",
+            "Time": "Flamengo - RJ",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Agustin Canobbio Graviz",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Carlos Maria de Pena Bonino",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Andre Henrique da Silva Martins",
+            "Time": "Grêmio - RS",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Marcos Vinicios Lopes Moura",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Richard Rios Montoya",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Imanol Javier Machuca",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Tomás Eduardo Rincón Hernández",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Sebastian Gomez Londono",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Julio Cesar Furch",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Tomas Pochettino",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Henry David Mosquera Sanchez",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Vinicius Alessandro Mingotti",
+            "Time": "Bahia - BA",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Cauly Oliveira Souza",
+            "Time": "Bahia - BA",
+            "Gols": "2"
+        },
+        {
+            "Nome": "Francisco Vitor Silva Costa",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Bruno Conceicao Praxedes",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Julio Cesar de Rezende Miranda",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Diogo Barbosa Mendanha",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "David de Duarte Macedo",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Enner Remberto Valencia Lastra",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Leonardo Cecilio Fernandez Lopez",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Camilo Damian Candido Aquino",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alan Javier Franco",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Paolo Mauricio Lemos Merladett",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Leonel Di Placido",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Bruno Zapelli",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "James David Rodriguez Rubio",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Mario Sergio Santos Costa",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Vitor Hugo Franchescoli de Souza",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Wesley Gassova Ribeiro Teixeira",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Andrey Nascimento dos Santos",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Yeferson Julio Soteldo Martinez",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Talisson de Almeida",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Hercules Pereira do Nascimento",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Wesley Vinicius França Lima",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Michel Daryl Araujo Villar",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Martin Nicolas Benitez",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Pedro Henrique Silva dos Santos",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matias Galarza Fonda",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Federico Matias Zaracho",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Benjamin Kuscevic Jaramillo",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alan Pereira Empereur",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Felipe Ignacio Carballo Ares",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rodrigo Fernandez Cedres",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Isidro Miguel Pitta Saldivar",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gabriel Neves Perdomo",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Jadsom Meemyas de Oliveira da Silva",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Lucas Lopes Beraldo",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus Henrique Bianqui",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Renato Marques de Oliveira Junior",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Diogo de Oliveira Barbosa",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus de Araujo Andrade",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Juan Santos da Silva",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gabriel Cordeiro Pirani",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Nathan Gabriel de Souza Mendes",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rodrigo Henrique Santos de Souza",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus Nascimento de Paula",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Luis Eduardo Soares da Silva",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus França de Oliveira",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Erick Marcus dos Santos Oliveira do Carmo",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Cauan Lucas Barros da Luz",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gustavo Martins de Souza Santos",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gustavo Raul Gomez Portillo",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gustavo Ribeiro Neves",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rayan Vitor Simplício Rocha",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "João Batista da Cruz Santos Neto",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Ronald Cardoso Falkoski",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rikelme Hernandes Amorim Rocha",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Victor Hugo Gomes Silva",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Victor Leandro Cuesta",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Breno Cascardo Lemos",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "David Luiz Moreira Marinho",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Luiz Diallisson de Souza Alves",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Marcelo Vieira da Silva Junior",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Renato Soares de Oliveira Augusto",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Felipe Melo de Carvalho",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Wellington Pereira do Nascimento",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Fernando Luiz Roza",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alan Kardec de Souza Pereira Junior",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alan Douglas Borges de Carvalho",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Giuliano Victor de Paula",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Bruno Henrique Corsini",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Luciano Castan da Silva",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Samuel Xavier Brito",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Vinicius Goes Barbosa de Souza",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Ramiro Moschen Benetti",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Bruno Uvini Bortolanca",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Jose Henrique da Silva Dourado",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Lucas Rodrigues Moura da Silva",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Marllon Goncalves Jeronimo Borges",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Eduardo Gabriel dos Santos Bauermann",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Pedro Henrique Konzen Medina da Silva",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alan Patrick Lourenço",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Wellington Alves da Silva",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Maycon Vinicius Ferreira da Cruz",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gilberto Moraes Junior",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Eduardo Nascimento da Silva Junior",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Luan Garcia Teixeira",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Gustavo Henric da Silva",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Danilo das Neves Pinheiro",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alexandre Egea",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Mayke Rocha de Oliveira",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "José Welison da Silva",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rosicley Pereira da Silva",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Claudio Rodrigues Gomes",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus Fernandes Siqueira",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Madson Ferreira dos Santos",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Joao Pedro Vilardi Pinto",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Lucas Rafael Araujo Lima",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Reinaldo Manoel da Silva",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Nathan Allan de Souza",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Lucas Evangelista Santana de Oliveira",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Jean Dias da Costa",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Sergio Antonio da Luz Junior",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rene Rodrigues Martins",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Jose Rafael Vivian",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus Alexandre Anastacio de Souza",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rodrigo Nestor Bertalia",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus Martinelli Lima",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Denilson Alves Borges",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Romulo Zanre Zwarg",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Bruno Gomes da Silva Clevelario",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Luan Candido de Almeida",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Eduardo Jesus Vargas Rojas",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alexandre Zurawski",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alef Mangueira Severino Pereira",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Everton Morelli Casimiro",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Mateus da Silva Duarte",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Everaldo Silva do Nascimento",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Aldemir dos Santos Ferreira",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rafael Navarro Leal",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Angel Rodrigo Romero Villamayor",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Vinicius Rodrigues Adelino dos Santos",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Adryelson Shawann Lima Silva",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Alerrandro Barra Mansa Realino de Souza",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Ronald dos Santos Lopes",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Luiz Filipe da Rosa Machado",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Andrey Ramos do Nascimento",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Nicolas Vichiatto da Silva",
+            "Time": "America Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Rafael Elias da Silva",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Eduardo Gonzaga Mendes Santos",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Jose Gabriel dos Santos Silva",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Lucas Verissimo da Silva",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Matheus Isaias dos Santos",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Igor Silveira Gomes",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Guilherme de Jesus da Silva",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Lucas da Cruz Oliveira",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Pedro Henrique Ribeiro Goncalves",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Danilo Barbosa da Silva",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "Nome": "Ver tabela completa"
+        }
+    ]
+}
