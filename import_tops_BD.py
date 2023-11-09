@@ -41,7 +41,7 @@ def salvar_dados_no_postgresql(dados_arbitros):
     conn = psycopg2.connect(
         database="FutStats",
         user="postgres",
-        password="84650052",
+        password="postG000",
         host="localhost",
         port="5432"
     )

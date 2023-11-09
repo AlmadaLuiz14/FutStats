@@ -64,7 +64,7 @@ def salvar_dados_no_postgresql(dados_equipes):
     conn = psycopg2.connect(
         database="FutStats",
         user="postgres",
-        password="84650052",
+        password="postG000",
         host="localhost",
         port="5432"
     )
@@ -73,6 +73,24 @@ def salvar_dados_no_postgresql(dados_equipes):
 
     # Substitua "nome_da_sua_tabela" pelo nome da sua tabela no PostgreSQL
     tabela = "classificacao_2023"
+
+    cursor.execute(f"""
+        CREATE TABLE IF NOT EXISTS {tabela} (
+            Classificacao TEXT,
+            Nome TEXT,
+            Pontos TEXT,
+            Jogos TEXT,
+            Vitórias TEXT,
+            Empates TEXT,
+            Derrotas TEXT,
+            Gols_Pros TEXT,
+            Gols_Contra TEXT,
+            Saldo_de_Gols TEXT,
+            Cartoes_Amarelos TEXT,
+            Cartoes_Vermelhos TEXT,
+            Porcentagem_de_Vitorias TEXT
+        )
+    """)    
 
     # Inserir os dados na tabela
     for dados in dados_equipes:

@@ -6,16 +6,16 @@
         <thead>
           <tr>
             <th>Rank</th>
-            <th>Time</th>
             <th>Jogador</th>
+            <th>Time</th>
             <th>Gols</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="(player, index) in artilharia" :key="index">
             <td>{{ index + 1 }}</td>
-            <td>{{ player.Time }}</td>
             <td>{{ player.Nome }}</td>
+            <td>{{ player.Time }}</td>
             <td>{{ player.Gols }}</td>
           </tr>
         </tbody>

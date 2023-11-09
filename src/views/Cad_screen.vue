@@ -50,79 +50,62 @@
 </template>
 
 <script>
+  import axios from 'axios';
 
-    export default {
-        nome: "usuarios",
-        data() {
-            return {
-                nome: null,
-                email: null,
-                senha: null,
-                confirmSenha: null,
-                senhasDiferentes: false
+  export default {
+    nome: "usuarios",
+    data() {
+      return {
+        nome: null,
+        email: null,
+        senha: null,
+        confirmSenha: null,
+        senhasDiferentes: false
+      }
+    },
+
+    methods: {
+      async cadastrar(e){
+        if(this.checarSenhas() === false){
+          e.preventDefault()
+      
+          const data = {
+            email: this.email,
+            nome: this.nome,
+            senha: this.senha
+          }
+
+          try{
+            const response = await axios.post("http://127.0.0.1:5000/api/usuario", data)
+            console.log(response);
+
+            alert("Cadastro realizado com sucesso!")
+            this.$router.replace("/Login") //Se conseguir fazer logar automaticamente depois de cadastrar, mudar o replece para ("/")
+          
+          }catch(error){
+            if (error['message'] === "Request failed with status code 501"){
+              alert("Este email já esta cadastrado")
+              this.nome = ""
+              this.email = ""
+              this.senha = ""
+              this.confirmSenha = ""
+            }else{
+              console.log(error);
+              //console.log("Erro ao cadastrar", error);
             }
-        },
-
-        methods: {
-            async cadastrar(e){
-                if(this.checarSenhas() === false){
-                    e.preventDefault()
-                    
-                    const data = {
-                        nome: this.nome,
-                        email: this.email,
-                        senha: this.senha
-                    }
-
-                    const dataContas = await fetch("http://localhost:3000/usuarios", {
-                      method: "GET",
-                      headers: {"Content-Type": "application/json"}
-                    })
-
-                    const contas = await dataContas.json()
-
-                    for(let i = 0; i < contas.length; i++){
-                      if(this.email === contas[i]["email"]){
-                        alert("Seu email já está registrado")
-                        this.nome = ""
-                        this.email = ""
-                        this.senha = ""
-                        this.confirmSenha = "" 
-                        return
-                      }
-                    } 
-
-                    const dataJson = JSON.stringify(data)
-
-                    const req = await fetch("http://localhost:3000/usuarios", {
-                        method: "POST",
-                        headers: {"Content-Type": "application/json"},
-                        body: dataJson
-                    })
-
-                    const res = await req.json()
-                    res
-                    //console.log(res)
-
-                    this.nome = ""
-                    this.email = ""
-                    this.senha = ""
-                    this.confirmSenha = "" 
-
-                    alert("Cadastro realizado com sucesso!")
-                    this.$router.replace("/")
-                }
-            },
-
-            checarSenhas(){
-                if(this.senha === this.confirmSenha){
-                    return this.senhasDiferentes = false
-                }else{
-                    return this.senhasDiferentes = true
-                }
-            }
+          }
         }
+      },
+
+      checarSenhas(){
+        if(this.senha === this.confirmSenha){
+          return this.senhasDiferentes = false
+        }else{
+          return this.senhasDiferentes = true
+        }
+      }
     }
+  }
 
 </script>
 

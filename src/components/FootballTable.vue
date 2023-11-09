@@ -21,17 +21,17 @@
       </thead>
       <tbody>
         <tr v-for="(team, index) in tabela" :key="index">
-          <td>{{ team.Classificação }}</td>
-          <td>{{ team.Nome }}</td>
-          <td>{{ team.Pontos }}</td>
-          <td>{{ team['Gols Prós'] }}</td>
-          <td>{{ team['Gols Contra'] }}</td>
-          <td>{{ team['Saldo de Gols'] }}</td>
-          <td>{{ team.Jogos }}</td>
-          <td>{{ team.Vitórias }}</td>
-          <td>{{ team.Empates }}</td>
-          <td>{{ team.Derrotas }}</td>
-          <td>{{ team['Porcentagem de Vitórias'] }}%</td>
+          <td>{{ team.classificacao }}</td>
+          <td>{{ team.nome }}</td>
+          <td>{{ team.pontos }}</td>
+          <td>{{ team.gols_pros }}</td>
+          <td>{{ team.gols_contra }}</td>
+          <td>{{ team.saldo_gols }}</td>
+          <td>{{ team.jogos }}</td>
+          <td>{{ team.vitorias }}</td>
+          <td>{{ team.empates }}</td>
+          <td>{{ team.derrotas }}</td>
+          <td>{{ team.porcentagem_vitorias }}%</td>
         </tr>
       </tbody>
     </table>
@@ -39,18 +39,31 @@
 </template>
 
 <script>
-import tabela from '../../classificacao_brasileirao_2023.json';
+//import tabela from '../../classificacao_brasileirao_2023.json';
+import axios from 'axios';
 
 export default {
   name: 'TeamTable',
   data() {
     // Use slice para remover os primeiros elementos (cabeçalho) do array
-    const dadosSemCabecalho = tabela.tabela.slice(1);
+    //const dadosSemCabecalho = tabela.tabela.slice(1);
     return {
-      tabela: dadosSemCabecalho,
+      tabela: [],
     };
   },
+  created(){
+    this.fetchClassificacao();
+  },
   methods: {
+    async fetchClassificacao() {
+      try {
+        const response = await axios.get("http://127.0.0.1:5000//api/classificacao");
+        this.tabela = response.data.slice(1);
+      }catch(error){
+        console.error("Erro ao buscar a tabela de classificação", error);
+      }
+    },
+
     // Os métodos calculateWinPercentage e calculateGoals permanecem os mesmos
     calculateWinPercentage(team) {
       if (team.Jogos === '0') {
@@ -65,6 +78,7 @@ export default {
   },
 };
 </script>
+
 
 <style scoped>
 /* Estilos para centralizar a tabela na tela */

@@ -9,7 +9,7 @@ def salvar_noticias_no_postgresql(noticias_data):
     conn = psycopg2.connect(
         database="FutStats",  # Substitua pelo nome do seu banco de dados
         user="postgres",
-        password="84650052",  # Substitua pela senha do seu banco de dados
+        password="postG000",  # Substitua pela senha do seu banco de dados
         host="localhost",  # Substitua pelo host do seu banco de dados
         port="5432"  # Substitua pela porta do seu banco de dados
     )
