@@ -1,12 +1,17 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from flask_jwt_extended import JWTManager ,create_access_token, create_refresh_token, set_access_cookies, set_refresh_cookies, jwt_required, get_jwt_identity
 import psycopg2
 import json
-from flask_bcrypt import Bcrypt
+from werkzeug.security import check_password_hash, generate_password_hash
+
+#from flask_bcrypt import Bcrypt
 
 app = Flask(__name__)
 CORS(app)
-bcrypt = Bcrypt(app)
+#bcrypt = Bcrypt(app)
+app.config['JWT_SECRET_KEY'] = 'testezao'
+jwt = JWTManager(app)
 
 # Configuração do banco de dados
 db_config = {
@@ -100,8 +105,7 @@ def inserir_usuarios():
         nome = json.dumps(data['nome']).replace('"', "'")
         senha = json.dumps(data['senha']).replace('"', "'")
 
-        #hSenha = bcrypt.generate_password_hash(senha).decode('utf-8') 
-        #se achar necessário arrumar a parte de cripto. Mateus n vai cobrar. Erro provavel no enconder do bd. Mudar para utf8
+        #hSenha = generate_password_hash(senha)
 
         cursor.execute(f"INSERT INTO usuario (email, nome, senha) VALUES ({email}, {nome}, {senha})")
 
@@ -116,11 +120,40 @@ def inserir_usuarios():
             return jsonify({'error': str(e)}), 501
         
         else:
-            error_menssage = str(e)
-            return jsonify({'error': error_menssage}), 500
+            return jsonify({'error': str(e)}), 500
 
+@app.route('/api/usuario/login', methods=['POST'])
+def login():
+    conn = conectar_bd()
+    cursor = conn.cursor()
 
+    data = request.get_json('data')
+    emailU = json.dumps(data['email']).replace('"', "'")
+    senhaU = json.dumps(data['senha']).replace('"', "'")
 
+    cursor.execute(f"SELECT senha FROM public.usuario WHERE email = {emailU};")
+    senhaBd = cursor.fetchone()
+
+    conn.close()
+    
+    if senhaBd[0] == data['senha']:
+        access_token = create_access_token(identity=emailU)
+        return jsonify(access=True, access_token=access_token), 200
+    else:
+        return jsonify(access=False)
+
+@app.route('/api/protegido', methods=['GET'])
+@jwt_required()
+def retornaUser():
+    email_logado = get_jwt_identity()
+
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    cursor.execute(f"SELECT nome FROM public.usuario WHERE email = {email_logado};")
+    nome_logado = cursor.fetchall()
+
+    return jsonify(email=email_logado, nome=nome_logado), 200
 
 if __name__ == '__main__':
     app.run(debug=True)

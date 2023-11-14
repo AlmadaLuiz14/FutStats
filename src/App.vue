@@ -5,12 +5,15 @@
         <router-link to= "/" @click="scrollToSection('tabela-section')">Tabela</router-link>
         <router-link to="/" @click="scrollToSection('jogos-section')">Jogos</router-link>
         <router-link to="/" @click="scrollToSection('artilheiros-section')">Artilheiros</router-link>
-        <router-link to="/" @click="scrollToSection('noticias-section')">Noticias</router-link>
+        <router-link v-if="getToken" to="/" @click="scrollToSection('noticias-section')">Noticias</router-link>
+        
         <div class="login">
-        <router-link to="/Login">Login</router-link>
+          <router-link v-if="getToken" @click="logout" to="">Logout</router-link>
+          <router-link v-else to="/Login">Login</router-link>
         </div>
         <div class="cadastro">
-          <router-link to="/Cadastro">Cadastro</router-link>
+          <router-link v-if="getToken" @click="alertUser" to="">Usário</router-link>
+          <router-link v-else to="/Cadastro">Cadastro</router-link>
         </div>
       </nav>
   
@@ -24,13 +27,23 @@
   import TablesHome from './views/TablesHome.vue'
   import Login_screen from './views/Login_screen.vue'
   import Cad_screen from './views/Cad_screen.vue'
+import axios from 'axios'
 
   export default{
-    componets:{ TablesHome, 
-                Login_screen,
-                Cad_screen
+    componets:{ 
+      TablesHome, 
+      Login_screen,
+      Cad_screen
     },
     
+    computed: {
+      getToken(){
+        //console.log("gT: ", localStorage.getItem("UserToken"))
+        return localStorage.getItem("UserToken")
+      }
+
+    },
+
     methods: {
       scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
@@ -39,6 +52,24 @@
             top: section.offsetTop,
             behavior: 'smooth'
           });
+        }
+      },
+
+      logout(){
+        localStorage.removeItem("UserToken")
+        alert("LogOut feito com sucesso")
+        window.location.reload()
+      },
+
+      async alertUser() {
+        const token = localStorage.getItem('UserToken');
+        axios.defaults.headers.common['Authorization'] = `Bearer ${token}` 
+
+        try{
+          const response = await axios.get("http://127.0.0.1:5000/api/protegido")
+          alert(response.data.nome)
+        }catch(error){
+          console.error(error)
         }
       }
     }

@@ -83,7 +83,7 @@
             this.$router.replace("/Login") //Se conseguir fazer logar automaticamente depois de cadastrar, mudar o replece para ("/")
           
           }catch(error){
-            if (error['message'] === "Request failed with status code 501"){
+            if (error['message'] === "Request failed with status code 501"){ //da pra melhorar isso daqui e pegar pelo código do erro
               alert("Este email já esta cadastrado")
               this.nome = ""
               this.email = ""

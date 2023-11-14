@@ -9,17 +9,17 @@
     <FootballTable id="tabela-section" msg=" TABELA "></FootballTable>
     <ResultsTable id="jogos-section" msg=" JOGOS "></ResultsTable>
     <TopsTable id="artilheiros-section" msg=" ARTILHEIROS "></TopsTable>
-    <NewsTable id="noticias-section" msg=" NOTÍCIAS "></NewsTable>
+    <NewsTable v-if="getToken" id="noticias-section" msg=" NOTÍCIAS "></NewsTable>
   </div>
 </template>
   
   
-  <script>
+<script>
   import FootballTable from '../components/FootballTable.vue'
   import ResultsTable from '../components/ResultsTable.vue'
   import TopsTable from '../components/TopsTable.vue'
   import NewsTable from '../components/NewsTable.vue'
-  
+
   export default {
     name: 'TablesHome',
     components: {
@@ -27,16 +27,25 @@
       ResultsTable,
       TopsTable,
       NewsTable
-    }
+    },
+
+    computed: {
+      getToken(){
+        //console.log("gT: ", localStorage.getItem("UserToken"))
+        return localStorage.getItem("UserToken")
+      }
+
+    },
+
   }
-  </script>
-  
-  
-  <style scoped>
-  
-    .inicio{
-      text-align: center;
-    }
-  
-  </style>
+</script>
+
+
+<style scoped>
+
+  .inicio{
+    text-align: center;
+  }
+
+</style>
   

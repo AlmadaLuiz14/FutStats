@@ -1,6 +1,7 @@
 import psycopg2
 
 def cria_User():
+    #Fazer a conexão com o bd
     conn = psycopg2.connect(
         database="FutStats",
         user="postgres",
@@ -12,6 +13,7 @@ def cria_User():
 
     tabela = "usuario"
 
+    #Criar, se n existir, a tabela usuario
     cursor.execute(f"""               
     CREATE TABLE IF NOT EXISTS {tabela} (
         EMAIL TEXT PRIMARY KEY NOT NULL,
@@ -19,3 +21,7 @@ def cria_User():
         SENHA TEXT NOT NULL
     );
     """)
+
+    #Encerrar a conexão
+    conn.commit()
+    conn.close()

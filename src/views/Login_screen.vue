@@ -17,7 +17,7 @@
 
                 <input type="submit" class="submit-btn" value="Entrar">
                 <p class="txt-center ls-login-signup">Não possui um usuário no FutStats?
-                    <router-link to="/Cadastro">Cadastre-se agora</router-link>
+                  <router-link to="/Cadastro">Cadastre-se agora</router-link>
                 </p>
             </form>
         </div>
@@ -25,44 +25,113 @@
 </template>
 
 <script>
-
-    export default {
-        nome: "usuarios",
-        data() {
-            return {
-                email: null,
-                senha: null,
-            }
-        },
-
-        methods: {
-            async login(e){
-                e.preventDefault()
-
-                const data = await fetch("http://localhost:3000/usuarios", {
-                    method: "GET",
-                    headers: {"Content-Type": "application/json"}
-                })
-                
-                const contas = await data.json()
-
-                for(let i = 0; i < contas.length; i++){
-                    if(contas[i]["email"] === this.email && contas[i]["senha"] === this.senha){
-                        alert("Seja bem-vindo!")
-
-                        this.$router.replace("/")
-                        return
-                    }
-                }
-
-                this.email = ""
-                this.senha = ""
-                alert("O email ou a senha informados estão incorretos. Por favor tente novamente")
+  import axios from 'axios';
+  //import { computed } from 'vue';
+  //import { useStore } from 'vuex';
 
 
+  export default {
+    nome: "usuarios",
+    data() {
+      return {
+        email: null,
+        senha: null
+      }
+    },
+
+    computed: {
+      getToken(){
+        return localStorage.getItem("UserToken") || "Nao ha token guaradado"
+      }
+
+    },
+
+    methods: {
+      setToken(token){
+        localStorage.setItem("UserToken", token)
+        console.log("set")
+      },
+
+      async login(){
+        //e.preventDefault()
+      
+        const data = {
+          email: this.email,
+          senha: this.senha
+        }
+
+        try{
+          const response = await axios.post("http://127.0.0.1:5000/api/usuario/login", data)
+          if (response.data.access === true){
+            const token = response.data.access_token
+            this.setToken(token)
+            axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
+
+            const res = await axios.get("http://127.0.0.1:5000/api/protegido")
+            alert("Seja Bem vindo(a) " + res.data.nome)
+            window.location.replace("/")
+          }else{
+            alert('Email/Senha inválidos')
+            this.email = ''
+            this.senha = ''
+          }
+        }catch(error){
+          console.error("Erro no login", error)
+        }
+
+
+
+
+
+
+        /*VUEX
+        try{
+          const res = await this.$store.dispatch('login', data);
+          if (res !== "Login invalido"){
+            alert("Login realizado com sucesso")
+            //this.$router.replace('/Login');
+            window.location.reload()
+
+            //console.log("auth: ", this.$store.getters.isAuthenticated)
+            //console.log("user: ", this.$store.getters.user)
+
+          }else{
+            alert("Login invalido");
+            //this.email = "";
+            //this.senha = "";
+          }
+          //console.log(this.$store);
+        }catch(error){
+          console.log("Erro no login", error);
+        }*/
+
+
+        /*JSON
+        const data = await fetch("http://localhost:3000/usuarios", {
+            method: "GET",
+            headers: {"Content-Type": "application/json"}
+        })
+        
+        const contas = await data.json()
+
+        for(let i = 0; i < contas.length; i++){
+            if(contas[i]["email"] === this.email && contas[i]["senha"] === this.senha){
+                alert("Seja bem-vindo!")
+
+                this.$router.replace("/")
+                return
             }
         }
+
+        this.email = ""
+        this.senha = ""
+        alert("O email ou a senha informados estão incorretos. Por favor tente novamente")*/
+
+
+      }
+
     }
+  }
 
 </script>
 

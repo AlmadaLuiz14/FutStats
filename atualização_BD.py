@@ -1,8 +1,8 @@
 # Importe as funções dos módulos correspondentes
-from imports.import_jogos_BD import atualizar_jogos
-from imports.import_news_BD import atualizar_noticias
-from imports.import_table_BD import atualizar_tabela
-from imports.import_tops_BD import atualizar_tops
+from import_jogos_BD import atualizar_jogos
+from import_news_BD import atualizar_noticias
+from import_table_BD import atualizar_tabela
+from import_tops_BD import atualizar_tops
 from cria_usuarioBD import cria_User
 
 #Cria tabela de usuario no bd se n exixtir
