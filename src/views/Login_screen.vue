@@ -3,22 +3,22 @@
         <div class="card">
             <h1 class="ls-login-logo">Login</h1>
             <form id="login" @submit.prevent="login">
-                <div class="form-group label-float">
-                    <label for="userEmail">E-mail</label>
-                    <input class="form-control ls-login-bg-user input-lg" id="userEmail" name="userEmail" type="text" aria-label="Usuário" placeholder="E-mail" v-model="email" required>
-                </div>
-            
-                <div class="form-group label-float">
-                    <label for="userPassword">Senha</label>
-                    <input class="form-control ls-login-bg-password input-lg" id="userPassword" name="userPassword" type="password" aria-label="Senha" placeholder="Senha" v-model="senha" required>
-                </div>
+              <div class="form-group label-float">
+                <label for="userEmail">E-mail</label>
+                <input class="form-control ls-login-bg-user input-lg" id="userEmail" name="userEmail" type="text" aria-label="Usuário" placeholder="E-mail" v-model="email" required>
+              </div>
+          
+              <div class="form-group label-float">
+                <label for="userPassword">Senha</label>
+                <input class="form-control ls-login-bg-password input-lg" id="userPassword" name="userPassword" type="password" aria-label="Senha" placeholder="Senha" v-model="senha" required>
+              </div>
 
-                <!--<a href="#" class="ls-login-forgot">Esqueci minha senha</a>-->
+              <!--<a href="#" class="ls-login-forgot">Esqueci minha senha</a>-->
 
-                <input type="submit" class="submit-btn" value="Entrar">
-                <p class="txt-center ls-login-signup">Não possui um usuário no FutStats?
-                  <router-link to="/Cadastro">Cadastre-se agora</router-link>
-                </p>
+              <input type="submit" class="submit-btn" value="Entrar">
+              <p class="txt-center ls-login-signup">Não possui um usuário no FutStats?
+                <router-link to="/Cadastro">Cadastre-se agora</router-link>
+              </p>
             </form>
         </div>
     </div>
@@ -26,10 +26,7 @@
 
 <script>
   import axios from 'axios';
-  //import { computed } from 'vue';
-  //import { useStore } from 'vuex';
-
-
+  
   export default {
     nome: "usuarios",
     data() {
@@ -39,9 +36,18 @@
       }
     },
 
+    mounted(){
+      const token = localStorage.getItem("UserToken")
+      if(token !== null){window.location.replace("/")}
+    },
+
     computed: {
       getToken(){
         return localStorage.getItem("UserToken") || "Nao ha token guaradado"
+      },
+
+      getAdm(){
+        return localStorage.getItem("UserAdm")
       }
 
     },
@@ -49,12 +55,15 @@
     methods: {
       setToken(token){
         localStorage.setItem("UserToken", token)
-        console.log("set")
+      },
+
+      setAdm(trueOrfalse){
+        if(trueOrfalse === true){
+          localStorage.setItem("UserAdm", trueOrfalse)
+        }
       },
 
       async login(){
-        //e.preventDefault()
-      
         const data = {
           email: this.email,
           senha: this.senha
@@ -67,6 +76,8 @@
             this.setToken(token)
             axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
 
+            this.setAdm(response.data.tipo_adm)
+
             const res = await axios.get("http://127.0.0.1:5000/api/protegido")
             alert("Seja Bem vindo(a) " + res.data.nome)
             window.location.replace("/")
@@ -77,57 +88,8 @@
           }
         }catch(error){
           console.error("Erro no login", error)
+          window.location.replace("/")
         }
-
-
-
-
-
-
-        /*VUEX
-        try{
-          const res = await this.$store.dispatch('login', data);
-          if (res !== "Login invalido"){
-            alert("Login realizado com sucesso")
-            //this.$router.replace('/Login');
-            window.location.reload()
-
-            //console.log("auth: ", this.$store.getters.isAuthenticated)
-            //console.log("user: ", this.$store.getters.user)
-
-          }else{
-            alert("Login invalido");
-            //this.email = "";
-            //this.senha = "";
-          }
-          //console.log(this.$store);
-        }catch(error){
-          console.log("Erro no login", error);
-        }*/
-
-
-        /*JSON
-        const data = await fetch("http://localhost:3000/usuarios", {
-            method: "GET",
-            headers: {"Content-Type": "application/json"}
-        })
-        
-        const contas = await data.json()
-
-        for(let i = 0; i < contas.length; i++){
-            if(contas[i]["email"] === this.email && contas[i]["senha"] === this.senha){
-                alert("Seja bem-vindo!")
-
-                this.$router.replace("/")
-                return
-            }
-        }
-
-        this.email = ""
-        this.senha = ""
-        alert("O email ou a senha informados estão incorretos. Por favor tente novamente")*/
-
-
       }
 
     }

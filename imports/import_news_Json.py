@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def atualizar_noticias():
+def atualizar_noticias_Json():
 
     # URL da página que você deseja analisar
     url = 'https://ge.globo.com/'
@@ -47,5 +47,3 @@ def atualizar_noticias():
             print("Contêiner de notícias não encontrado.")
     else:
         print("Erro ao fazer a solicitação HTTP:", response.status_code)
-
-atualizar_noticias()

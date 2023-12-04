@@ -64,6 +64,11 @@
       }
     },
 
+    mounted(){
+      const token = localStorage.getItem("UserToken")
+      if(token !== null){window.location.replace("/")}
+    },
+
     methods: {
       async cadastrar(e){
         if(this.checarSenhas() === false){
@@ -83,6 +88,7 @@
             this.$router.replace("/Login") //Se conseguir fazer logar automaticamente depois de cadastrar, mudar o replece para ("/")
           
           }catch(error){
+            console.log("valor: ", error.status) //olhar essa verficação abaixo
             if (error['message'] === "Request failed with status code 501"){ //da pra melhorar isso daqui e pegar pelo código do erro
               alert("Este email já esta cadastrado")
               this.nome = ""

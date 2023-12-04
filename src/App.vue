@@ -6,17 +6,17 @@
         <router-link to="/" @click="scrollToSection('jogos-section')">Jogos</router-link>
         <router-link to="/" @click="scrollToSection('artilheiros-section')">Artilheiros</router-link>
         <router-link v-if="getToken" to="/" @click="scrollToSection('noticias-section')">Noticias</router-link>
-        
+        <router-link v-if="getAdm" to="/Adm">Adm</router-link>
+
         <div class="login">
           <router-link v-if="getToken" @click="logout" to="">Logout</router-link>
           <router-link v-else to="/Login">Login</router-link>
         </div>
         <div class="cadastro">
-          <router-link v-if="getToken" @click="alertUser" to="">Usário</router-link>
+          <router-link v-if="getToken" to="/Usuario">Usuário</router-link>
           <router-link v-else to="/Cadastro">Cadastro</router-link>
         </div>
       </nav>
-  
   
   <router-view/>
   </div>
@@ -38,8 +38,11 @@ import axios from 'axios'
     
     computed: {
       getToken(){
-        //console.log("gT: ", localStorage.getItem("UserToken"))
         return localStorage.getItem("UserToken")
+      },
+
+      getAdm(){
+        return localStorage.getItem("UserAdm")
       }
 
     },
@@ -57,8 +60,10 @@ import axios from 'axios'
 
       logout(){
         localStorage.removeItem("UserToken")
+        localStorage.removeItem("UserAdm")
         alert("LogOut feito com sucesso")
-        window.location.reload()
+        //window.location.reload()
+        window.location.replace("/")
       },
 
       async alertUser() {
@@ -90,7 +95,7 @@ import axios from 'axios'
     margin-top: -18px;
     margin-right: 10px;
   }
-  
+
   .header {
     background-color: #333;
     color: white;

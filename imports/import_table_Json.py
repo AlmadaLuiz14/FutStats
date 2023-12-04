@@ -31,6 +31,10 @@ def extrair_dados_tabela(url):
             if nome:
                 dados_equipe['Nome'] = nome.text.strip()
             
+            brasao_time = linha.find('img')
+            if brasao_time:
+                dados_equipe['BrasaoTime'] = brasao_time['src']
+            
             # Encontra os Pontos da equipe
             pontos = linha.find('th', scope='row')
             if pontos:
@@ -59,7 +63,8 @@ def extrair_dados_tabela(url):
     else:
         print("Erro ao fazer a solicitação HTTP:", response.status_code)
 
-if __name__ == "__main__":
+def atualizar_tabela_Json():
+
     url = 'https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a/2023'
     dados_equipes = extrair_dados_tabela(url)
 
@@ -67,4 +72,6 @@ if __name__ == "__main__":
     # Salvar os dados em um arquivo JSON
     with open('classificacao_brasileirao_2023.json', 'w', encoding='utf-8') as json_file:
         json.dump(tabela, json_file, ensure_ascii=False, indent=4)
-        print("Dados das Tabelas exportados para 'classificacao_brasileirao.json'.")
+        print("Dados da classificação exportados para 'classificacao_brasileirao.json'.")
+
+atualizar_tabela_Json()

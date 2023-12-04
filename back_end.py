@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from flask_jwt_extended import JWTManager ,create_access_token, create_refresh_token, set_access_cookies, set_refresh_cookies, jwt_required, get_jwt_identity
+from flask_jwt_extended import JWTManager ,create_access_token, jwt_required, get_jwt_identity
 import psycopg2
 import json
 from werkzeug.security import check_password_hash, generate_password_hash
@@ -129,16 +129,18 @@ def login():
 
     data = request.get_json('data')
     emailU = json.dumps(data['email']).replace('"', "'")
-    senhaU = json.dumps(data['senha']).replace('"', "'")
+    #senhaU = json.dumps(data['senha']).replace('"', "'")
 
-    cursor.execute(f"SELECT senha FROM public.usuario WHERE email = {emailU};")
+    cursor.execute(f"SELECT senha, tipo_adm FROM public.usuario WHERE email = {emailU};")
     senhaBd = cursor.fetchone()
 
     conn.close()
     
-    if senhaBd[0] == data['senha']:
+    if senhaBd == None:
+        return jsonify(access=False)
+    elif senhaBd[0] == data['senha']:
         access_token = create_access_token(identity=emailU)
-        return jsonify(access=True, access_token=access_token), 200
+        return jsonify(access=True, access_token=access_token, tipo_adm=senhaBd[1]), 200
     else:
         return jsonify(access=False)
 
@@ -151,9 +153,125 @@ def retornaUser():
     cursor = conn.cursor()
 
     cursor.execute(f"SELECT nome FROM public.usuario WHERE email = {email_logado};")
-    nome_logado = cursor.fetchall()
+    nome_logado = cursor.fetchone()
 
-    return jsonify(email=email_logado, nome=nome_logado), 200
+    return jsonify(email=email_logado.replace("'", ""), nome=nome_logado[0]), 200
+
+
+@app.route('/api/protegido/todosUsers', methods=['GET'])
+@jwt_required()
+def retornaTodosUsers():
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT nome, email FROM public.usuario ORDER BY nome;")
+    resultado = cursor.fetchall()
+    conn.close()
+
+    users = [{'nome': row[0], 'email': row[1]} for row in resultado]
+    
+    return jsonify(users)
+
+
+@app.route("/api/protegido/confereSenha", methods=['POST'])
+@jwt_required()
+def confereSenha():
+    try:
+        email_logado = get_jwt_identity()
+        data = request.get_json('data')
+    
+        conn = conectar_bd()
+        cursor = conn.cursor()
+        
+        cursor.execute(f"SELECT senha FROM public.usuario WHERE email = {email_logado};")
+        senhaBD = cursor.fetchone()
+
+        conn.close()
+
+        if data['senha'] == senhaBD[0]:
+            return jsonify(verify=True)
+        else:
+            return jsonify(verify=False)
+    except psycopg2.Error as e:
+        print("ERROR", str(e))
+
+
+@app.route('/api/protegido/newInfos', methods=['POST'])
+@jwt_required()
+def novasInfos():
+    email_logado = get_jwt_identity()
+    data = request.get_json('data')
+    emailU = json.dumps(data['email']).replace('"', "'")
+    nomeU = json.dumps(data['nome']).replace('"', "'")
+    
+    try:
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        cursor.execute(f"UPDATE public.usuario SET email = {emailU}, nome = {nomeU} WHERE email = {email_logado}")
+        conn.commit()
+        conn.close()
+
+        return jsonify(msg="Informações atualizadas com sucesso")
+    except psycopg2.Error as e:
+        return jsonify(msg="Erro ao atualizar as informações de usuário", erro=str(e))    
+    
+
+@app.route('/api/protegido/deleteUser', methods=['POST'])
+@jwt_required()
+def deleteUser():
+    email_logado = get_jwt_identity()
+    data = request.get_json('data')
+    emailU = json.dumps(data['email']).replace('"', "'")
+    print("AAAAAAAA", email_logado, emailU)
+    if email_logado == emailU:
+        return jsonify(msg="Não é possível deletar seu próprio usuário", verify=False)
+
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    cursor.execute(f"DELETE FROM public.usuario WHERE email = {emailU};")
+    conn.commit()
+    conn.close()
+
+    return jsonify(msg="Usuário deletado com sucesso", verify=True)
+
+
+@app.route('/api/protegido/nAdm', methods=['POST'])
+@jwt_required()
+def tornaAdm():
+    data = request.get_json('data')
+    emailU = json.dumps(data['email']).replace('"', "'")
+
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    cursor.execute(f"UPDATE public.usuario SET tipo_adm = true WHERE email = {emailU};")
+    conn.commit()
+    conn.close()
+
+    return jsonify(msg="Novo administrador adicionado com sucesso", verify=True)
+
+
+@app.route('/api/protegido/tirarAdm', methods=['POST'])
+@jwt_required()
+def tirarAdm():
+    email_logado = get_jwt_identity()
+    data = request.get_json('data')
+    emailU = json.dumps(data['email']).replace('"', "'")
+    if email_logado == emailU:
+        return jsonify(msg="Não é possível tirar seu próprio poder administrador", verify=False)
+
+
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    cursor.execute(f"UPDATE public.usuario SET tipo_adm = false WHERE email = {emailU};")
+    conn.commit()
+    conn.close()
+
+    return jsonify(msg="Administrador retirado com sucesso", verify=True)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
