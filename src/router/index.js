@@ -9,6 +9,7 @@ import Login_screen from '../views/Login_screen.vue'
 import Cad_screen from '../views/Cad_screen.vue'
 import User_screen from '../views/User_screen.vue'
 import Adm_screen from '../views/Adm_screen.vue'
+import Recuper_screen from '../views/RecuperarSenha_screen.vue'
 
 createApp(createRouter)
 
@@ -65,6 +66,12 @@ const routes = [
         path: '/Adm',
         name: 'Adm_screen',
         component: Adm_screen
+    },
+
+    {
+        path:'/RecuperarSenha',
+        name: 'RecuperarSenha_screen',
+        component: Recuper_screen
     }
 
 ]

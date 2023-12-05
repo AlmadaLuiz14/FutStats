@@ -2,6 +2,7 @@
     <div class="container">
         <div class="card">
             <h2 class="perfil">Meu Perfil</h2>
+            <h3>Deseja alterar suas informações?</h3>
             <form id="edit_infos" @submit.prevent="mudarInfos">
                 <div class="form-group label-float">
                     <label for="userName">Nome</label>
@@ -77,11 +78,15 @@
                 }
 
                 if((this.nome !== null) && (this.email !== null)){
+
                     const verifSenha = await axios.post("http://127.0.0.1:5000/api/protegido/confereSenha", data)
                     if(verifSenha.data.verify === true){
                         const response = await axios.post("http://127.0.0.1:5000/api/protegido/newInfos", data)
-                        alert(response.data.msg)
-                        window.location.reload()
+                        alert(response.data.msg + ". Por ter alterado o email, por favor refaça seu login")
+                        //Forçar o logout pra n dar erro por ter mudado o email
+                        localStorage.removeItem("UserToken")
+                        localStorage.removeItem("UserAdm")
+                        window.location.replace("/Login")
                     }else{
                         alert("Senha incorreta")
                     }
@@ -89,17 +94,27 @@
                 }else if(!((this.nome === null) && (this.email == null))){
                     if(this.nome === null){
                         data.nome = this.placeHName
+                        const verifSenha = await axios.post("http://127.0.0.1:5000/api/protegido/confereSenha", data)
+                        if(verifSenha.data.verify === true){
+                            const response = await axios.post("http://127.0.0.1:5000/api/protegido/newInfos", data)
+                            alert(response.data.msg + ". Por ter alterado o email, por favor refaça seu login")
+                            //Forçar o logout pra n dar erro por ter mudado o email
+                            localStorage.removeItem("UserToken")
+                            localStorage.removeItem("UserAdm")
+                            window.location.replace("/Login")
+                        }else{
+                            alert("Senha incorreta")
+                        }
                     }else{
                         data.email = this.placeHEmail
-                    }
-
-                    const verifSenha = await axios.post("http://127.0.0.1:5000/api/protegido/confereSenha", data)
-                    if(verifSenha.data.verify === true){
-                        const response = await axios.post("http://127.0.0.1:5000/api/protegido/newInfos", data)
-                        alert(response.data.msg)
-                        window.location.reload()
-                    }else{
-                        alert("Senha incorreta")
+                        const verifSenha = await axios.post("http://127.0.0.1:5000/api/protegido/confereSenha", data)
+                        if(verifSenha.data.verify === true){
+                            const response = await axios.post("http://127.0.0.1:5000/api/protegido/newInfos", data)
+                            alert(response.data.msg)
+                            window.location.reload()
+                        }else{
+                            alert("Senha incorreta")
+                        }
                     }
                 }
                 this.senha = ''
@@ -121,63 +136,43 @@
 
     .card {
         background: #d4d4d4;
-        border-radius: 10px; /*Nível de arredondamento das bordas*/ 
+        border-radius: 8px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        padding: 200px; /*Espaçamento entre o conteúdo e a borda*/
-        width: 400px;
-        height: 250px;
+        padding: 20px;
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
     }
 
-    .perfil {
-        position: relative;
-        top: -210px;
-        left: -310px;
-        font-size: 30px;
+    .card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
     }
 
-    .label-float {
-        position: relative;
+    .card h3 {
+        font-size: 1rem;
+        margin-bottom: 20px;
     }
 
-    .label-float label {
-        position: relative;
-        top: -200px;
-        left: -180px;
-        font-size: 20px;
-        line-height: 3.5;
+    .form-group {
+        margin-bottom: 20px;
+        text-align: left;
     }
 
-    #senha {
-        position: relative;
-        top: 100px;
+    .form-group label {
+        display: block;
+        font-size: 0.9rem;
+        margin-bottom: 8px;
     }
 
-    #senhaC {
-            position: relative;
-        top: 150px;
-    }
-
-    #senhaC label {
-        position: relative;
-        left: -300px;
-    }
-
-    #senhaC input {
-        position: relative;
-        top: -255px;
-        left: -30px;
-    }
-
-    .label-float input { /*Arrumar os inputs q n estão aninhados*/
-        position: relative;
-        top: -200px;
-        left: -150px;
+    .form-group input {
+        width: 95%;
+        padding: 8px;
+        font-size: 1rem;
         background: #dddddd;
-        border-radius: 5px;
         border: 1px solid #000000;
-        padding: 10px;
-        width: 80%;
-        font-size: 17px;
+        border-radius: 4px;
+        justify-content: center;
     }
 
     .submit-btn {
@@ -190,6 +185,7 @@
         cursor: pointer;
         width: 100%;
         transition: background-color 0.3s ease;
-}
+        justify-content: center;
+    }
 
 </style>

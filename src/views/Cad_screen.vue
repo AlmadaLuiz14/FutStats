@@ -31,8 +31,7 @@
                 </div>
                 
                 <div class='justify-center'>
-                    <input type="submit" class="submit-btn" value="Cadastrar">
-                    <p v-if="senhasDiferentes" class="verifSenhas">As senhas não coincidem</p>
+                  <input type="submit" class="submit-btn" value="Cadastrar">
                 </div>
         
             </form>
@@ -59,8 +58,7 @@
         nome: null,
         email: null,
         senha: null,
-        confirmSenha: null,
-        senhasDiferentes: false
+        confirmSenha: null
       }
     },
 
@@ -71,7 +69,7 @@
 
     methods: {
       async cadastrar(e){
-        if(this.checarSenhas() === false){
+        if(this.checarSenhas() === true){
           e.preventDefault()
       
           const data = {
@@ -100,14 +98,16 @@
               //console.log("Erro ao cadastrar", error);
             }
           }
+        }else{
+          alert("As senhas não coincidem")
         }
       },
 
       checarSenhas(){
         if(this.senha === this.confirmSenha){
-          return this.senhasDiferentes = false
+          return true
         }else{
-          return this.senhasDiferentes = true
+          return false
         }
       }
     }

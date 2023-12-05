@@ -16,6 +16,7 @@
               <!--<a href="#" class="ls-login-forgot">Esqueci minha senha</a>-->
 
               <input type="submit" class="submit-btn" value="Entrar">
+              <p><router-link to="/RecuperarSenha">Esqueceu a senha</router-link></p>
               <p class="txt-center ls-login-signup">Não possui um usuário no FutStats?
                 <router-link to="/Cadastro">Cadastre-se agora</router-link>
               </p>

@@ -273,5 +273,32 @@ def tirarAdm():
     return jsonify(msg="Administrador retirado com sucesso", verify=True)
 
 
+@app.route("/api/usuario/recuperarSenha", methods=['POST'])
+def recuperarSenha():
+    
+    try:
+        data = request.get_json('data')
+        emailU = json.dumps(data['email']).replace('"', "'")
+        senhaU = json.dumps(data['senha']).replace('"', "'")
+
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        cursor.execute(f"SELECT * FROM public.usuario WHERE email = {emailU};")
+        user = cursor.fetchall()
+        if len(user) == 0:
+            return jsonify(msg="O email informado não está cadastrado", verify="empty")
+
+        cursor.execute(f"UPDATE public.usuario SET senha = {senhaU} WHERE email = {emailU};")
+        conn.commit()
+        conn.close()
+
+        return jsonify(msg="Senha alterada com sucesso", verify=True)
+    
+    except psycopg2.Error as e:
+        print("ERRO", str(e))
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
