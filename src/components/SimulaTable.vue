@@ -87,10 +87,31 @@
       </table>
     </div>
 
-    <div class="altera-table">
+    <div class="select">
+      <label for="selecao">Escolha uma tabela: </label>
+      <select v-model="selecao" id="selecao">
+        <option value="classificacao">Classificação</option>
+        <option value="jogador">Jogador</option>
+        <option value="rodadas">Rodadas</option>
+      </select>
+    </div>
+
+    <div class="altera-table" v-if="time(this.selecao)">
       <inserir_time id="insereTime" msg="Inserção"></inserir_time>
       <alterar_time id="alterarTime" msg="Alteração"></alterar_time>
-      <deletar_time msg="Remoção"></deletar_time>
+      <deletar_time id="deletaTime" msg="Remoção"></deletar_time>
+    </div>
+
+    <div class="altera-table" v-if="jogador(this.selecao)">
+      <inserir_jog id="insereJog" msg="Inserção"></inserir_jog>
+      <alterar_jog id="alterarJog" msg="Alteração"></alterar_jog>
+      <deletar_jog id="deletaJog" msg="Remoção"></deletar_jog>
+    </div>
+
+    <div class="altera-table" v-if="rodada(this.selecao)">
+      <inserir_rodada id="insereRod" msg="Inserção"></inserir_rodada>
+      <alterar_rodada id="alterarRod" msg="Alteração"></alterar_rodada>
+      <deletar_rodada id="deletaRod" msg="Remoção"></deletar_rodada>
     </div>
   <!--</div>-->
   </template>
@@ -102,6 +123,12 @@ import pdfFonts from 'pdfmake/build/vfs_fonts';
 import inserir_time from './InsereTime.vue'
 import alterar_time from './AlteraTime.vue'
 import deletar_time from './DeletaTime.vue'
+import inserir_jog from './InsereJogador.vue'
+import alterar_jog from './AlteraJogador.vue'
+import deletar_jog from './DeletaJogador.vue'
+import inserir_rodada from './InsereRodada.vue'
+import alterar_rodada from './AlteraRodada.vue'
+import deletar_rodada from './DeletaRodada.vue'
 
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
@@ -111,7 +138,13 @@ export default {
   components: {
     inserir_time,
     alterar_time,
-    deletar_time
+    deletar_time,
+    inserir_jog,
+    alterar_jog,
+    deletar_jog,
+    inserir_rodada,
+    alterar_rodada,
+    deletar_rodada
   },
 
   data() {
@@ -147,6 +180,8 @@ export default {
       'ATL': { nome: 'Atlético Mineiro Saf - MG', sigla: 'ATL' },
       'FLA': { nome: 'Flamengo - RJ', sigla: 'FLA' },
     },
+
+    selecao: null
     };
   },
   created() {
@@ -169,6 +204,18 @@ export default {
 },
   },
   methods: {
+
+    time(select){
+      if(select === "classificacao"){return true}else{return false}
+    },
+    
+    jogador(select){
+      if(select === "jogador"){return true}else{return false}
+    },
+
+    rodada(select){
+      if(select === "rodadas"){return true}else{return false}
+    },
 
     initializeData() {
       this.fetchClassificacao();
