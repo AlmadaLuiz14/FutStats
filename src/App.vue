@@ -6,7 +6,12 @@
         <router-link to="/" @click="scrollToSection('jogos-section')">Jogos</router-link>
         <router-link to="/" @click="scrollToSection('artilheiros-section')">Artilheiros</router-link>
         <router-link v-if="getToken" to="/" @click="scrollToSection('noticias-section')">Noticias</router-link>
-        <router-link v-if="getAdm" to="/Adm">Adm</router-link>
+        <router-link v-if="getToken" to="/Estatisticas">Estatísticas</router-link>
+        <router-link v-if="getToken" to="/SimulaTable">Simulação</router-link>
+
+        <div class="admin">
+          <router-link v-if="getAdm" to="/Adm">Admin Config</router-link>
+        </div>
 
         <div class="login">
           <router-link v-if="getToken" @click="logout" to="">Logout</router-link>
@@ -27,7 +32,7 @@
   import TablesHome from './views/TablesHome.vue'
   import Login_screen from './views/Login_screen.vue'
   import Cad_screen from './views/Cad_screen.vue'
-import axios from 'axios'
+  import axios from 'axios'
 
   export default{
     componets:{ 
@@ -83,6 +88,11 @@ import axios from 'axios'
 </script>
 
 <style scoped>
+
+.admin{
+    text-align: start;
+    margin-top: -18px;
+}
 
 .login{
     text-align: end;

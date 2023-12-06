@@ -7,6 +7,9 @@ import NewsTable from '../components/NewsTable.vue'
 import TablesHome from '../views/TablesHome.vue'
 import Login_screen from '../views/Login_screen.vue'
 import Cad_screen from '../views/Cad_screen.vue'
+import time_screen from '../components/time_screen.vue'
+import EstatisticasBrasileiro from '../components/EstatisticasBrasileiro.vue'
+import SimulaTable from '../components/SimulaTable.vue'
 import User_screen from '../views/User_screen.vue'
 import Adm_screen from '../views/Adm_screen.vue'
 import Recuper_screen from '../views/RecuperarSenha_screen.vue'
@@ -18,6 +21,18 @@ const routes = [
         path: '/TabelaCampeonato',
         name: 'FootballTable',
         component: FootballTable
+    },
+
+    {
+        path: '/SimulaTable',
+        name: 'SimulaTable',
+        component: SimulaTable
+    },
+
+    {
+        path: '/Estatisticas',
+        name: 'EstatisticasBrasileiro',
+        component: EstatisticasBrasileiro
     },
 
     {
@@ -54,6 +69,13 @@ const routes = [
         path: '/Cadastro',
         name: 'Cad_screen',
         component: Cad_screen
+    },
+
+    {
+        path: '/time/:id',
+        name: 'time_screen',
+        component: time_screen,
+        props: true
     },
 
     {

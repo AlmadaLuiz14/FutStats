@@ -4,12 +4,12 @@ from flask_jwt_extended import JWTManager ,create_access_token, jwt_required, ge
 import psycopg2
 import json
 from werkzeug.security import check_password_hash, generate_password_hash
+from simulação.converte_simula import converte_simula
+from simulação.converte_jogos import converte_jogos
 
-#from flask_bcrypt import Bcrypt
 
 app = Flask(__name__)
 CORS(app)
-#bcrypt = Bcrypt(app)
 app.config['JWT_SECRET_KEY'] = 'testezao'
 jwt = JWTManager(app)
 
@@ -45,6 +45,409 @@ def obter_classificacao_2023():
                  'porcentagem_vitorias': row[12]} for row in resultados]
 
     return jsonify(classificacao)
+
+@app.route('/api/simula', methods=['GET'])
+def obter_simula_2023():
+    conn = conectar_bd()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM simula_2023")
+    resultados = cursor.fetchall()
+    conn.close()
+
+    classificacao = [{'classificacao': row[0], 'brasao': row[1], 'nome': row[2], 'pontos': row[3],
+                 'jogos': row[4], 'vitorias': row[5], 'empates': row[6], 'derrotas': row[7],
+                 'gols_pros': row[8], 'gols_contra': row[9], 'saldo_gols': row[10],
+                 'cartoes_amarelos': row[11], 'cartoes_vermelhos': row[12],
+                 'porcentagem_vitorias': row[13]} for row in resultados]
+
+    return jsonify(classificacao)
+
+@app.route('/api/simula', methods=['POST'])
+def simular_partidas():
+    try:
+        print("Requisição POST recebida para /api/simula")
+
+        # Obtenha os dados da solicitação
+        data = request.json
+
+        # Extraindo dados da solicitação
+        time1 = data.get('time1')
+        sigla1 = data.get('sigla1')
+        input1 = data.get('input1')
+        time2 = data.get('time2')
+        sigla2 = data.get('sigla2')
+        input2 = data.get('input2')
+        passado = data.get('passado')
+        placar1 = data.get('placar1')
+        placar2 = data.get('placar2')
+
+        # Calcula os resultados da simulação
+        goalsFor1 = max(input1, 0)
+        goalsAgainst1 = max(input2, 0)
+        goalsFor2 = max(input2, 0)
+        goalsAgainst2 = max(input1, 0)
+        
+
+        print(f"Simulação para {time1['nome']} - Gols Prós: {goalsFor1}, Gols Contra: {goalsAgainst1}")
+        print(f"Simulação para {time2['nome']} - Gols Prós: {goalsFor2}, Gols Contra: {goalsAgainst2}")
+
+        # Adiciona os resultados ao banco de dados PostgreSQL
+        conn = conectar_bd()
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            UPDATE jogos_simula_2023
+            SET placar = %s
+            WHERE time1 = %s AND time2 = %s
+        """, ("%s x %s" % (input1, input2), sigla1, sigla2))
+                
+        #verifica se é jogo passado
+        if passado:
+            
+            real = placar1 - placar2
+            diff1 = input1 - placar1
+            diff2 = input2 - placar2
+            
+            if real > 0: #time 1 venceu o jogo real
+                # Atualiza os dados para o time 1
+                if goalsFor1 > goalsFor2:  # Time 1 vence
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                elif goalsFor1 < goalsFor2:  # Time 1 perde
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos - 3,
+                            Vitorias = Vitorias - 1,
+                            Derrotas = Derrotas + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias - 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                else:  # Empate
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos - 2,
+                            Vitorias = Vitorias - 1,
+                            Empates = Empates + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias - 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                    
+            elif real == 0: #time 1 empatou o jogo real
+                    # Atualiza os dados para o time 1
+                if goalsFor1 > goalsFor2:  # Time 1 vence
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos + 2,
+                            Empates = Empates - 1,
+                            Vitorias = Vitorias + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias + 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                elif goalsFor1 < goalsFor2:  # Time 1 perde
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos - 1,
+                            Empates = Empates - 1,
+                            Derrotas = Derrotas + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                else:  # Empate
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET 
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                    
+            elif real < 0: #time 1 perdeu o jogo real    
+                  # Atualiza os dados para o time 1
+                if goalsFor1 > goalsFor2:  # Time 1 vence
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET 
+                            Pontos = Pontos + 3,
+                            Vitorias = Vitorias + 1,
+                            Derrotas = Derrotas - 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias + 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                elif goalsFor1 < goalsFor2:  # Time 1 perde
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                else:  # Empate
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos + 1,
+                            Empates = Empates + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))  
+                    
+            #atualiza time 2        
+            if real < 0: #time 2 venceu o jogo real
+                # Atualiza os dados para o time 2
+                if goalsFor2 > goalsFor1:  # Time 2 vence
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff2, diff1, diff2 - diff1, time2['nome']))
+                elif goalsFor2 < goalsFor1:  # Time 2 perde
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos - 3,
+                            Vitorias = Vitorias - 1,
+                            Derrotas = Derrotas + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias - 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff2, diff1, diff2 - diff1, time2['nome']))
+                else:  # Empate
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos - 2,
+                            Vitorias = Vitorias - 1,
+                            Empates = Empates + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias - 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff2, diff1, diff2 - diff1, time2['nome']))
+                    
+            elif real == 0: #time 2 empatou o jogo real
+                    # Atualiza os dados para o time 2
+                if goalsFor2 > goalsFor1:  # Time 1 vence
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos + 2,
+                            Empates = Empates - 1,
+                            Vitorias = Vitorias + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias + 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff2, diff1, diff2 - diff1, time2['nome']))
+                elif goalsFor2 < goalsFor1:  # Time 1 perde
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos - 1,
+                            Empates = Empates - 1,
+                            Derrotas = Derrotas + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff2, diff1, diff2 - diff1, time2['nome']))
+                else:  # Empate
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET 
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff2, diff1, diff2 - diff1, time2['nome']))
+                    
+            elif real > 0: #time 2 perdeu o jogo real    
+                  # Atualiza os dados para o time 1
+                if goalsFor1 > goalsFor2:  # Time 1 vence
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET 
+                            Pontos = Pontos + 3,
+                            Vitorias = Vitorias + 1,
+                            Derrotas = Derrotas - 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias + 1) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                elif goalsFor1 < goalsFor2:  # Time 1 perde
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))
+                else:  # Empate
+                    cursor.execute("""
+                        UPDATE simula_2023
+                        SET
+                            Pontos = Pontos + 1,
+                            Empates = Empates + 1,
+                            Gols_Pros = Gols_Pros + %s,
+                            Gols_Contra = Gols_Contra + %s,
+                            Saldo_de_Gols = Saldo_de_Gols + %s,
+                            Porcentagem_de_Vitorias = (Vitorias) / Jogos::FLOAT * 100
+                        WHERE Nome = %s
+                    """, (diff1, diff2, diff1 - diff2, time1['nome']))  
+            
+                
+        # não é jogo passado:
+        elif passado == False :
+            # Atualiza os dados para o time 1
+            if goalsFor1 > goalsFor2:  # Time 1 vence
+                cursor.execute("""
+                    UPDATE simula_2023
+                    SET
+                        Pontos = Pontos + 3,
+                        Jogos = Jogos + 1,
+                        Vitorias = Vitorias + 1,
+                        Gols_Pros = Gols_Pros + %s,
+                        Gols_Contra = Gols_Contra + %s,
+                        Saldo_de_Gols = Saldo_de_Gols + %s,
+                        Porcentagem_de_Vitorias = (Vitorias + 1) / Jogos::FLOAT * 100
+                    WHERE Nome = %s
+                """, (goalsFor1, goalsAgainst1, goalsFor1 - goalsAgainst1, time1['nome']))
+            elif goalsFor1 < goalsFor2:  # Time 1 perde
+                cursor.execute("""
+                    UPDATE simula_2023
+                    SET
+                        Jogos = Jogos + 1,
+                        Derrotas = Derrotas + 1,
+                        Gols_Pros = Gols_Pros + %s,
+                        Gols_Contra = Gols_Contra + %s,
+                        Saldo_de_Gols = Saldo_de_Gols + %s,
+                        Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                    WHERE Nome = %s
+                """, (goalsFor1, goalsAgainst1, goalsFor1 - goalsAgainst1, time1['nome']))
+            else:  # Empate
+                cursor.execute("""
+                    UPDATE simula_2023
+                    SET
+                        Pontos = Pontos + 1,
+                        Jogos = Jogos + 1,
+                        Empates = Empates + 1,
+                        Gols_Pros = Gols_Pros + %s,
+                        Gols_Contra = Gols_Contra + %s,
+                        Saldo_de_Gols = Saldo_de_Gols + %s,
+                        Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                    WHERE Nome = %s
+                """, (goalsFor1, goalsAgainst1, goalsFor1 - goalsAgainst1, time1['nome']))
+
+
+            # Atualiza os dados para o time 2
+            if goalsFor2 > goalsFor1:  # Time 2 vence
+                cursor.execute("""
+                    UPDATE simula_2023
+                    SET
+                        Pontos = Pontos + 3,
+                        Jogos = Jogos + 1,
+                        Vitorias = Vitorias + 1,
+                        Gols_Pros = Gols_Pros + %s,
+                        Gols_Contra = Gols_Contra + %s,
+                        Saldo_de_Gols = Saldo_de_Gols + %s,
+                        Porcentagem_de_Vitorias = (Vitorias + 1) / Jogos::FLOAT * 100
+                    WHERE Nome = %s
+                """, (goalsFor2, goalsAgainst2, goalsFor2 - goalsAgainst2, time2['nome']))
+            elif goalsFor2 < goalsFor1:  # Time 2 perde
+                cursor.execute("""
+                    UPDATE simula_2023
+                    SET
+                        Jogos = Jogos + 1,
+                        Derrotas = Derrotas + 1,
+                        Gols_Pros = Gols_Pros + %s,
+                        Gols_Contra = Gols_Contra + %s,
+                        Saldo_de_Gols = Saldo_de_Gols + %s,
+                        Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                    WHERE Nome = %s
+                """, (goalsFor2, goalsAgainst2, goalsFor2 - goalsAgainst2, time2['nome']))
+            else:  # Empate
+                cursor.execute("""
+                    UPDATE simula_2023
+                    SET
+                        Pontos = Pontos + 1,
+                        Jogos = Jogos + 1,
+                        Empates = Empates + 1,
+                        Gols_Pros = Gols_Pros + %s,
+                        Gols_Contra = Gols_Contra + %s,
+                        Saldo_de_Gols = Saldo_de_Gols + %s,
+                        Porcentagem_de_Vitorias = Vitorias / Jogos::FLOAT * 100
+                    WHERE Nome = %s
+                """, (goalsFor2, goalsAgainst2, goalsFor2 - goalsAgainst2, time2['nome']))
+
+
+        conn.commit()
+        conn.close()
+
+        return jsonify({'message': 'Dados inseridos com sucesso no banco de dados.'}), 200
+
+    except Exception as e:
+        print(f"Erro durante a simulação: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/reset-simulation', methods=['POST'])
+def reset_simulation():
+    try:
+        print("Requisição POST recebida para /api/reset-simulation")
+
+        # Chame a função converte_simula para resetar a simulação
+        converte_simula()
+        converte_jogos()
+
+        return jsonify({'message': 'Simulação resetada com sucesso.'}), 200
+    except Exception as e:
+        print(f"Erro ao resetar a simulação: {str(e)}")
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/jogos_rodada', methods=['GET'])
 def obter_jogos_rodada_2023():

@@ -6,7 +6,7 @@ def converte_simula():
     conn = psycopg2.connect(
         database="FutStats",
         user="postgres",
-        password="84650052",  # Altere aqui a senha do seu PostgreSQL
+        password="postG000",  # Altere aqui a senha do seu PostgreSQL
         host="localhost",
         port="5432"
     )
@@ -29,18 +29,18 @@ def converte_simula():
             CREATE TABLE IF NOT EXISTS {tabela} (
                 Classificacao TEXT,
                 BrasaoTime TEXT,
-                Nome TEXT,
-                Pontos INT,  -- Alteração para INT
-                Jogos INT,  -- Alteração para INT
-                Vitorias INT,  -- Alteração para INT
-                Empates INT,  -- Alteração para INT
-                Derrotas INT,  -- Alteração para INT
-                Gols_Pros INT,  -- Alteração para INT
-                Gols_Contra INT,  -- Alteração para INT
-                Saldo_de_Gols INT,  -- Alteração para INT
-                Cartoes_Amarelos INT,  -- Alteração para INT
-                Cartoes_Vermelhos INT,  -- Alteração para INT
-                Porcentagem_de_Vitorias INT  -- Alteração para INT
+                Nome TEXT PRIMARY KEY,
+                Pontos INT,
+                Jogos INT,
+                Vitorias INT,
+                Empates INT,
+                Derrotas INT,
+                Gols_Pros INT,
+                Gols_Contra INT,
+                Saldo_de_Gols INT,
+                Cartoes_Amarelos INT,
+                Cartoes_Vermelhos INT,  
+                Porcentagem_de_Vitorias INT  
             )
         """)
 

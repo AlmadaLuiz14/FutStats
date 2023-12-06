@@ -28,12 +28,23 @@
             </tbody>
         </table>
     </div>
+    <div class="links">
+        <h2>Alterar tabelas</h2>
+        <router-link to="">Classificação</router-link>
+        <router-link to="">Times</router-link>
+        <router-link to="">Jogadores</router-link>
+    </div>
 </template>
 
 <script>
+    //import log from './Login_screen.vue'
     import axios from 'axios';
 
     export default {
+        /*components:{
+            log
+        },*/
+
         data(){
             return{
                 tabela: []
