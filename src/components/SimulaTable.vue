@@ -630,4 +630,19 @@ th {
     flex-direction:row;
     text-align: center;
 }
+
+.select {
+  font-size: 25px;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #333;
+  /* Adiciona uma sombra sutil quando o select estiver focado */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.select option {
+  font-size: 15px;
+}
 </style>

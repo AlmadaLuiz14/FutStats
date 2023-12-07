@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="card">
-            <h2>Altetar Rodada</h2>
+            <h2>Alterar Rodada</h2>
             <form id="novoTime" @submit.prevent="novoRodada">
                 <div class="form-group label-float">
                     <label for="numRod">Nº Rodada</label>
@@ -70,7 +70,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 64vh;
     }
 
     .card {

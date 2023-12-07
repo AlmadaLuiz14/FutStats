@@ -1,12 +1,15 @@
 <template>
     <div class="container">
         <div class="card">
-            <h2>Altetar Time</h2>
-            <form id="novoTime" @submit.prevent="alterarTime">
+            <h2>Atualizar Time</h2>
+            <form id="novoTime" @submit.prevent="novoTime">
                 <div class="form-group label-float">
                     <label for="nTimeNome">Nome</label>
                     <input class="form-control ls-login-bg-user input-lg" id="nTimeNome" name="nTimeNome" type="text" aria-label="Nome do Time" placeholder="Nome do Time" v-model="nome" required>
-                        
+                    
+                    <label for="brasao">Brasão</label>
+                    <input class="form-control ls-login-bg-user input-lg" id="brasao" name="brasao" type="text" aria-label="Brasão do Time" placeholder="URL do Brasão" v-model="brasao" />
+                    
                     <label for="ptsTimeNovo">Pontos</label>
                     <input class="form-control ls-login-bg-user input-lg" id="ptsTimeNovo" name="ptsTimeNovo" type="text" aria-label="Pontos do Time" placeholder="Pontos do Time" v-model="pts">
                 
@@ -42,11 +45,13 @@
 </template>
 
 <script>
+    import axios from "axios";
 
     export default {
         data() {
             return {
                 nome: null,
+                brasao: null,
                 pts: null,
                 numJogos: null,
                 numVit: null,
@@ -54,18 +59,82 @@
                 numDer: null,
                 gp: null,
                 gc: null,
+                sg: null,
                 cAmarelo: null,
-                cVermelho: null
+                cVermelho: null,
+                porcentagem: null,
+                temp: 0,
             }
         },
 
         methods: {
-            async alterarTime(){
-                console.log("Teste")
-            }
-        }
-    }
+    async novoTime() {
+      try {
 
+        const valoresNumericos = [
+          "pts",
+          "numJogos",
+          "numVit",
+          "numEmp",
+          "numDer",
+          "gp",
+          "gc",
+          "sg",
+          "cAmarelo",
+          "cVermelho",
+          "porcentagem",
+        ];
+
+
+        valoresNumericos.forEach((campo) => {
+          this[campo] = this[campo] !== null ? Number(this[campo]) : null;
+        });
+
+        if (this.numJogos > 0){
+            this.temp = this.numVit/this.numJogos
+        }
+        
+        const novoTime = {
+          nome: this.nome,
+          brasao: this.brasao,
+          pts: this.pts,
+          numJogos: this.numJogos,
+          numVit: this.numVit,
+          numEmp: this.numEmp,
+          numDer: this.numDer,
+          gp: this.gp,
+          gc: this.gc,
+          sg: this.gp - this.gc,
+          cAmarelo: this.cAmarelo,
+          cVermelho: this.cVermelho,
+          porcentagem: this.temp,
+        };
+
+        // Faça a requisição POST para a API
+        await axios.post('http://localhost:5000/api/altera_time', novoTime);
+
+        // Limpe os campos após o envio bem-sucedido
+        this.nome = null;
+        this.brasao = null;
+        this.pts = null;
+        this.numJogos = null;
+        this.numVit = null;
+        this.numEmp = null;
+        this.numDer = null;
+        this.gp = null;
+        this.gc = null;
+        this.cAmarelo = null;
+        this.cVermelho = null;
+
+        // Adicione qualquer lógica adicional após o envio bem-sucedido, se necessário
+        window.location.reload();
+        alert('Time Atualizado com sucesso!');
+      } catch (error) {
+        console.error('Erro ao atualizar time:', error);
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>

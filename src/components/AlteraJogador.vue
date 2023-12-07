@@ -1,44 +1,100 @@
 <template>
     <div class="container">
-        <div class="card">
-            <h2>Altetar Jogador</h2>
-            <form id="novoTime" @submit.prevent="alterarTime">
-                <div class="form-group label-float">
-                    <label for="nomeJog">Nome</label>
-                    <input class="form-control ls-login-bg-user input-lg" id="nomeJog" name="nomeJog" type="text" aria-label="Nome" placeholder="Nome" v-model="nomeJog" required>
-                        
-                    <label for="nick">Apelido</label>
-                    <input class="form-control ls-login-bg-user input-lg" id="nick" name="nick" type="text" aria-label="Apelido" placeholder="Apelido" v-model="nick">
-                
-                    <label for="time">Time</label>
-                    <input class="form-control ls-login-bg-user input-lg" id="time" name="time" type="text" aria-label="Time" placeholder="Time" v-model="time" required>
-                </div>
-                <p></p>
-                <input type="submit" class="submit-btn" value="Enviar">
-            </form>
-        </div>
+      <div class="card">
+        <h2>Alterar Jogador</h2>
+        <form id="alterarJogador" @submit.prevent="alterarJogador">
+          <div class="form-group label-float">
+            <label for="nomeJog">Nome</label>
+            <input
+              class="form-control ls-login-bg-user input-lg"
+              id="nomeJog"
+              name="nomeJog"
+              type="text"
+              aria-label="Nome"
+              placeholder="Nome"
+              v-model="nomeJog"
+              required
+            />
+  
+            <label for="nick">Apelido</label>
+            <input
+              class="form-control ls-login-bg-user input-lg"
+              id="nick"
+              name="nick"
+              type="text"
+              aria-label="Apelido"
+              placeholder="Apelido"
+              v-model="nick"
+            />
+  
+            <label for="time">Time</label>
+            <input
+              class="form-control ls-login-bg-user input-lg"
+              id="time"
+              name="time"
+              type="text"
+              aria-label="Time"
+              placeholder="Time"
+              v-model="time"
+              required
+            />
+          </div>
+          <p></p>
+          <input
+            type="submit"
+            class="submit-btn"
+            value="Enviar"
+          />
+        </form>
+      </div>
     </div>
-</template>
-
-<script>
-
-    export default {
-        data() {
-            return {
-                nomeJog: null,
-                nick: null, 
-                time: null
-            }
-        },
-
-        methods: {
-            async alterarTime(){
-                console.log("Teste")
-            }
+  </template>
+  
+  <script>
+  import axios from "axios";
+  
+  export default {
+    data() {
+      return {
+        nomeJog: null,
+        nick: null,
+        time: null,
+      };
+    },
+  
+    methods: {
+      async alterarJogador() {
+        try {
+          // Envia os dados para o backend
+          const altera_jogador = {
+            nome: this.nomeJog,
+            apelido: this.nick,
+            time: this.time,
+          };
+  
+          await axios.post(
+            'http://localhost:5000/api/altera_jogador',
+            altera_jogador
+          );
+  
+          // Limpa os campos após o envio bem-sucedido
+          this.nomeJog = null;
+          this.nick = null;
+          this.time = null;
+  
+          // Adicione qualquer lógica adicional após o envio bem-sucedido, se necessário
+          alert('Jogador alterado com sucesso!');
+        } catch (error) {
+          // Exibe uma mensagem de erro
+          console.error('Erro ao alterar jogador:', error);
+          alert(
+            'Erro ao alterar jogador. Verifique o console para mais detalhes.'
+          );
         }
-    }
-
-</script>
+      },
+    },
+  };
+  </script>
 
 <style scoped>
 
@@ -46,7 +102,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 43vh;
     }
 
     .card {

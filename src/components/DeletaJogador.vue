@@ -2,7 +2,7 @@
     <div class="container">
         <div class="card">
             <h2>Deletar Jogador</h2>
-            <form id="novoTime" @submit.prevent="deletarTime">
+            <form id="novoTime" @submit.prevent="deletarJogador">
                 <div class="form-group label-float">
                     <label for="nomeJog">Nome</label>
                     <input class="form-control ls-login-bg-user input-lg" id="nomeJog" name="nomeJog" type="text" aria-label="Nome" placeholder="Nome" v-model="nomeJog" required>
@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import axios from "axios";
 
     export default {
         data() {
@@ -28,8 +29,27 @@
         },
 
         methods: {
-            async deletarTime(){
-                console.log("Teste")
+            async deletarJogador(){
+                try {
+                // Envia os dados para o backend
+                const deleta_jogador = {
+                    nome: this.nomeJog,
+                    time: this.time,
+                };
+
+                await axios.post('http://localhost:5000/api/deleta_jogador', deleta_jogador);
+                
+                // Limpa os campos após o envio bem-sucedido
+                this.nomeJog = null;
+                this.time = null;
+
+                // Adicione qualquer lógica adicional após o envio bem-sucedido, se necessário
+                alert('Jogador deletado com sucesso!');
+            } catch (error) {
+                // Exibe uma mensagem de erro
+                console.error('Erro ao deletar jogador:', error);
+                alert('Erro ao deletar jogador. Verifique o console para mais detalhes.');
+            }
             }
         }
     }
@@ -42,7 +62,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 39.5vh;
     }
 
     .card {

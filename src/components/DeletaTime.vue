@@ -2,34 +2,49 @@
     <div class="container">
         <div class="card">
             <h2>Deletar Time</h2>
-            <form id="novoTime" @submit.prevent="deletarTime">
+            <form id="deletarTime" @submit.prevent="deletarTime">
                 <div class="form-group label-float">
-                    <label for="nTimeNome">Nome</label>
-                    <input class="form-control ls-login-bg-user input-lg" id="nTimeNome" name="nTimeNome" type="text" aria-label="Nome do Time" placeholder="Nome do Time" v-model="nome" required> 
+                    <label for="dTimeNome">Nome</label>
+                    <input class="form-control ls-login-bg-user input-lg" id="dTimeNome" name="dTimeNome" type="text" aria-label="Nome do Time" placeholder="Nome do Time" v-model="nome" required>
                 </div>
                 <p></p>
-                <input type="submit" class="submit-btn" value="Enviar">
+                <input type="submit" class="submit-btn" value="Deletar">
             </form>
         </div>
     </div>
 </template>
 
 <script>
+import axios from "axios";
 
-    export default {
-        data() {
-            return {
-                nome: null
-            }
-        },
+export default {
+    data() {
+        return {
+            nome: null
+        };
+    },
 
-        methods: {
-            async deletarTime(){
-                console.log("Teste")
+    methods: {
+        async deletarTime() {
+            try {
+                // Construa um objeto com os dados do time a ser excluído
+                const timeParaExcluir = {
+                    nome: this.nome
+                };
+
+                // Faça a requisição POST para a nova rota de exclusão
+                await axios.post('http://localhost:5000/api/deletar_time', timeParaExcluir);
+
+                // Limpe os campos após a exclusão bem-sucedida
+                this.nome = null;
+                window.location.reload();
+                alert('Time excluído com sucesso!');
+            } catch (error) {
+                console.error('Erro ao excluir time:', error);
             }
         }
     }
-
+};
 </script>
 
 <style scoped>
@@ -38,7 +53,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 31vh;
     }
 
     .card {

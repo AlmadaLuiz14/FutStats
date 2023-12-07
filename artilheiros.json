@@ -1,1353 +1,2251 @@
 {
     "artilharia": [
+        {},
         {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
             "Nome": "Francisco das Chagas Soares dos Santos",
+            "Apelido": "Tiquinho",
             "Time": "Botafogo - RJ",
-            "Gols": "15"
+            "Gols": "17"
         },
         {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Paulo Henrique Sampaio Filho",
+            "Apelido": "Paulinho",
+            "Time": "Atlético Mineiro Saf - MG",
+            "Gols": "17"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Luis Alberto Suarez Diaz",
+            "Apelido": "Suarez",
+            "Time": "Grêmio - RS",
+            "Gols": "17"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
             "Nome": "Marcos Leonardo Santos Almeida",
+            "Apelido": "Marcos Leonardo",
             "Time": "Santos - SP",
+            "Gols": "13"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Givanildo Vieira de Sousa",
+            "Apelido": "Hulk",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "13"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Pedro Guilherme Abreu dos Santos",
+            "Apelido": "Pedro",
+            "Time": "Flamengo - RJ",
+            "Gols": "13"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Deyverson Brum Silva",
+            "Apelido": "Deyverson",
+            "Time": "Cuiabá Saf - MT",
             "Gols": "12"
         },
         {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
             "Nome": "Vitor Hugo Roque Ferreira",
+            "Apelido": "Vitor Roque",
             "Time": "Athletico Paranaense - PR",
+            "Gols": "12"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Endrick Felipe Moreira de Sousa",
+            "Apelido": "Endrick",
+            "Time": "Palmeiras - SP",
             "Gols": "11"
         },
         {
-            "Nome": "Paulo Henrique Sampaio Filho",
-            "Time": "Atlético Mineiro - MG",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Gonzalo Mathias Mastriani Borges",
+            "Apelido": "Gonzalo Mastriani",
+            "Time": "América Saf - MG",
+            "Gols": "11"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Eduardo Colcenti Antunes",
+            "Apelido": "Eduardo Sasha",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "11"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "German Ezequiel Cano",
+            "Apelido": "German Cano",
+            "Time": "Fluminense - RJ",
             "Gols": "10"
         },
         {
-            "Nome": "Deyverson Brum Silva",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "9"
-        },
-        {
-            "Nome": "Givanildo Vieira de Sousa",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "9"
-        },
-        {
-            "Nome": "Jonathan Calleri",
-            "Time": "São Paulo - SP",
-            "Gols": "9"
-        },
-        {
-            "Nome": "Luis Alberto Suarez Diaz",
-            "Time": "Grêmio - RS",
-            "Gols": "9"
-        },
-        {
-            "Nome": "Juan Martin Lucero",
-            "Time": "Fortaleza - CE",
-            "Gols": "7"
-        },
-        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
             "Nome": "Pablo Ezequiel Vegetti",
+            "Apelido": "Vegetti",
             "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "7"
+            "Gols": "10"
         },
         {
-            "Nome": "German Ezequiel Cano",
-            "Time": "Fluminense - RJ",
-            "Gols": "7"
-        },
-        {
-            "Nome": "Eduardo Colcenti Antunes",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "7"
-        },
-        {
-            "Nome": "Raphael Cavalcante Veiga",
-            "Time": "Palmeiras - SP",
-            "Gols": "7"
-        },
-        {
-            "Nome": "Roger Krug Guedes",
-            "Time": "Corinthians - SP",
-            "Gols": "7"
-        },
-        {
-            "Nome": "Gabriel Fortes Chaves",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "6"
-        },
-        {
-            "Nome": "Pedro Guilherme Abreu dos Santos",
-            "Time": "Flamengo - RJ",
-            "Gols": "6"
-        },
-        {
-            "Nome": "Gonzalo Mathias Mastriani Borges",
-            "Time": "America Saf - MG",
-            "Gols": "6"
-        },
-        {
-            "Nome": "Thiago Nicolas Borbas Silva",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "6"
-        },
-        {
-            "Nome": "Franco Sebastian Cristaldo",
-            "Time": "Grêmio - RS",
-            "Gols": "6"
-        },
-        {
-            "Nome": "Everaldo Stum",
-            "Time": "Bahia - BA",
-            "Gols": "6"
-        },
-        {
-            "Nome": "Endrick Felipe Moreira de Sousa",
-            "Time": "Palmeiras - SP",
-            "Gols": "5"
-        },
-        {
-            "Nome": "John Steven Mendoza Valencia",
-            "Time": "Santos - SP",
-            "Gols": "5"
-        },
-        {
-            "Nome": "Guilherme Costa Marques",
-            "Time": "Goiás - GO",
-            "Gols": "5"
-        },
-        {
-            "Nome": "Gabriel Barbosa Almeida",
-            "Time": "Flamengo - RJ",
-            "Gols": "5"
-        },
-        {
-            "Nome": "Artur Victor Guimaraes",
-            "Time": "Palmeiras - SP",
-            "Gols": "5"
-        },
-        {
-            "Nome": "Yuri Alberto Monteiro da Silva",
-            "Time": "Corinthians - SP",
-            "Gols": "5"
-        },
-        {
-            "Nome": "Luciano da Rocha Neves",
-            "Time": "São Paulo - SP",
-            "Gols": "5"
-        },
-        {
-            "Nome": "Glaybson Yago Souza Lisbôa",
-            "Time": "Fortaleza - CE",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Vinicius Moreira de Lima",
-            "Time": "Fluminense - RJ",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Bruno Rafael Rodrigues do Nascimento",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Ronielson da Silva Barbosa",
-            "Time": "Palmeiras - SP",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Giorgian Daniel de Arrascaeta Benedetti",
-            "Time": "Flamengo - RJ",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Wesley Ribeiro Silva",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Pablo Felipe Teixeira",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Gerson Santos da Silva",
-            "Time": "Flamengo - RJ",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Carlos Eduardo de Oliveira Alves",
-            "Time": "Botafogo - RJ",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Thiago Galhardo do Nascimento Rocha",
-            "Time": "Fortaleza - CE",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Felipe Azevedo dos Santos",
-            "Time": "America Saf - MG",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Joao Paulo de Souza Mares",
-            "Time": "Grêmio - RS",
-            "Gols": "4"
-        },
-        {
-            "Nome": "John Kennedy Batista de Souza",
-            "Time": "Fluminense - RJ",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Christian Roberto Alves Cardoso",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Luis Henrique Tomaz de Lima",
-            "Time": "Botafogo - RJ",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Wanderson Maciel Sousa Campos",
-            "Time": "Internacional - RS",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Gabriel Teixeira Aragao",
-            "Time": "Bahia - BA",
-            "Gols": "4"
-        },
-        {
-            "Nome": "Thaciano Mickael da Silva",
-            "Time": "Bahia - BA",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Ademir da Silva Santos Junior",
-            "Time": "Bahia - BA",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Islam Slimani",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Cristian David Pavon",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Mathias Adalberto Villasanti Rolon",
-            "Time": "Grêmio - RS",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Jose Antonio dos Santos Junior",
-            "Time": "Botafogo - RJ",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Mauricio Magalhaes Prado",
-            "Time": "Internacional - RS",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Moises Vieira da Veiga",
-            "Time": "Fortaleza - CE",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Aloisio dos Santos Goncalves",
-            "Time": "America Saf - MG",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Fabio Santos Romeu",
-            "Time": "Corinthians - SP",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Danilo Fernando Avelar",
-            "Time": "America Saf - MG",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Paulo Henrique Chagas de Lima",
-            "Time": "Fluminense - RJ",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Gilberto Oliveira Souza Junior",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Eduardo Pereira Rodrigues",
-            "Time": "Palmeiras - SP",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Robson dos Santos Fernandes",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Leonardo Pereira",
-            "Time": "Flamengo - RJ",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Vitor Frezarin Bueno",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Joao Victor Santos Sa",
-            "Time": "Botafogo - RJ",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Joao Victo Magno de Souza Machado",
-            "Time": "Goiás - GO",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Ayrton Lucas Dantas de Medeiros",
-            "Time": "Flamengo - RJ",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Lucas Halter",
-            "Time": "Goiás - GO",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Everton Galdino Moreira",
-            "Time": "Grêmio - RS",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Erick Luis Conrado Carvalho",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Joao Pedro Maturano dos Santos",
-            "Time": "Grêmio - RS",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Clayson Henrique da Silva Vieira",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Jair Rodrigues Junior",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Adilson dos Anjos Oliveira",
-            "Time": "America Saf - MG",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Rafael Rogerio da Silva",
-            "Time": "Bahia - BA",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Alex Paulo Menezes Santana",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "3"
-        },
-        {
-            "Nome": "Marlon Rodrigues Xavier",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Matheus Barcelos da Silva",
-            "Time": "Goiás - GO",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Arthur Gomes Lourenco",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Vitor Hugo Naum dos Santos",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Breno Henrique Vasconcelos Lopes",
-            "Time": "Palmeiras - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Murilo Cerqueira Paim",
-            "Time": "Palmeiras - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Fernando Pereira do Nascimento",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Bruno Henrique Pinto",
-            "Time": "Flamengo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Luis Antonio da Rocha Junior",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Everton Sousa Soares",
-            "Time": "Flamengo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Marcilio Florencio Mota Filho",
-            "Time": "Fluminense - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Matheus Vieira Campos Peixoto",
-            "Time": "Goiás - GO",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Alesson dos Santos Batista",
-            "Time": "Goiás - GO",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Gabriel Vinicius Menino",
-            "Time": "Palmeiras - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Pedro Raul Garay da Silva",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "David Correa da Fonseca",
-            "Time": "São Paulo - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Marcos Paulo Costa do Nascimento",
-            "Time": "São Paulo - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Eric dos Santos Rodrigues",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Helio Junio Nunes de Castro",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Carlos de Menezes Junior",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Leanderson da Silva Genesio",
-            "Time": "Fluminense - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Raniele Almeida Melo",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Joao Lucas de Souza Cardoso",
-            "Time": "Internacional - RS",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Magno Jose da Silva",
-            "Time": "Goiás - GO",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Bruno Ferreira Melo",
-            "Time": "Goiás - GO",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Victor Luis Chuab Zamblauskas",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Maycon de Andrade Barberan",
-            "Time": "Corinthians - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Gustavo Affonso Sauerbeck",
-            "Time": "Botafogo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Bruno de Jesus Pacheco",
-            "Time": "Fortaleza - CE",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Caio Alexandre Sousa E Silva",
-            "Time": "Fortaleza - CE",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Hyoran Kaue Dalmoro",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Carlos Gilberto do Nascimento Silva",
-            "Time": "Corinthians - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Diego da Silva Costa",
-            "Time": "Botafogo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Everton Augusto de Barros Ribeiro",
-            "Time": "Flamengo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Alexandre Rodrigues da Silva",
-            "Time": "São Paulo - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Luiz Adriano Souza da Silva",
-            "Time": "Internacional - RS",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Willian Gomes de Siqueira",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Bruno Gonçalves de Jesus",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Rodrigo Santos Varanda",
-            "Time": "America Saf - MG",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Carlos Alberto Gomes da Silva Filho",
-            "Time": "Botafogo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Angelo Gabriel Borges Damaceno",
-            "Time": "Santos - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Pablo Gonçalves Maia Fortunato",
-            "Time": "São Paulo - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Jhon Adolfo Arias Andrade",
-            "Time": "Fluminense - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Ruan de Oliveira Ferreira",
-            "Time": "Corinthians - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Deivid Washington de Souza Eugenio",
-            "Time": "Santos - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Fabricio Tomas Bustos Sein",
-            "Time": "Internacional - RS",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Silvio Ezequiel Romero",
-            "Time": "Fortaleza - CE",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Jose Manuel Alberto Lopez",
-            "Time": "Palmeiras - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Erick Antonio Pulgar Farfan",
-            "Time": "Flamengo - RJ",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Agustin Canobbio Graviz",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Carlos Maria de Pena Bonino",
-            "Time": "Internacional - RS",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Andre Henrique da Silva Martins",
-            "Time": "Grêmio - RS",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Marcos Vinicios Lopes Moura",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Richard Rios Montoya",
-            "Time": "Palmeiras - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Imanol Javier Machuca",
-            "Time": "Fortaleza - CE",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Tomás Eduardo Rincón Hernández",
-            "Time": "Santos - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Sebastian Gomez Londono",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Julio Cesar Furch",
-            "Time": "Santos - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Tomas Pochettino",
-            "Time": "Fortaleza - CE",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Henry David Mosquera Sanchez",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Vinicius Alessandro Mingotti",
-            "Time": "Bahia - BA",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Cauly Oliveira Souza",
-            "Time": "Bahia - BA",
-            "Gols": "2"
-        },
-        {
-            "Nome": "Francisco Vitor Silva Costa",
-            "Time": "Bahia - BA",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Bruno Conceicao Praxedes",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Julio Cesar de Rezende Miranda",
-            "Time": "Bahia - BA",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Diogo Barbosa Mendanha",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "David de Duarte Macedo",
-            "Time": "Bahia - BA",
-            "Gols": "1"
-        },
-        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
             "Nome": "Enner Remberto Valencia Lastra",
+            "Apelido": "Valencia",
             "Time": "Internacional - RS",
-            "Gols": "1"
+            "Gols": "9"
         },
         {
-            "Nome": "Leonardo Cecilio Fernandez Lopez",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Camilo Damian Candido Aquino",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Everaldo Stum",
+            "Apelido": "Everaldo",
             "Time": "Bahia - BA",
-            "Gols": "1"
+            "Gols": "9"
         },
         {
-            "Nome": "Alan Javier Franco",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Thiago Nicolas Borbas Silva",
+            "Apelido": "Thiago Borbas",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "9"
         },
         {
-            "Nome": "Paolo Mauricio Lemos Merladett",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Leonel Di Placido",
-            "Time": "Botafogo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Bruno Zapelli",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "James David Rodriguez Rubio",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Mario Sergio Santos Costa",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Juan Martin Lucero",
+            "Apelido": "Lucero",
             "Time": "Fortaleza - CE",
-            "Gols": "1"
+            "Gols": "9"
         },
         {
-            "Nome": "Vitor Hugo Franchescoli de Souza",
-            "Time": "Bahia - BA",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Wesley Gassova Ribeiro Teixeira",
-            "Time": "Corinthians - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Andrey Nascimento dos Santos",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Yeferson Julio Soteldo Martinez",
-            "Time": "Santos - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Talisson de Almeida",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Hercules Pereira do Nascimento",
-            "Time": "Fortaleza - CE",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Wesley Vinicius França Lima",
-            "Time": "Flamengo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Michel Daryl Araujo Villar",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Jonathan Calleri",
+            "Apelido": "Calleri",
             "Time": "São Paulo - SP",
-            "Gols": "1"
+            "Gols": "9"
         },
         {
-            "Nome": "Martin Nicolas Benitez",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Pedro Henrique Silva dos Santos",
-            "Time": "Corinthians - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matias Galarza Fonda",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Federico Matias Zaracho",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Benjamin Kuscevic Jaramillo",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Robson dos Santos Fernandes",
+            "Apelido": "Robson",
             "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
+            "Gols": "9"
         },
         {
-            "Nome": "Alan Pereira Empereur",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Felipe Ignacio Carballo Ares",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rodrigo Fernandez Cedres",
-            "Time": "Santos - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Isidro Miguel Pitta Saldivar",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Gabriel Neves Perdomo",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Jadsom Meemyas de Oliveira da Silva",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Lucas Lopes Beraldo",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus Henrique Bianqui",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Renato Marques de Oliveira Junior",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Diogo de Oliveira Barbosa",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus de Araujo Andrade",
-            "Time": "Corinthians - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Juan Santos da Silva",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Gabriel Cordeiro Pirani",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Nathan Gabriel de Souza Mendes",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rodrigo Henrique Santos de Souza",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus Nascimento de Paula",
-            "Time": "Botafogo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Luis Eduardo Soares da Silva",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus França de Oliveira",
-            "Time": "Flamengo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Erick Marcus dos Santos Oliveira do Carmo",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Cauan Lucas Barros da Luz",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Gustavo Martins de Souza Santos",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Gustavo Raul Gomez Portillo",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Raphael Cavalcante Veiga",
+            "Apelido": "Raphael Veiga",
             "Time": "Palmeiras - SP",
-            "Gols": "1"
+            "Gols": "9"
         },
         {
-            "Nome": "Gustavo Ribeiro Neves",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Luciano da Rocha Neves",
+            "Apelido": "Luciano",
+            "Time": "São Paulo - SP",
+            "Gols": "9"
         },
         {
-            "Nome": "Rayan Vitor Simplício Rocha",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "João Batista da Cruz Santos Neto",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Ronald Cardoso Falkoski",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rikelme Hernandes Amorim Rocha",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Victor Hugo Gomes Silva",
-            "Time": "Flamengo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Victor Leandro Cuesta",
-            "Time": "Botafogo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Breno Cascardo Lemos",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "David Luiz Moreira Marinho",
-            "Time": "Flamengo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Luiz Diallisson de Souza Alves",
-            "Time": "Goiás - GO",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Marcelo Vieira da Silva Junior",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Renato Soares de Oliveira Augusto",
-            "Time": "Corinthians - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Felipe Melo de Carvalho",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Wellington Pereira do Nascimento",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Fernando Luiz Roza",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Alan Kardec de Souza Pereira Junior",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Alan Douglas Borges de Carvalho",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Giuliano Victor de Paula",
-            "Time": "Corinthians - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Bruno Henrique Corsini",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Luciano Castan da Silva",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Bruno Rafael Rodrigues do Nascimento",
+            "Apelido": "Bruno Rodrigues",
             "Time": "Cruzeiro Saf - MG",
-            "Gols": "1"
+            "Gols": "8"
         },
         {
-            "Nome": "Samuel Xavier Brito",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Vinicius Goes Barbosa de Souza",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Ramiro Moschen Benetti",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Bruno Uvini Bortolanca",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Jose Henrique da Silva Dourado",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Lucas Rodrigues Moura da Silva",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Marllon Goncalves Jeronimo Borges",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Eduardo Gabriel dos Santos Bauermann",
-            "Time": "Santos - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Pedro Henrique Konzen Medina da Silva",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Alan Patrick Lourenço",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Wellington Alves da Silva",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Maycon Vinicius Ferreira da Cruz",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Gilberto Moraes Junior",
-            "Time": "Bahia - BA",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Eduardo Nascimento da Silva Junior",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Luan Garcia Teixeira",
-            "Time": "Palmeiras - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Gustavo Henric da Silva",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Yuri Alberto Monteiro da Silva",
+            "Apelido": "Yuri Alberto",
             "Time": "Corinthians - SP",
-            "Gols": "1"
+            "Gols": "8"
         },
         {
-            "Nome": "Danilo das Neves Pinheiro",
-            "Time": "Botafogo - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Alexandre Egea",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Mayke Rocha de Oliveira",
-            "Time": "Palmeiras - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "José Welison da Silva",
-            "Time": "Fortaleza - CE",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rosicley Pereira da Silva",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Claudio Rodrigues Gomes",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus Fernandes Siqueira",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Madson Ferreira dos Santos",
-            "Time": "Athletico Paranaense - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Joao Pedro Vilardi Pinto",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Lucas Rafael Araujo Lima",
-            "Time": "Santos - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Reinaldo Manoel da Silva",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Nathan Allan de Souza",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Lucas Evangelista Santana de Oliveira",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Jean Dias da Costa",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Sergio Antonio da Luz Junior",
-            "Time": "Vasco da Gama S.a.f. - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rene Rodrigues Martins",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Jose Rafael Vivian",
-            "Time": "Palmeiras - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus Alexandre Anastacio de Souza",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rodrigo Nestor Bertalia",
-            "Time": "São Paulo - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Matheus Martinelli Lima",
-            "Time": "Fluminense - RJ",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Denilson Alves Borges",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Romulo Zanre Zwarg",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Bruno Gomes da Silva Clevelario",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Luan Candido de Almeida",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Eduardo Jesus Vargas Rojas",
-            "Time": "Atlético Mineiro - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Alexandre Zurawski",
-            "Time": "Internacional - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Alef Mangueira Severino Pereira",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Everton Morelli Casimiro",
-            "Time": "Goiás - GO",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Mateus da Silva Duarte",
-            "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Everaldo Silva do Nascimento",
-            "Time": "America Saf - MG",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Aldemir dos Santos Ferreira",
-            "Time": "Grêmio - RS",
-            "Gols": "1"
-        },
-        {
-            "Nome": "Rafael Navarro Leal",
-            "Time": "Palmeiras - SP",
-            "Gols": "1"
-        },
-        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
             "Nome": "Angel Rodrigo Romero Villamayor",
+            "Apelido": "Angel Romero",
             "Time": "Corinthians - SP",
-            "Gols": "1"
+            "Gols": "8"
         },
         {
-            "Nome": "Vinicius Rodrigues Adelino dos Santos",
-            "Time": "Goiás - GO",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Gabriel Fortes Chaves",
+            "Apelido": "Gabriel Pec",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "8"
         },
         {
-            "Nome": "Adryelson Shawann Lima Silva",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Franco Sebastian Cristaldo",
+            "Apelido": "Cristaldo",
+            "Time": "Grêmio - RS",
+            "Gols": "8"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Wanderson Maciel Sousa Campos",
+            "Apelido": "WANDERSON",
+            "Time": "Internacional - RS",
+            "Gols": "7"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Jhon Adolfo Arias Andrade",
+            "Apelido": "Jhon Arias",
+            "Time": "Fluminense - RJ",
+            "Gols": "7"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Jose Antonio dos Santos Junior",
+            "Apelido": "Junior",
             "Time": "Botafogo - RJ",
-            "Gols": "1"
+            "Gols": "7"
         },
         {
-            "Nome": "Alerrandro Barra Mansa Realino de Souza",
-            "Time": "Red Bull Bragantino - SP",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Giorgian Daniel de Arrascaeta Benedetti",
+            "Apelido": "De Arrascaeta",
+            "Time": "Flamengo - RJ",
+            "Gols": "7"
         },
         {
-            "Nome": "Ronald dos Santos Lopes",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Clayson Henrique da Silva Vieira",
+            "Apelido": "Clayson",
             "Time": "Cuiabá Saf - MT",
-            "Gols": "1"
+            "Gols": "7"
         },
         {
-            "Nome": "Luiz Filipe da Rosa Machado",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Roger Krug Guedes",
+            "Apelido": "Roger Guedes",
+            "Time": "Corinthians - SP",
+            "Gols": "7"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Glaybson Yago Souza Lisbôa",
+            "Apelido": "Yago",
+            "Time": "Fortaleza - CE",
+            "Gols": "7"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Pablo Felipe Teixeira",
+            "Apelido": "Pablo",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "7"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Guilherme Costa Marques",
+            "Apelido": "Guilherme",
+            "Time": "Goiás - GO",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Carlos Eduardo de Oliveira Alves",
+            "Apelido": "Carlos",
+            "Time": "Botafogo - RJ",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Vinicius Moreira de Lima",
+            "Apelido": "Lima",
+            "Time": "Fluminense - RJ",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Everton Galdino Moreira",
+            "Apelido": "Galdino",
+            "Time": "Grêmio - RS",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "John Steven Mendoza Valencia",
+            "Apelido": "Mendoza",
+            "Time": "Santos - SP",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Mauricio Magalhaes Prado",
+            "Apelido": "Mauricio",
+            "Time": "Internacional - RS",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "John Kennedy Batista de Souza",
+            "Apelido": "John Kennedy",
+            "Time": "Fluminense - RJ",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Thaciano Mickael da Silva",
+            "Apelido": "Thaciano",
+            "Time": "Bahia - BA",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Ademir da Silva Santos Junior",
+            "Apelido": "Ademir",
+            "Time": "Bahia - BA",
+            "Gols": "6"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Gabriel Teixeira Aragao",
+            "Apelido": "Biel",
+            "Time": "Bahia - BA",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Isidro Miguel Pitta Saldivar",
+            "Apelido": "PITTA",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Jose Manuel Alberto Lopez",
+            "Apelido": "Lopez",
+            "Time": "Palmeiras - SP",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Artur Victor Guimaraes",
+            "Apelido": "Artur",
+            "Time": "Palmeiras - SP",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Ronielson da Silva Barbosa",
+            "Apelido": "Rony",
+            "Time": "Palmeiras - SP",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Breno Henrique Vasconcelos Lopes",
+            "Apelido": "Breno",
+            "Time": "Palmeiras - SP",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Gabriel Barbosa Almeida",
+            "Apelido": "Gabriel Barbosa",
+            "Time": "Flamengo - RJ",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Thiago Galhardo do Nascimento Rocha",
+            "Apelido": "Thiago Galhardo",
+            "Time": "Fortaleza - CE",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Gerson Santos da Silva",
+            "Apelido": "Gerson",
+            "Time": "Flamengo - RJ",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Vitor Frezarin Bueno",
+            "Apelido": "Vitor Bueno",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "5"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Joao Victor Santos Sa",
+            "Apelido": "Joao Victor",
+            "Time": "Botafogo - RJ",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Alan Patrick Lourenço",
+            "Apelido": "Alan Patrick",
+            "Time": "Internacional - RS",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Fabio Santos Romeu",
+            "Apelido": "Fabio Santos",
+            "Time": "Corinthians - SP",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Willian Gomes de Siqueira",
+            "Apelido": "Willian",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Felipe Azevedo dos Santos",
+            "Apelido": "Felipe Azevedo",
+            "Time": "América Saf - MG",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Rafael Rogerio da Silva",
+            "Apelido": "Rafael Ratão",
+            "Time": "Bahia - BA",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Erick Luis Conrado Carvalho",
+            "Apelido": "Erick",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Everton Sousa Soares",
+            "Apelido": "Everton",
+            "Time": "Flamengo - RJ",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Matheus Barcelos da Silva",
+            "Apelido": "Matheus Babi",
+            "Time": "Goiás - GO",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Ayrton Lucas Dantas de Medeiros",
+            "Apelido": "Ayrton Lucas",
+            "Time": "Flamengo - RJ",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Mathias Adalberto Villasanti Rolon",
+            "Apelido": "Villasanti",
+            "Time": "Grêmio - RS",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Christian Roberto Alves Cardoso",
+            "Apelido": "Christian",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Luis Henrique Tomaz de Lima",
+            "Apelido": "Luis Henrique",
+            "Time": "Botafogo - RJ",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Pablo Gonçalves Maia Fortunato",
+            "Apelido": "Pablo",
+            "Time": "São Paulo - SP",
+            "Gols": "4"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Wesley Ribeiro Silva",
+            "Apelido": "Wesley Ribeiro Silva",
             "Time": "Cruzeiro Saf - MG",
-            "Gols": "1"
+            "Gols": "4"
         },
         {
-            "Nome": "Andrey Ramos do Nascimento",
-            "Time": "Coritiba S.a.f. - PR",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Joao Paulo de Souza Mares",
+            "Apelido": "Bitello",
+            "Time": "Grêmio - RS",
+            "Gols": "4"
         },
         {
-            "Nome": "Nicolas Vichiatto da Silva",
-            "Time": "America Saf - MG",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Aldemir dos Santos Ferreira",
+            "Apelido": "Ferreira",
+            "Time": "Grêmio - RS",
+            "Gols": "4"
         },
         {
-            "Nome": "Rafael Elias da Silva",
-            "Time": "Cruzeiro Saf - MG",
-            "Gols": "1"
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Cauly Oliveira Souza",
+            "Apelido": "Cauly",
+            "Time": "Bahia - BA",
+            "Gols": "4"
         },
         {
-            "Nome": "Eduardo Gonzaga Mendes Santos",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Helio Junio Nunes de Castro",
+            "Apelido": "Helinho",
             "Time": "Red Bull Bragantino - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Joao Victo Magno de Souza Machado",
+            "Apelido": "Joao",
+            "Time": "Goiás - GO",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Raniele Almeida Melo",
+            "Apelido": "Raniele",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Eric dos Santos Rodrigues",
+            "Apelido": "Eric Ramires",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Renato Marques de Oliveira Junior",
+            "Apelido": "Renato",
+            "Time": "América Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Moises Vieira da Veiga",
+            "Apelido": "Moises",
+            "Time": "Fortaleza - CE",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Fabricio Tomas Bustos Sein",
+            "Apelido": "BUSTOS",
+            "Time": "Internacional - RS",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Joaquin Piquerez Moreira",
+            "Apelido": "Joaquin Piquerez",
+            "Time": "Palmeiras - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Agustin Canobbio Graviz",
+            "Apelido": "Canobbio",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Cristian David Pavon",
+            "Apelido": "Pavon",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Martin Nicolas Benitez",
+            "Apelido": "Martin Benitez",
+            "Time": "América Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Andre Henrique da Silva Martins",
+            "Apelido": "Andre",
+            "Time": "Grêmio - RS",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Talisson de Almeida",
+            "Apelido": "Talisson",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Islam Slimani",
+            "Apelido": "Slimani",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Julio Cesar Furch",
+            "Apelido": "Julio Furch",
+            "Time": "Santos - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Everton Morelli Casimiro",
+            "Apelido": "Morelli",
+            "Time": "Goiás - GO",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Lucas Halter",
+            "Apelido": "Halter",
+            "Time": "Goiás - GO",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Luiz de Araujo Guimaraes Neto",
+            "Apelido": "Luiz",
+            "Time": "Flamengo - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Guilherme Augusto Vieira dos Santos",
+            "Apelido": "Guilherme Augusto",
+            "Time": "Fortaleza - CE",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Murilo Cerqueira Paim",
+            "Apelido": "Murilo",
+            "Time": "Palmeiras - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Paulo Henrique Sampaio Filho",
+            "Apelido": "Paulinho",
+            "Time": "Atlético Mineiro Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Arthur Gomes Lourenco",
+            "Apelido": "Arthur Gomes",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Joao Pedro Maturano dos Santos",
+            "Apelido": "Joao Pedro",
+            "Time": "Grêmio - RS",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Alex Paulo Menezes Santana",
+            "Apelido": "Alex Santana",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Danilo Barbosa da Silva",
+            "Apelido": "Danilo",
+            "Time": "Botafogo - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Marlon Rodrigues Xavier",
+            "Apelido": "Marlon",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Jose Rafael Vivian",
+            "Apelido": "Ze Rafael",
+            "Time": "Palmeiras - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Jair Rodrigues Junior",
+            "Apelido": "Jair",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Adilson dos Anjos Oliveira",
+            "Apelido": "Juninho",
+            "Time": "América Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Aloisio dos Santos Goncalves",
+            "Apelido": "Aloisio",
+            "Time": "América Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Diego da Silva Costa",
+            "Apelido": "Diego Costa",
+            "Time": "Botafogo - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Everton Augusto de Barros Ribeiro",
+            "Apelido": "Éverton Ribeiro",
+            "Time": "Flamengo - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Luiz Adriano Souza da Silva",
+            "Apelido": "Luiz Adriano",
+            "Time": "Internacional - RS",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Danilo Fernando Avelar",
+            "Apelido": "Danilo",
+            "Time": "América Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Paulo Henrique Chagas de Lima",
+            "Apelido": "PH GANSO",
+            "Time": "Fluminense - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Gilberto Oliveira Souza Junior",
+            "Apelido": "Gilberto",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Eduardo Pereira Rodrigues",
+            "Apelido": "Dudu",
+            "Time": "Palmeiras - SP",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Pedro Henrique Konzen Medina da Silva",
+            "Apelido": "Pedro",
+            "Time": "Internacional - RS",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Leonardo Pereira",
+            "Apelido": "Leo Pereira",
+            "Time": "Flamengo - RJ",
+            "Gols": "3"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Victor Luis Chuab Zamblauskas",
+            "Apelido": "Victor",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Madson Ferreira dos Santos",
+            "Apelido": "Madson",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Magno Jose da Silva",
+            "Apelido": "Magno Jose",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Bruno Ferreira Melo",
+            "Apelido": "Bruno",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Maycon Vinicius Ferreira da Cruz",
+            "Apelido": "Nikao",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Eduardo Nascimento da Silva Junior",
+            "Apelido": "Edu",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Hyoran Kaue Dalmoro",
+            "Apelido": "Hyoran",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Danilo das Neves Pinheiro",
+            "Apelido": "Tche Tche",
+            "Time": "Botafogo - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Bruno Henrique Corsini",
+            "Apelido": "Bruno",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Giuliano Victor de Paula",
+            "Apelido": "Giuliano",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Carlos Gilberto do Nascimento Silva",
+            "Apelido": "Gil",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Givanildo Vieira de Sousa",
+            "Apelido": "Hulk",
+            "Time": "Atlético Mineiro Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Renato Soares de Oliveira Augusto",
+            "Apelido": "Renato Augusto",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Felipe Melo de Carvalho",
+            "Apelido": "Felipe Melo",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Alexandre Rodrigues da Silva",
+            "Apelido": "Alexandre Pato",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Sergio Antonio da Luz Junior",
+            "Apelido": "Serginho",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Gustavo Affonso Sauerbeck",
+            "Apelido": "Gustavo",
+            "Time": "Botafogo - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Reinaldo Manoel da Silva",
+            "Apelido": "Reinaldo",
+            "Time": "Grêmio - RS",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Bruno de Jesus Pacheco",
+            "Apelido": "Bruno Pacheco",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Caio Alexandre Sousa E Silva",
+            "Apelido": "Caio",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Maycon de Andrade Barberan",
+            "Apelido": "Maycon",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Igor Silveira Gomes",
+            "Apelido": "Igor Gomes",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Marcos da Silva Franca",
+            "Apelido": "Keno",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Marcilio Florencio Mota Filho",
+            "Apelido": "Nino",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Messias Rodrigues da Silva Junior",
+            "Apelido": "Messias",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Matheus Vieira Campos Peixoto",
+            "Apelido": "Matheus Peixoto",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Ronald dos Santos Lopes",
+            "Apelido": "Ronald",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Vitor Hugo Naum dos Santos",
+            "Apelido": "Vitinho",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Fernando Pereira do Nascimento",
+            "Apelido": "Fernando",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Bruno Henrique Pinto",
+            "Apelido": "Bruno Henrique",
+            "Time": "Flamengo - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Luis Antonio da Rocha Junior",
+            "Apelido": "J. Capixaba",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Leonardo Rech Ortiz",
+            "Apelido": "Léo Ortiz",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Calebe Gonçalves Ferreira da Silva",
+            "Apelido": "Calebe",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "David Correa da Fonseca",
+            "Apelido": "David",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Bruno Zapelli",
+            "Apelido": "Zapelli",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Imanol Javier Machuca",
+            "Apelido": "Machuca",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Jose Luis Rodriguez Bebanz",
+            "Apelido": "Puma Rodriguez",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Erick Antonio Pulgar Farfan",
+            "Apelido": "Erick Pulgar",
+            "Time": "Flamengo - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Tomas Pochettino",
+            "Apelido": "Pochettino",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Tomás Eduardo Rincón Hernández",
+            "Apelido": "Tomás Rincón",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Dimitri Payet",
+            "Apelido": "Payet",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Sebastian Gomez Londono",
+            "Apelido": "Sebastian Gomez",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Julio Cesar de Rezende Miranda",
+            "Apelido": "Rezende",
+            "Time": "Bahia - BA",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Ruan de Oliveira Ferreira",
+            "Apelido": "RUAN",
+            "Time": "Corinthians - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Michel Daryl Araujo Villar",
+            "Apelido": "Michel Araujo",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Richard Rios Montoya",
+            "Apelido": "Richard Rios",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Carlos Maria de Pena Bonino",
+            "Apelido": "Carlos de Pena",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Deivid Washington de Souza Eugenio",
+            "Apelido": "Deivid Washington",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Silvio Ezequiel Romero",
+            "Apelido": "Silvio Romero",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Marcos Vinicios Lopes Moura",
+            "Apelido": "Sorriso",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Carlos Alberto Gomes da Silva Filho",
+            "Apelido": "Carlos Alberto",
+            "Time": "Botafogo - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Gustavo Raul Gomez Portillo",
+            "Apelido": "Gustavo Gomez",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Angelo Gabriel Borges Damaceno",
+            "Apelido": "Ângelo",
+            "Time": "Santos - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Matheus Henrique Bianqui",
+            "Apelido": "Matheus",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Bruno Gonçalves de Jesus",
+            "Apelido": "Bruninho",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Rodrigo Santos Varanda",
+            "Apelido": "Rodrigo Varanda",
+            "Time": "América Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Leanderson da Silva Genesio",
+            "Apelido": "Lelê",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Joao Lucas de Souza Cardoso",
+            "Apelido": "Joao Lucas",
+            "Time": "Internacional - RS",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Matheus Martinelli Lima",
+            "Apelido": "Martinelli",
+            "Time": "Fluminense - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Rodrigo Henrique Santos de Souza",
+            "Apelido": "Rodrigo",
+            "Time": "América Saf - MG",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Marcos Paulo Costa do Nascimento",
+            "Apelido": "Marcos Paulo",
+            "Time": "São Paulo - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Bruno Gomes da Silva Clevelario",
+            "Apelido": "Bruno Gomes",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Vinicius Rodrigues Adelino dos Santos",
+            "Apelido": "Vinicius",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Alesson dos Santos Batista",
+            "Apelido": "Alesson",
+            "Time": "Goiás - GO",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Gabriel Vinicius Menino",
+            "Apelido": "Gabriel Menino",
+            "Time": "Palmeiras - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Pedro Raul Garay da Silva",
+            "Apelido": "Pedro Raul",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Carlos de Menezes Junior",
+            "Apelido": "Cacá",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Henry David Mosquera Sanchez",
+            "Apelido": "Henry Mosquera",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Mario Sergio Santos Costa",
+            "Apelido": "Marinho",
+            "Time": "Fortaleza - CE",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Vinicius Alessandro Mingotti",
+            "Apelido": "Mingotti",
+            "Time": "Bahia - BA",
+            "Gols": "2"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Francisco Vitor Silva Costa",
+            "Apelido": "Jacare",
+            "Time": "Bahia - BA",
             "Gols": "1"
         },
         {
-            "Nome": "Jose Gabriel dos Santos Silva",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Vitor Hugo Franchescoli de Souza",
+            "Apelido": "Vitor Hugo",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Joaquim Henrique Pereira Silva",
+            "Apelido": "Joaquim",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Paulo Henrique de Oliveira Alves",
+            "Apelido": "Paulo Henrique",
             "Time": "Vasco da Gama S.a.f. - RJ",
             "Gols": "1"
         },
         {
-            "Nome": "Lucas Verissimo da Silva",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Rafael Navarro Leal",
+            "Apelido": "Rafael Navarro",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Janderson de Carvalho Costa",
+            "Apelido": "Janderson",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Everaldo Silva do Nascimento",
+            "Apelido": "Everaldo",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Adryelson Shawann Lima Silva",
+            "Apelido": "Adryelson",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Caio Fernando de Oliveira",
+            "Apelido": "Caio Paulista",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Rodrigo Nestor Bertalia",
+            "Apelido": "Rodrigo Nestor",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Denilson Alves Borges",
+            "Apelido": "Denilson",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Romulo Zanre Zwarg",
+            "Apelido": "Romulo",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Luan Candido de Almeida",
+            "Apelido": "Luan Candido",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Matheus Alexandre Anastacio de Souza",
+            "Apelido": "Matheus Alexandre",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Victor Leandro Cuesta",
+            "Apelido": "Victor Cuesta",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Rubens Antonio Dias",
+            "Apelido": "Rubens",
+            "Time": "Atlético Mineiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Lucas Lopes Beraldo",
+            "Apelido": "Beraldo",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Giovane Santana do Nascimento",
+            "Apelido": "Giovane Nascimento",
             "Time": "Corinthians - SP",
             "Gols": "1"
         },
         {
-            "Nome": "Matheus Isaias dos Santos",
-            "Time": "Cruzeiro Saf - MG",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Diogo de Oliveira Barbosa",
+            "Apelido": "Diogo",
+            "Time": "Coritiba S.a.f. - PR",
             "Gols": "1"
         },
         {
-            "Nome": "Igor Silveira Gomes",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Luciano Batista da Silva Junior",
+            "Apelido": "Luciano Juba",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Jadsom Meemyas de Oliveira da Silva",
+            "Apelido": "Jadsom Silva",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Matheus de Araujo Andrade",
+            "Apelido": "Matheus Araujo",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Juan Santos da Silva",
+            "Apelido": "Juan",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Gabriel Cordeiro Pirani",
+            "Apelido": "Gabriel Pirani",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Nathan Gabriel de Souza Mendes",
+            "Apelido": "Nathan",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Matheus Nascimento de Paula",
+            "Apelido": "Matheus Nascimento",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Luis Eduardo Soares da Silva",
+            "Apelido": "Cuiabano",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Matheus França de Oliveira",
+            "Apelido": "Matheus França",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Erick Marcus dos Santos Oliveira do Carmo",
+            "Apelido": "Erick Marcus",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Cauan Lucas Barros da Luz",
+            "Apelido": "Barros",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Gustavo Martins de Souza Santos",
+            "Apelido": "G. Martins",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Derik Gean Severino Lacerda",
+            "Apelido": "DERIK",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Gustavo Ribeiro Neves",
+            "Apelido": "Gustavinho",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Mauricio Garcez de Jesus",
+            "Apelido": "MAURICIO",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Rayan Vitor Simplício Rocha",
+            "Apelido": "Rayan",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "João Batista da Cruz Santos Neto",
+            "Apelido": "João Neto",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Ronald Cardoso Falkoski",
+            "Apelido": "Ronald",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Erison Danilo de Souza",
+            "Apelido": "Erison",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Rikelme Hernandes Amorim Rocha",
+            "Apelido": "RIKELME",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Victor Hugo Gomes Silva",
+            "Apelido": "Victor Hugo",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Andrey Nascimento dos Santos",
+            "Apelido": "Andrey Santos",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Breno Cascardo Lemos",
+            "Apelido": "Breno Lemos",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Gabriel Neves Perdomo",
+            "Apelido": "Gabriel Neves",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Rodrigo Fernandez Cedres",
+            "Apelido": "Rodrigo",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Fausto Mariano Vera",
+            "Apelido": "Fausto",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Leandro Emmanuel Martinez",
+            "Apelido": "Emmanuel Martinez",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Wesley Gassova Ribeiro Teixeira",
+            "Apelido": "Wesley",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Gabriel Silva Moscardo de Salles",
+            "Apelido": "Moscardo",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Pedro Henrique Silva dos Santos",
+            "Apelido": "Pedrinho",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Matias Galarza Fonda",
+            "Apelido": "Matias Galarza",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Federico Matias Zaracho",
+            "Apelido": "Zaracho",
             "Time": "Atlético Mineiro - MG",
             "Gols": "1"
         },
         {
-            "Nome": "Guilherme de Jesus da Silva",
-            "Time": "Fortaleza - CE",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Federico Matias Zaracho",
+            "Apelido": "Zaracho",
+            "Time": "Atlético Mineiro Saf - MG",
             "Gols": "1"
         },
         {
-            "Nome": "Lucas da Cruz Oliveira",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Benjamin Kuscevic Jaramillo",
+            "Apelido": "BENJAMIN",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Alan Pereira Empereur",
+            "Apelido": "ALAN",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Robert Vinicius Rodrigues Silva",
+            "Apelido": "Robert",
             "Time": "Cruzeiro Saf - MG",
             "Gols": "1"
         },
         {
-            "Nome": "Pedro Henrique Ribeiro Goncalves",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Yony Alexander Gonzalez Copete",
+            "Apelido": "Yony Gonzalez",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Yeferson Julio Soteldo Martinez",
+            "Apelido": "Yeferson Soteldo",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Nathan Ribeiro Fernandes",
+            "Apelido": "Nathan",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Hercules Pereira do Nascimento",
+            "Apelido": "HERCULES",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "Wesley Vinicius França Lima",
+            "Apelido": "Wesley",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Diogo Barbosa Mendanha",
+            "Apelido": "Diogo Barbosa",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "David de Duarte Macedo",
+            "Apelido": "David Duarte",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Victor Hugo Soares dos Santos",
+            "Apelido": "Kanu",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Bruno Conceicao Praxedes",
+            "Apelido": "Praxedes",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "James David Rodriguez Rubio",
+            "Apelido": "James Rodriguez",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Leonardo Cecilio Fernandez Lopez",
+            "Apelido": "Leo Fernandez",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Camilo Damian Candido Aquino",
+            "Apelido": "Camilo Cándido",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Maximiliano Joaquin Silvera Cabo",
+            "Apelido": "Maximiliano",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Jesé Rodriguez Ruiz",
+            "Apelido": "Jesé Rodriguez",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Damian Marcelino Moreno",
+            "Apelido": "Marcelino Moreno",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Luca Nicolas Orellano",
+            "Apelido": "Orellano",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Felipe Ignacio Carballo Ares",
+            "Apelido": "Carballo",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Alan Javier Franco",
+            "Apelido": "Alan Franco",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Julian Eduardo Palacios",
+            "Apelido": "Julian",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Paolo Mauricio Lemos Merladett",
+            "Apelido": "Muricio Lemos",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Leonel Di Placido",
+            "Apelido": "Di Placido",
+            "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Matheus Fellipe Costa Pereira",
+            "Apelido": "Matheus Pereira",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Raphael Gregorio Guzzo",
+            "Apelido": "Raphael Guzzo",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Lucas Agustin Besozzi",
+            "Apelido": "Besozzi",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Eduardo Jesus Vargas Rojas",
+            "Apelido": "Vargas",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Mateus da Silva Duarte",
+            "Apelido": "Matheusinho",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Alerrandro Barra Mansa Realino de Souza",
+            "Apelido": "Alerrandro",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Kaique Rocha Lima",
+            "Apelido": "Kaique",
             "Time": "Athletico Paranaense - PR",
             "Gols": "1"
         },
         {
-            "Nome": "Danilo Barbosa da Silva",
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Alexandre Zurawski",
+            "Apelido": "Alexandre",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Alef Mangueira Severino Pereira",
+            "Apelido": "Alef Manga",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Rafael Elias da Silva",
+            "Apelido": "Rafael Papagaio",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Eduardo Gonzaga Mendes Santos",
+            "Apelido": "Eduardo",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60175rj.jpg?v=2023120708",
+            "Nome": "Marlon Rodrigues Freitas",
+            "Apelido": "Marlon Freitas",
             "Time": "Botafogo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Nicolas Vichiatto da Silva",
+            "Apelido": "Nicolas",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61590pr.jpg?v=2023120708",
+            "Nome": "Andrey Ramos do Nascimento",
+            "Apelido": "Andrey",
+            "Time": "Coritiba S.a.f. - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Hugo Ferreira de Farias",
+            "Apelido": "Hugo",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Lucas Verissimo da Silva",
+            "Apelido": "Lucas Verissimo",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Luiz Filipe da Rosa Machado",
+            "Apelido": "Filipe Machado",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Luis Felipe Oyama",
+            "Apelido": "Luis",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Matheus Isaias dos Santos",
+            "Apelido": "Matheus",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Allano Brendon de Souza Lima",
+            "Apelido": "Allano",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Jose Gabriel dos Santos Silva",
+            "Apelido": "Zé Gabriel",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Guilherme Antonio Arana Lopes",
+            "Apelido": "Guilherme Arana",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Guilherme Antonio Arana Lopes",
+            "Apelido": "Guilherme Arana",
+            "Time": "Atlético Mineiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Nathan Allan de Souza",
+            "Apelido": "Nathan",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Lucas Evangelista Santana de Oliveira",
+            "Apelido": "Evangelista",
+            "Time": "Red Bull Bragantino - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Jean Dias da Costa",
+            "Apelido": "Jean Dias",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Lucas Rafael Araujo Lima",
+            "Apelido": "Lucas Lima",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rs.jpg?v=2023120708",
+            "Nome": "Rene Rodrigues Martins",
+            "Apelido": "Rene",
+            "Time": "Internacional - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Gustavo Nonato Santana",
+            "Apelido": "Nonato",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "Guilherme de Jesus da Silva",
+            "Apelido": "Guilherme",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Lucas da Cruz Oliveira",
+            "Apelido": "Lucas Oliveira",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Pedro Henrique Ribeiro Goncalves",
+            "Apelido": "Pedro Henrique",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Alex Teixeira Santos",
+            "Apelido": "Alex Teixeira",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003mg.jpg?v=2023120708",
+            "Nome": "Alan Kardec de Souza Pereira Junior",
+            "Apelido": "Alan Kardec",
+            "Time": "Atlético Mineiro - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Alan Douglas Borges de Carvalho",
+            "Apelido": "Alan",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Marcos Luis Rocha Aquino",
+            "Apelido": "Marcos Rocha",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Wellington Pereira do Nascimento",
+            "Apelido": "Wellington Paulista",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00004pr.jpg?v=2023120708",
+            "Nome": "Fernando Luiz Roza",
+            "Apelido": "Fernandinho",
+            "Time": "Athletico Paranaense - PR",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Marcelo Vieira da Silva Junior",
+            "Apelido": "Marcelo",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006rj.jpg?v=2023120708",
+            "Nome": "David Luiz Moreira Marinho",
+            "Apelido": "David Luiz",
+            "Time": "Flamengo - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009go.jpg?v=2023120708",
+            "Nome": "Luiz Diallisson de Souza Alves",
+            "Apelido": "Apodi",
+            "Time": "Goiás - GO",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Bruno Uvini Bortolanca",
+            "Apelido": "Uvini",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Jose Henrique da Silva Dourado",
+            "Apelido": "Henrique Dourado",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Luciano Castan da Silva",
+            "Apelido": "Luciano Castan",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Samuel Xavier Brito",
+            "Apelido": "Samuel Xavier",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Vinicius Goes Barbosa de Souza",
+            "Apelido": "Vina",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59849mg.jpg?v=2023120708",
+            "Nome": "Ramiro Moschen Benetti",
+            "Apelido": "Ramiro",
+            "Time": "Cruzeiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00017sp.jpg?v=2023120708",
+            "Nome": "Lucas Rodrigues Moura da Silva",
+            "Apelido": "Lucas",
+            "Time": "São Paulo - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Marllon Goncalves Jeronimo Borges",
+            "Apelido": "Marllon",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Paulo Lucas Santos de Paula",
+            "Apelido": "Paulinho",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Luan Garcia Teixeira",
+            "Apelido": "Luan Garcia",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00021sp.jpg?v=2023120708",
+            "Nome": "Gustavo Henric da Silva",
+            "Apelido": "Mosquito",
+            "Time": "Corinthians - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/61377ba.jpg?v=2023120708",
+            "Nome": "Gilberto Moraes Junior",
+            "Apelido": "Gilberto",
+            "Time": "Bahia - BA",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00062mt.jpg?v=2023120708",
+            "Nome": "Wellington Alves da Silva",
+            "Apelido": "Wellington Silva",
+            "Time": "Cuiabá Saf - MT",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/62194mg.jpg?v=2023120708",
+            "Nome": "Edenilson Andrade dos Santos",
+            "Apelido": "Edenilson",
+            "Time": "Atlético Mineiro Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00018sp.jpg?v=2023120708",
+            "Nome": "Eduardo Gabriel dos Santos Bauermann",
+            "Apelido": "Eduardo",
+            "Time": "Santos - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Ricardo Cesar Dantas da Silva",
+            "Apelido": "Ricardo Silva",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00008rs.jpg?v=2023120708",
+            "Nome": "Joao Pedro Vilardi Pinto",
+            "Apelido": "Pepe",
+            "Time": "Grêmio - RS",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Alexandre Egea",
+            "Apelido": "Ale",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00019sp.jpg?v=2023120708",
+            "Nome": "Mayke Rocha de Oliveira",
+            "Apelido": "Mayke",
+            "Time": "Palmeiras - SP",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00003ce.jpg?v=2023120708",
+            "Nome": "José Welison da Silva",
+            "Apelido": "Welison",
+            "Time": "Fortaleza - CE",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/60646rj.jpg?v=2023120708",
+            "Nome": "Rosicley Pereira da Silva",
+            "Apelido": "Rossi",
+            "Time": "Vasco da Gama S.a.f. - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/59897mg.jpg?v=2023120708",
+            "Nome": "Marlon Matheus Lopes do Nascimento",
+            "Apelido": "Marlon",
+            "Time": "América Saf - MG",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00009rj.jpg?v=2023120708",
+            "Nome": "Claudio Rodrigues Gomes",
+            "Apelido": "Guga",
+            "Time": "Fluminense - RJ",
+            "Gols": "1"
+        },
+        {
+            "BrasaoTime": "https://conteudo.cbf.com.br/cdn/imagens/escudos/00006sp.jpg?v=2023120708",
+            "Nome": "Matheus Fernandes Siqueira",
+            "Apelido": "Matheus Fernandes",
+            "Time": "Red Bull Bragantino - SP",
             "Gols": "1"
         },
         {

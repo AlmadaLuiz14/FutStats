@@ -1,19 +1,18 @@
 from flask import Flask, jsonify, request
-from flask_cors import CORS
-from flask_jwt_extended import JWTManager ,create_access_token, jwt_required, get_jwt_identity
 import psycopg2
+from flask_cors import CORS
 import json
-from werkzeug.security import check_password_hash, generate_password_hash
+from functools import wraps
+from flask_jwt_extended import JWTManager ,create_access_token, create_refresh_token, set_access_cookies, set_refresh_cookies, jwt_required, get_jwt_identity
 from simulação.converte_simula import converte_simula
 from simulação.converte_jogos import converte_jogos
-
 
 app = Flask(__name__)
 CORS(app)
 app.config['JWT_SECRET_KEY'] = 'testezao'
 jwt = JWTManager(app)
 
-# Configuração do banco de dados
+# Configuração do banco de dados PostgreeSQL
 db_config = {
     'database': 'FutStats',
     'user': 'postgres',
@@ -21,6 +20,7 @@ db_config = {
     'host': 'localhost',
     'port': '5432'
 }
+
 
 def conectar_bd():
     conn = psycopg2.connect(**db_config)
@@ -38,13 +38,296 @@ def obter_classificacao_2023():
     resultados = cursor.fetchall()
     conn.close()
 
-    classificacao = [{'classificacao': row[0], 'nome': row[1], 'pontos': row[2],
-                 'jogos': row[3], 'vitorias': row[4], 'empates': row[5], 'derrotas': row[6],
-                 'gols_pros': row[7], 'gols_contra': row[8], 'saldo_gols': row[9],
-                 'cartoes_amarelos': row[10], 'cartoes_vermelhos': row[11],
-                 'porcentagem_vitorias': row[12]} for row in resultados]
+    classificacao = [{'classificacao': row[0], 'brasao': row[1], 'nome': row[2], 'pontos': row[3],
+                 'jogos': row[4], 'vitorias': row[5], 'empates': row[6], 'derrotas': row[7],
+                 'gols_pros': row[8], 'gols_contra': row[9], 'saldo_gols': row[10],
+                 'cartoes_amarelos': row[11], 'cartoes_vermelhos': row[12],
+                 'porcentagem_vitorias': row[13]} for row in resultados]
 
     return jsonify(classificacao)
+
+@app.route('/api/nova_partida', methods=['POST'])
+def nova_partida():
+    try:
+        # Receba os dados da nova partida do corpo da requisição
+        nova_partida = request.json  # Use request.json para obter os dados do corpo da solicitação JSON
+        print(nova_partida)
+        
+        # Validar os campos obrigatórios
+        campos_obrigatorios = ['rodada', 'nome1', 'nome2']
+        for campo in campos_obrigatorios:
+            if campo not in nova_partida or not nova_partida[campo]:
+                return jsonify({'error': f'O campo obrigatório "{campo}" está ausente ou vazio.'}), 400
+
+        conn = conectar_bd()
+        cursor = conn.cursor()
+        
+
+        # Inserir a nova partida na tabela jogos_simula_2023 usando prepared statement
+        cursor.execute(
+            "INSERT INTO jogos_simula_2023 (Rodada, Info_Jogo, Nome1, Nome2, Placar, Local) "
+            "VALUES (%s, %s, %s, %s, %s, %s)",
+            (
+                int(nova_partida.get('rodada', None)),
+                nova_partida.get('info_jogo', None),
+                nova_partida.get('nome1', None),
+                nova_partida.get('nome2', None),
+                nova_partida.get('placar', None),
+                nova_partida.get('local', None)
+            )
+        )
+
+
+        # Commit para efetivar a inserção
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Partida inserida com sucesso!'}), 201
+    except Exception as e:
+        return jsonify({'error': f'Erro ao inserir partida: {str(e)}'}), 500
+
+
+@app.route('/api/novo_jogador', methods=['POST'])
+def inserir_novo_jogador():
+    try:
+        # Recebe os dados do novo time do corpo da requisição
+        novo_jogador = request.json  # force=True para ignorar o cabeçalho Content-Type
+        
+        print(novo_jogador)
+        
+        # Validar os campos obrigatórios
+        campos_obrigatorios = ['nome', 'time']
+        for campo in campos_obrigatorios:
+            if campo not in novo_jogador or not novo_jogador[campo]:
+                return jsonify({'error': f'O campo obrigatório "{campo}" está ausente ou vazio.'}), 400
+
+        # Conecta ao banco de dados
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        # Insere o novo time na tabela jogadores_2023 usando prepared statement
+        cursor.execute(
+                f"INSERT INTO jogadores_2023 (NOME, APELIDO, TIME)"
+                "VALUES (%s, %s, %s)",
+                (
+                    novo_jogador.get('nome', None),
+                    novo_jogador.get('apelido', None),
+                    novo_jogador.get('time', None), 
+
+                )
+        )
+        
+        # Commit para efetivar a inserção
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Time inserido com sucesso!'}), 201
+    except Exception as e:
+        return jsonify({'error': f'Erro ao inserir time: {str(e)}'}), 500
+    
+@app.route('/api/altera_jogador', methods=['POST'])
+def altera_novo_jogador():
+    try:
+        # Recebe os dados do jogador a ser alterado do corpo da requisição
+        altera_jogador = request.json  # force=True para ignorar o cabeçalho Content-Type
+        
+        print(altera_jogador)
+        
+        # Validar os campos obrigatórios
+        campos_obrigatorios = ['nome', 'time']
+        for campo in campos_obrigatorios:
+            if campo not in altera_jogador or not altera_jogador[campo]:
+                return jsonify({'error': f'O campo obrigatório "{campo}" está ausente ou vazio.'}), 400
+
+        # Conecta ao banco de dados
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        # Atualiza o jogador na tabela jogadores_2023 usando a instrução SQL UPDATE
+        cursor.execute(
+            "UPDATE jogadores_2023 SET APELIDO = %s WHERE NOME = %s AND TIME = %s",
+            (altera_jogador.get('apelido', None), altera_jogador.get('nome', None), altera_jogador.get('time', None))
+        )
+        
+        # Commit para efetivar a atualização
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Jogador atualizado com sucesso!'}), 200
+    except Exception as e:
+        return jsonify({'error': f'Erro ao atualizar jogador: {str(e)}'}), 500
+    
+
+@app.route('/api/deleta_jogador', methods=['POST'])
+def deleta_novo_jogador():
+    try:
+        # Recebe os dados do jogador a ser deletado do corpo da requisição
+        deleta_jogador = request.json  # force=True para ignorar o cabeçalho Content-Type
+        
+        print(deleta_jogador)
+        
+        # Validar os campos obrigatórios
+        campos_obrigatorios = ['nome', 'time']
+        for campo in campos_obrigatorios:
+            if campo not in deleta_jogador or not deleta_jogador[campo]:
+                return jsonify({'error': f'O campo obrigatório "{campo}" está ausente ou vazio.'}), 400
+
+        # Conecta ao banco de dados
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        # Deleta o jogador da tabela jogadores_2023 usando prepared statement
+        cursor.execute("DELETE FROM jogadores_2023 WHERE NOME = %s AND TIME = %s", (deleta_jogador['nome'], deleta_jogador['time']))
+        
+        # Commit para efetivar a exclusão
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Jogador excluído com sucesso!'}), 200
+    except Exception as e:
+        return jsonify({'error': f'Erro ao excluir jogador: {str(e)}'}), 500
+
+
+    
+@app.route('/api/novo_time', methods=['POST'])
+def inserir_novo_time():
+    try:
+        # Recebe os dados do novo time do corpo da requisição
+        novo_time = request.get_json(force=True)  # force=True para ignorar o cabeçalho Content-Type
+        
+        # Validar os campos obrigatórios
+        campos_obrigatorios = ['brasao', 'nome']
+        for campo in campos_obrigatorios:
+            if campo not in novo_time or not novo_time[campo]:
+                return jsonify({'error': f'O campo obrigatório "{campo}" está ausente ou vazio.'}), 400
+
+        # Conecta ao banco de dados
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        print(novo_time)
+        # Insere o novo time na tabela simula_2023 usando prepared statement
+        cursor.execute(
+                f"INSERT INTO simula_2023 (Classificacao, BrasaoTime, Nome, Pontos, Jogos, Vitorias, Empates, Derrotas, Gols_Pros, Gols_Contra, Saldo_de_Gols, Cartoes_Amarelos, Cartoes_Vermelhos, Porcentagem_de_Vitorias) "
+                "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                (
+                    None,
+                    novo_time.get('brasao', None),
+                    novo_time.get('nome', None),
+                    int(novo_time.get('pts', 0)),  
+                    int(novo_time.get('numJogos', 0)),  
+                    int(novo_time.get('numVit', 0)),  
+                    int(novo_time.get('numEmp', 0)),  
+                    int(novo_time.get('numDer', 0)),  
+                    int(novo_time.get('gp', 0)),  
+                    int(novo_time.get('gc', 0)), 
+                    int(novo_time.get('sg', 0)),  
+                    int(novo_time.get('cAmarelo', 0)),  
+                    int(novo_time.get('cVermelho', 0)),  
+                    int(novo_time.get('porcentagem', 0))  
+                )
+        )
+
+        # Commit para efetivar a inserção
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Time inserido com sucesso!'}), 201
+    except Exception as e:
+        return jsonify({'error': f'Erro ao inserir time: {str(e)}'}), 500
+    
+@app.route('/api/altera_time', methods=['POST'])
+def alterar_novo_time():
+    try:
+        # Recebe os dados do novo time do corpo da requisição
+        novo_time = request.get_json(force=True)  # force=True para ignorar o cabeçalho Content-Type        
+
+        # Conecta ao banco de dados
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        print(novo_time)
+        # Insere o novo time na tabela simula_2023 usando prepared statement
+        cursor.execute(
+            f"UPDATE simula_2023 SET "
+            "BrasaoTime = %s, "
+            "Pontos = %s, "
+            "Jogos = %s, "
+            "Vitorias = %s, "
+            "Empates = %s, "
+            "Derrotas = %s, "
+            "Gols_Pros = %s, "
+            "Gols_Contra = %s, "
+            "Saldo_de_Gols = %s, "
+            "Cartoes_Amarelos = %s, "
+            "Cartoes_Vermelhos = %s, "
+            "Porcentagem_de_Vitorias = %s "
+            "WHERE Nome = %s",
+            (
+                novo_time.get('brasao', None),
+                int(novo_time.get('pts', 0)),  
+                int(novo_time.get('numJogos', 0)),  
+                int(novo_time.get('numVit', 0)),  
+                int(novo_time.get('numEmp', 0)),  
+                int(novo_time.get('numDer', 0)),  
+                int(novo_time.get('gp', 0)),  
+                int(novo_time.get('gc', 0)), 
+                int(novo_time.get('sg', 0)),  
+                int(novo_time.get('cAmarelo', 0)),  
+                int(novo_time.get('cVermelho', 0)),  
+                int(novo_time.get('porcentagem', 0)),
+                novo_time.get('nome', None)  # O Nome é utilizado na cláusula WHERE para identificar o registro a ser atualizado
+            )
+        )
+
+        # Commit para efetivar a inserção
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Time atualizado com sucesso!'}), 201
+    except Exception as e:
+        return jsonify({'error': f'Erro ao atualizar time: {str(e)}'}), 500
+   
+@app.route('/api/deletar_time', methods=['POST'])
+def deletar_time():
+    try:
+        # Recebe os dados do time a ser excluído do corpo da requisição
+        dados_time = request.get_json(force=True)
+
+        print(dados_time['nome'])
+        
+        # Validar os campos obrigatórios (pode ser apenas o nome)
+        if 'nome' not in dados_time or not dados_time['nome']:
+            return jsonify({'error': 'O campo obrigatório "nome" está ausente ou vazio.'}), 400
+
+        # Conecta ao banco de dados
+        conn = conectar_bd()
+        cursor = conn.cursor()
+
+        # Exclui o time da tabela simula_2023
+        cursor.execute("DELETE FROM simula_2023 WHERE Nome = %s", (dados_time['nome'],))
+
+        # Commit para efetivar a exclusão
+        conn.commit()
+
+        # Fechar a conexão com o banco de dados
+        conn.close()
+
+        return jsonify({'message': 'Time excluído com sucesso!'}), 200
+    except Exception as e:
+        return jsonify({'error': f'Erro ao excluir time: {str(e)}'}), 500
 
 @app.route('/api/simula', methods=['GET'])
 def obter_simula_2023():
@@ -449,17 +732,62 @@ def reset_simulation():
         print(f"Erro ao resetar a simulação: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/jogos_simula', methods=['GET'])
+def obter_jogos_simula_2023():
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    # Ajuste da consulta SQL para a nova tabela
+    cursor.execute("SELECT * FROM jogos_simula_2023")
+    resultados = cursor.fetchall()
+    conn.close()
+
+    # Ajuste na construção do objeto jogos_rodada
+    jogos_simula = [
+        {   
+            'rodada' : row[0],
+            'info_jogo': row[1],
+            'nome1': row[2],
+            'time1': row[3],
+            'brasao1': row[4],
+            'nome2': row[5],
+            'time2': row[6],
+            'brasao2': row[7],
+            'placar': row[8],
+            'local': row[9]
+        }
+        for row in resultados
+    ]
+
+    return jsonify(jogos_simula)
+
+
 @app.route('/api/jogos_rodada', methods=['GET'])
 def obter_jogos_rodada_2023():
     conn = conectar_bd()
     cursor = conn.cursor()
+
+    # Ajuste da consulta SQL para a nova tabela
     cursor.execute("SELECT * FROM jogos_rodada_2023")
     resultados = cursor.fetchall()
     conn.close()
 
-    jogos_rodada = [{'rodada': row[0], 'info_jogo': row[1],
-                'time1': row[2], 'time2': row[3], 'placar': row[4], 'local': row[5]}
-               for row in resultados]
+    # Ajuste na construção do objeto jogos_rodada
+    jogos_rodada = [
+        {   
+            'rodada' : row[0],
+            'info_jogo': row[1],
+            'nome1': row[2],
+            'time1': row[3],
+            'brasao1': row[4],
+            'nome2': row[5],
+            'time2': row[6],
+            'brasao2': row[7],
+            'placar': row[8],
+            'local': row[9]
+        }
+        for row in resultados
+    ]
 
     return jsonify(jogos_rodada)
 
@@ -471,14 +799,47 @@ def obter_artilheiros():
     resultados = cursor.fetchall()
     conn.close()
 
-    artilheiros = [{'nome': row[0], 'time': row[1], 'gols': row[2]} for row in resultados]
+    artilheiros = [{'brasao': row[0], 'nome': row[1], 'apelido': row[2], 'time': row[3], 'gols': row[4]} for row in resultados]
     return jsonify(artilheiros)
+
+@app.route('/api/assistencias', methods=['GET'])
+def obter_assistencias():
+    conn = conectar_bd()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM assistencias_2023")
+    resultados = cursor.fetchall()
+    conn.close()
+
+    artilheiros = [{'assistencias': row[4], 'nome': row[1], 'time': row[2], 'partidas': row[3]} for row in resultados]
+    return jsonify(artilheiros)
+
+@app.route('/api/time/<string:nome_time>', methods=['GET'])
+def obter_jogadores_por_time(nome_time):
+
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    # Correção na consulta SQL para juntar as tabelas corretamente
+    cursor.execute("""
+        SELECT j.nome, j.apelido, j.time 
+        FROM jogadores_2023 j
+        JOIN classificacao_2023 c ON j.time = c.nome
+        WHERE UPPER(c.nome) = UPPER(%s)
+    """, (nome_time,))
+    
+    resultados = cursor.fetchall()
+    conn.close()
+
+    jogadores_time = [{'nome': row[0], 'apelido': row[1], 'time': row[2]} for row in resultados]
+    return jsonify(jogadores_time)
+
+
 
 @app.route('/api/noticias', methods=['GET'])
 def obter_noticias():
     conn = conectar_bd()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM noticias")
+    cursor.execute("SELECT * FROM tabela_noticias")
     resultados = cursor.fetchall()
     conn.close()
 
@@ -547,20 +908,6 @@ def login():
     else:
         return jsonify(access=False)
 
-@app.route('/api/protegido', methods=['GET'])
-@jwt_required()
-def retornaUser():
-    email_logado = get_jwt_identity()
-
-    conn = conectar_bd()
-    cursor = conn.cursor()
-
-    cursor.execute(f"SELECT nome FROM public.usuario WHERE email = {email_logado};")
-    nome_logado = cursor.fetchone()
-
-    return jsonify(email=email_logado.replace("'", ""), nome=nome_logado[0]), 200
-
-
 @app.route('/api/protegido/todosUsers', methods=['GET'])
 @jwt_required()
 def retornaTodosUsers():
@@ -575,6 +922,18 @@ def retornaTodosUsers():
     
     return jsonify(users)
 
+@app.route('/api/protegido', methods=['GET'])
+@jwt_required()
+def retornaUser():
+    email_logado = get_jwt_identity()
+
+    conn = conectar_bd()
+    cursor = conn.cursor()
+
+    cursor.execute(f"SELECT nome FROM public.usuario WHERE email = {email_logado};")
+    nome_logado = cursor.fetchall()
+
+    return jsonify(email=email_logado, nome=nome_logado), 200
 
 @app.route("/api/protegido/confereSenha", methods=['POST'])
 @jwt_required()
@@ -617,8 +976,8 @@ def novasInfos():
 
         return jsonify(msg="Informações atualizadas com sucesso")
     except psycopg2.Error as e:
-        return jsonify(msg="Erro ao atualizar as informações de usuário", erro=str(e))    
-    
+        return jsonify(msg="Erro ao atualizar as informações de usuário", erro=str(e))  
+
 
 @app.route('/api/protegido/deleteUser', methods=['POST'])
 @jwt_required()
@@ -639,7 +998,6 @@ def deleteUser():
 
     return jsonify(msg="Usuário deletado com sucesso", verify=True)
 
-
 @app.route('/api/protegido/nAdm', methods=['POST'])
 @jwt_required()
 def tornaAdm():
@@ -654,7 +1012,6 @@ def tornaAdm():
     conn.close()
 
     return jsonify(msg="Novo administrador adicionado com sucesso", verify=True)
-
 
 @app.route('/api/protegido/tirarAdm', methods=['POST'])
 @jwt_required()
@@ -674,8 +1031,6 @@ def tirarAdm():
     conn.close()
 
     return jsonify(msg="Administrador retirado com sucesso", verify=True)
-
-
 @app.route("/api/usuario/recuperarSenha", methods=['POST'])
 def recuperarSenha():
     
@@ -700,8 +1055,6 @@ def recuperarSenha():
     
     except psycopg2.Error as e:
         print("ERRO", str(e))
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)

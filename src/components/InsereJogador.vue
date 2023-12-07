@@ -21,23 +21,43 @@
 </template>
 
 <script>
+import axios from "axios";
 
-    export default {
-        data() {
-            return {
-                nomeJog: null,
-                nick: null, 
-                time: null
-            }
-        },
+export default {
+    data() {
+        return {
+            nomeJog: null,
+            nick: null, 
+            time: null
+        }
+    },
+    methods: {
+        async novoJogador() {
+            try {
+                // Envia os dados para o backend
+                const novo_jogador = {
+                    nome: this.nomeJog,
+                    apelido: this.nick,
+                    time: this.time,
+                };
 
-        methods: {
-            async novoJogador(){
-                console.log("Teste")
+                await axios.post('http://localhost:5000/api/novo_jogador', novo_jogador);
+                
+                // Limpa os campos após o envio bem-sucedido
+                this.nomeJog = null;
+                this.nick = null;
+                this.time = null;
+
+                // Adicione qualquer lógica adicional após o envio bem-sucedido, se necessário
+                alert('Jogador inserido com sucesso!');
+            } catch (error) {
+                // Exibe uma mensagem de erro
+                console.error('Erro ao inserir jogador:', error);
+                alert('Erro ao inserir jogador. Verifique o console para mais detalhes.');
             }
         }
     }
-
+}
 </script>
 
 <style scoped>
@@ -46,7 +66,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 46vh;
     }
 
     .card {

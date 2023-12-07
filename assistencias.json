@@ -1,0 +1,612 @@
+[
+    {
+        "tabela_1": [
+            {},
+            {
+                "Nome": "Paulinho",
+                "Time": "Atlético-MG",
+                "Partidas": "35",
+                "Assistencias": "19"
+            },
+            {
+                "Nome": "Tiquinho Soares",
+                "Time": "Botafogo",
+                "Partidas": "32",
+                "Assistencias": "17"
+            },
+            {
+                "Nome": "Hulk",
+                "Time": "Atlético-MG",
+                "Partidas": "33",
+                "Assistencias": "15"
+            },
+            {
+                "Nome": "Luis Suárez",
+                "Time": "Grêmio",
+                "Partidas": "32",
+                "Assistencias": "15"
+            },
+            {
+                "Nome": "Pedro",
+                "Time": "Flamengo",
+                "Partidas": "33",
+                "Assistencias": "13"
+            },
+            {
+                "Nome": "Marcos Leonardo",
+                "Time": "Santos",
+                "Partidas": "30",
+                "Assistencias": "13"
+            },
+            {
+                "Nome": "Deyverson",
+                "Time": "Cuiabá",
+                "Partidas": "35",
+                "Assistencias": "12"
+            },
+            {
+                "Nome": "Robson",
+                "Time": "Coritiba",
+                "Partidas": "32",
+                "Assistencias": "12"
+            },
+            {
+                "Nome": "Vitor Roque",
+                "Time": "Athletico-PR",
+                "Partidas": "25",
+                "Assistencias": "12"
+            },
+            {
+                "Nome": "Eduardo Sasha",
+                "Time": "Red Bull Bragantino",
+                "Partidas": "32",
+                "Assistencias": "11"
+            },
+            {
+                "Nome": "Gonzalo Mastriani",
+                "Time": "América-MG",
+                "Partidas": "24",
+                "Assistencias": "11"
+            },
+            {
+                "Nome": "Endrick",
+                "Time": "Palmeiras",
+                "Partidas": "30",
+                "Assistencias": "10"
+            },
+            {
+                "Nome": "Germán Cano",
+                "Time": "Fluminense",
+                "Partidas": "29",
+                "Assistencias": "10"
+            },
+            {
+                "Nome": "Pablo Vegetti",
+                "Time": "Vasco da Gama",
+                "Partidas": "20",
+                "Assistencias": "10"
+            },
+            {
+                "Nome": "Everaldo",
+                "Time": "Bahia",
+                "Partidas": "33",
+                "Assistencias": "9"
+            },
+            {
+                "Nome": "Thiago Borbas",
+                "Time": "Red Bull Bragantino",
+                "Partidas": "32",
+                "Assistencias": "9"
+            },
+            {
+                "Nome": "Raphael Veiga",
+                "Time": "Palmeiras",
+                "Partidas": "30",
+                "Assistencias": "9"
+            },
+            {
+                "Nome": "Jonathan Calleri",
+                "Time": "São Paulo",
+                "Partidas": "19",
+                "Assistencias": "9"
+            },
+            {
+                "Nome": "Gabriel Pec",
+                "Time": "Vasco da Gama",
+                "Partidas": "36",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Bruno Nascimento",
+                "Time": "Cruzeiro",
+                "Partidas": "34",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Yuri Alberto",
+                "Time": "Corinthians",
+                "Partidas": "33",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Franco Cristaldo",
+                "Time": "Grêmio",
+                "Partidas": "33",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Luciano",
+                "Time": "São Paulo",
+                "Partidas": "33",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Juan Martín Lucero",
+                "Time": "Fortaleza",
+                "Partidas": "30",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Enner Valencia",
+                "Time": "Internacional",
+                "Partidas": "21",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Júnior Santos",
+                "Time": "Botafogo",
+                "Partidas": "36",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Yago Pikachu",
+                "Time": "Fortaleza",
+                "Partidas": "36",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Wanderson",
+                "Time": "Internacional",
+                "Partidas": "32",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Giorgian de Arrascaeta",
+                "Time": "Flamengo",
+                "Partidas": "27",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Pablo",
+                "Time": "Athletico-PR",
+                "Partidas": "25",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Ángel Romero",
+                "Time": "Corinthians",
+                "Partidas": "21",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Róger Guedes",
+                "Time": "Corinthians",
+                "Partidas": "15",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Lima",
+                "Time": "Fluminense",
+                "Partidas": "34",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Carlos Eduardo",
+                "Time": "Botafogo",
+                "Partidas": "33",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Guilherme",
+                "Time": "Goiás",
+                "Partidas": "29",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Jhon Arias",
+                "Time": "Fluminense",
+                "Partidas": "28",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Stiven Mendoza",
+                "Time": "Santos",
+                "Partidas": "26",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Mauricio",
+                "Time": "Internacional",
+                "Partidas": "25",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Thaciano",
+                "Time": "Bahia",
+                "Partidas": "34",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Thiago Galhardo",
+                "Time": "Fortaleza",
+                "Partidas": "33",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Ademir",
+                "Time": "Bahia",
+                "Partidas": "32",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Gerson",
+                "Time": "Flamengo",
+                "Partidas": "31",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Vitor Bueno",
+                "Time": "Athletico-PR",
+                "Partidas": "31",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Artur",
+                "Time": "Palmeiras",
+                "Partidas": "30",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Rony",
+                "Time": "Palmeiras",
+                "Partidas": "30",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Breno",
+                "Time": "Palmeiras",
+                "Partidas": "30",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Isidro Pitta",
+                "Time": "Cuiabá",
+                "Partidas": "28",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Everton",
+                "Time": "Grêmio",
+                "Partidas": "27",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Gabriel Barbosa",
+                "Time": "Flamengo",
+                "Partidas": "26",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "John Kennedy",
+                "Time": "Fluminense",
+                "Partidas": "25",
+                "Assistencias": "5"
+            }
+        ]
+    },
+    {
+        "tabela_2": [
+            {},
+            {
+                "Nome": "Hulk",
+                "Time": "Atlético-MG",
+                "Partidas": "33",
+                "Assistencias": "12"
+            },
+            {
+                "Nome": "Luis Suárez",
+                "Time": "Grêmio",
+                "Partidas": "32",
+                "Assistencias": "12"
+            },
+            {
+                "Nome": "Jhon Arias",
+                "Time": "Fluminense",
+                "Partidas": "28",
+                "Assistencias": "9"
+            },
+            {
+                "Nome": "Cristian Pavón",
+                "Time": "Atlético-MG",
+                "Partidas": "32",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Gerson",
+                "Time": "Flamengo",
+                "Partidas": "31",
+                "Assistencias": "8"
+            },
+            {
+                "Nome": "Mayke",
+                "Time": "Palmeiras",
+                "Partidas": "32",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Cauly Oliveira Souza",
+                "Time": "Bahia",
+                "Partidas": "31",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Raphael Veiga",
+                "Time": "Palmeiras",
+                "Partidas": "30",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Ganso",
+                "Time": "Fluminense",
+                "Partidas": "26",
+                "Assistencias": "7"
+            },
+            {
+                "Nome": "Carlos Eduardo",
+                "Time": "Botafogo",
+                "Partidas": "33",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Lucas Evangelista",
+                "Time": "Red Bull Bragantino",
+                "Partidas": "32",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Vitor Bueno",
+                "Time": "Athletico-PR",
+                "Partidas": "31",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Guilherme",
+                "Time": "Goiás",
+                "Partidas": "29",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Giorgian de Arrascaeta",
+                "Time": "Flamengo",
+                "Partidas": "27",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Yeferson Soteldo",
+                "Time": "Santos",
+                "Partidas": "21",
+                "Assistencias": "6"
+            },
+            {
+                "Nome": "Tchê Tchê",
+                "Time": "Botafogo",
+                "Partidas": "35",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Leandro Martinez",
+                "Time": "América-MG",
+                "Partidas": "35",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Thaciano",
+                "Time": "Bahia",
+                "Partidas": "34",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Bruno Nascimento",
+                "Time": "Cruzeiro",
+                "Partidas": "34",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Lucas Lima",
+                "Time": "Santos",
+                "Partidas": "34",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Alisson",
+                "Time": "São Paulo",
+                "Partidas": "34",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Alan Patrick",
+                "Time": "Internacional",
+                "Partidas": "33",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Franco Cristaldo",
+                "Time": "Grêmio",
+                "Partidas": "33",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Robson",
+                "Time": "Coritiba",
+                "Partidas": "32",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Everton",
+                "Time": "Flamengo",
+                "Partidas": "32",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Marcelino Moreno",
+                "Time": "Coritiba",
+                "Partidas": "31",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Wellington Rato",
+                "Time": "São Paulo",
+                "Partidas": "31",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Mathias Villasanti",
+                "Time": "Grêmio",
+                "Partidas": "29",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Joaquín Piquerez",
+                "Time": "Palmeiras",
+                "Partidas": "29",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Agustín Canobbio",
+                "Time": "Athletico-PR",
+                "Partidas": "28",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Calebe",
+                "Time": "Fortaleza",
+                "Partidas": "28",
+                "Assistencias": "5"
+            },
+            {
+                "Nome": "Lucas Piton",
+                "Time": "Vasco da Gama",
+                "Partidas": "36",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Gabriel Pec",
+                "Time": "Vasco da Gama",
+                "Partidas": "36",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Caio Alexandre",
+                "Time": "Fortaleza",
+                "Partidas": "34",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Thiago Galhardo",
+                "Time": "Fortaleza",
+                "Partidas": "33",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Tiquinho Soares",
+                "Time": "Botafogo",
+                "Partidas": "32",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Erick",
+                "Time": "Athletico-PR",
+                "Partidas": "32",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Leonel Di Plácido",
+                "Time": "Botafogo",
+                "Partidas": "32",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Joao Victor",
+                "Time": "Botafogo",
+                "Partidas": "32",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Gustavo Gómez",
+                "Time": "Palmeiras",
+                "Partidas": "31",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Joaquim",
+                "Time": "Santos",
+                "Partidas": "31",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Tomás Cuello",
+                "Time": "Athletico-PR",
+                "Partidas": "31",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Reinaldo",
+                "Time": "Grêmio",
+                "Partidas": "29",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Éverton Ribeiro",
+                "Time": "Flamengo",
+                "Partidas": "29",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Mauricio",
+                "Time": "Internacional",
+                "Partidas": "25",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Renato Augusto",
+                "Time": "Corinthians",
+                "Partidas": "24",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Keno",
+                "Time": "Fluminense",
+                "Partidas": "23",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Martín Benítez",
+                "Time": "América-MG",
+                "Partidas": "20",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Khellven",
+                "Time": "Athletico-PR",
+                "Partidas": "15",
+                "Assistencias": "4"
+            },
+            {
+                "Nome": "Rossi",
+                "Time": "Vasco da Gama",
+                "Partidas": "9",
+                "Assistencias": "4"
+            }
+        ]
+    }
+]
